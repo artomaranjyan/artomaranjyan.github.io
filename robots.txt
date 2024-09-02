@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://artomaranjyan.github.io/arto/sitemap.xml
+Sitemap: https://artomaranjyan.github.io/sitemap.xml
