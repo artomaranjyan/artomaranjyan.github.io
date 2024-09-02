@@ -1,10 +1,8 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
+    - name: Name
       value: Arto (Artavazd) Maranjyan
-    - name: Date of Birth
-      value: 13th August 1999
     - name: Languages
       value: Armenian, English, Russian
 
@@ -12,11 +10,11 @@
   type: time_table
   contents:
     - title: Ph.D. in Computer Science
-      institution: King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia
+      institution: King Abdullah University of Science and Technology (KAUST)
       location: Thuwal, Saudi Arabia
       year: 2023 - present
       description:
-        - <b> Advisor:</b> Peter Richtárik
+        - <b> Advisor:</b> Prof. Peter Richtárik
         # - title: Description 3.
         #   contents:
         #     - Sub-description 1.
@@ -26,8 +24,8 @@
       location: Yerevan, Armenia
       year: 2021 - 2023
       description:
-        - <b> Thesis:</b> On local training methods
-        - <b> Co-supervisors:</b> Peter Richtárik, Mher Safaryan
+        - <b> Thesis:</b> <i>On local training methods</i>
+        - <b> Co-supervisors:</b> Prof. Peter Richtárik, Mher Safaryan
 
     - title: B.Sc. in Informatics and Applied Mathematics
       institution: Yerevan State University
@@ -35,12 +33,12 @@
       year: 2017 - 2021
       description:
         - <b> Thesis:</b> <i>On the Convergence of Series in Classical Systems</i>
-        - <b> Supervisors:</b> Martin Grigoryan
+        - <b> Supervisors:</b> Prof. Martin Grigoryan
 
 - title: Experience
   type: time_table
   contents:
-    - title: Researcher in the group of [Martin Grigoryan](https://scholar.google.com/citations?user=l-2JIPkAAAAJ&hl=en)
+    - title: Researcher in the group of Prof. Martin Grigoryan
       institution: Yerevan State University
       location: Yerevan, Armenia
       year: April 2023 - Aug 2023
@@ -48,11 +46,11 @@
         - Studied the existence and properties of universal functions with respect to\\ the Vilenkin and Haar systems across various functional spaces.
 
     - title: Machine Learning Researcher
-      institution: [YerevaNN](https://yerevann.com/)
+      institution: YerevaNN
       year: March 2023 -- Aug 2023
       description:
 
-    - title: Internship in the group of [Peter Richtárik](https://richtarik.org/)
+    - title: Internship in the group of Prof. Peter Richtárik
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
 
