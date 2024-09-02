@@ -112,7 +112,7 @@
       description: Recognized for the Bachelor's thesis (awarded to 6 students among 250+ students).
 
 - section: Papers
-  type: list
+  type: time_table
   items:
     - title: Menshov-type theorem for divergence sets of sequences of localized operators
       authors: Martin Grigoryan, Anna Kamont, Artavazd Maranjyan
@@ -139,7 +139,7 @@
       link: http://www.old.ysu.am/files/vol55_no1_2021_pp12%E2%80%9319.pdf
 
 - section: Talks
-  type: list
+  type: time_table
   items:
     - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
       event: "Mathematics in Armenia: Advances and Perspectives"
