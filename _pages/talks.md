@@ -7,6 +7,11 @@ nav: true
 nav_order: 5
 ---
 
+- **MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times** \
+  Guest lecture @ CS 331, Stochastic Gradient Descent Methods \
+  KAUST, Thuwal, Saudi Arabia \
+  May 5, 2024
+
 - **GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity** \
   Poster presentation @ [The Machine Learning Summer School in Okinawa 2024](https://groups.oist.jp/mlss) \
   Okinawa Institute of Science and Technology (OIST), Okinawa, Japan \
@@ -19,6 +24,7 @@ nav_order: 5
 
 - **Differentially Private Coordinate Descent for Composite Empirical Risk Minimization** \
   Talk @ Group Seminar \
+  KAUST, Thuwal, Saudi Arabia \
   November 16, 2023
 
 - **GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity** \
