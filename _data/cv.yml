@@ -158,19 +158,18 @@
       location: Yerevan, Armenia
       year: April 10, 2022
 
-- title: Skills
-  type: list
-  contents:
-    - Algorithms and Data Structures
-    - Python, Java, R
-    - Numpy, Pandas, Matplotlib, Scikit-learn
-    - PyTorch, Tensorflow
+# - title: Skills
+#   type: list
+#   contents:
+#     - Algorithms and Data Structures
+#     - Python, Java, R
+#     - Numpy, Pandas, Matplotlib, Scikit-learn
+#     - PyTorch, Tensorflow
 
 - title: Hobbies
   type: list
   contents:
+    - Ultimate Frisbee
     - Dancing (bachata, salsa, kizomba)
-    - Climbing
-    - Snorkeling
+    - Board Games
     - Table football (foosball)
-    - Board games
