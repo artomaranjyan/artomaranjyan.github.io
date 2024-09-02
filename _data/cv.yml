@@ -111,7 +111,7 @@
       year: May 2021
       description: Recognized for the Bachelor's thesis (awarded to 6 students among 250+ students).
 
-- section: Papers
+- title: Papers
   type: time_table
   items:
     - title: Menshov-type theorem for divergence sets of sequences of localized operators
@@ -134,7 +134,7 @@
       publication: "Proceedings of the YSU A: Physical and Mathematical Sciences"
       volume: vol. 55, no. 1 (254), pp. 12–19, 2021
 
-- section: Talks
+- title: Talks
   type: time_table
   items:
     - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
@@ -157,7 +157,7 @@
       location: Yerevan, Armenia
       date: April 10, 2022
 
-- section: Skills
+- title: Skills
   type: list
   items:
     - Algorithms and Data Structures
@@ -169,7 +169,7 @@
         - Russian: Proficient
         - Armenian: Native
 
-- section: Hobbies
+- title: Hobbies
   type: list
   items:
     - Dancing (bachata, salsa, kizomba)
