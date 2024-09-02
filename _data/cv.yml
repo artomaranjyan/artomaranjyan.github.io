@@ -111,7 +111,73 @@
       year: May 2021
       description: Recognized for the Bachelor's thesis (awarded to 6 students among 250+ students).
 
-- title: Other Interests
+- section: Papers
   type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+  items:
+    - title: Menshov-type theorem for divergence sets of sequences of localized operators
+      authors: Martin Grigoryan, Anna Kamont, Artavazd Maranjyan
+      publication: Journal of Contemporary Mathematical Analysis
+      volume: vol. 58, no. 2, pp. 81–92, 2023
+      link: https://doi.org/10.3103/S106836232302005X
+
+    - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
+      authors: Artavazd Maranjyan, Mher Safaryan, Peter Richtárik
+      publication: arXiv:2210.16402
+      year: 2022
+      link: https://arxiv.org/abs/2210.16402
+
+    - title: On the divergence of Fourier series in the general Haar system
+      authors: Martin Grigoryan, Artavazd Maranjyan
+      publication: Armenian Journal of Mathematics
+      volume: vol. 13, p. 1–10, Sep. 2021
+      link: https://doi.org/10.52737/18291163-2021.13.6-1-10
+
+    - title: On the unconditional convergence of Faber-Schauder series in L^1
+      authors: Tigran Grigoryan, Artavazd Maranjyan
+      publication: "Proceedings of the YSU A: Physical and Mathematical Sciences"
+      volume: vol. 55, no. 1 (254), pp. 12–19, 2021
+      link: http://www.old.ysu.am/files/vol55_no1_2021_pp12%E2%80%9319.pdf
+
+- section: Talks
+  type: list
+  items:
+    - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
+      event: "Mathematics in Armenia: Advances and Perspectives"
+      location: Yerevan, Armenia
+      date: July 5, 2023
+
+    - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
+      event: Machine Learning Reading Group Yerevan
+      location: Yerevan, Armenia
+      date: March 10, 2023
+
+    - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
+      event: Federated Learning One World Seminar (FLOW)
+      location: Online
+      date: December 7, 2022
+
+    - title: "ProxSkip: Yes! Local Gradient Steps Provably Lead to Communication Acceleration! Finally!"
+      event: Machine Learning Reading Group Yerevan
+      location: Yerevan, Armenia
+      date: April 10, 2022
+
+- section: Skills
+  type: list
+  items:
+    - Algorithms and Data Structures
+    - Python, Java, R
+    - Numpy, Pandas, Matplotlib, Scikit-learn
+    - PyTorch, Tensorflow
+    - Languages:
+        - English: Proficient
+        - Russian: Proficient
+        - Armenian: Native
+
+- section: Hobbies
+  type: list
+  items:
+    - Dancing (bachata, salsa, kizomba)
+    - Climbing
+    - Snorkeling
+    - Table football (foosball)
+    - Board games
