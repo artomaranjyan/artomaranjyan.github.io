@@ -8,12 +8,12 @@ nav_order: 5
 ---
 
 - **GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity** \
-  Poster presentations @ [The Machine Learning Summer School in Okinawa 2024](https://groups.oist.jp/mlss) \
+  Poster presentation @ [The Machine Learning Summer School in Okinawa 2024](https://groups.oist.jp/mlss) \
   Okinawa Institute of Science and Technology (OIST), Okinawa, Japan \
   March 13, 2024
 
 - **GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity** \
-  Poster presentations @ [KAUST Rising Stars in AI Symposium 2024](https://cemse.kaust.edu.sa/ai/aii-symp-2024) \
+  Poster presentation @ [KAUST Rising Stars in AI Symposium 2024](https://cemse.kaust.edu.sa/ai/aii-symp-2024) \
   KAUST, Thuwal, Saudi Arabia \
   February 21, 2024
 
