@@ -64,7 +64,10 @@
       "highlights": [],
       "summary": null,
       "url": "https://www.linkedin.com/company/276978",
-      "location": "Jeddah, Makkah, Saudi Arabia"
+      "location": "Jeddah, Makkah, Saudi Arabia",
+      "highlights": [
+        "<b> Thesis: </b> [On local training methods](https://artomaranjyan.github.io/assets/pdf/Master_thesis.pdf)"
+      ]
     },
     {
       "name": "YerevaNN",
