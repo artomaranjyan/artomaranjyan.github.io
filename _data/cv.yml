@@ -108,55 +108,55 @@
       year: May 2021
       description: Recognized for the Bachelor's thesis (awarded to 6 students among 250+ students).
 
-- title: Papers
-  type: time_table
-  contents:
-    - title: Menshov-type theorem for divergence sets of sequences of localized operators
-      description:
-        - Martin Grigoryan, Anna Kamont, Artavazd Maranjyan
-        - Journal of Contemporary Mathematical Analysis
-        - vol. 58, no. 2, pp. 81–92, 2023
+# - title: Papers
+#   type: time_table
+#   contents:
+#     - title: Menshov-type theorem for divergence sets of sequences of localized operators
+#       description:
+#         - Martin Grigoryan, Anna Kamont, Artavazd Maranjyan
+#         - Journal of Contemporary Mathematical Analysis
+#         - vol. 58, no. 2, pp. 81–92, 2023
 
-    - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
-      description:
-        - Artavazd Maranjyan, Mher Safaryan, Peter Richtárik
-        - arXiv:2210.16402
-        - 2022
+#     - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
+#       description:
+#         - Artavazd Maranjyan, Mher Safaryan, Peter Richtárik
+#         - arXiv:2210.16402
+#         - 2022
 
-    - title: On the divergence of Fourier series in the general Haar system
-      description:
-        - Martin Grigoryan, Artavazd Maranjyan
-        - Armenian Journal of Mathematics
-        - vol. 13, p. 1–10, Sep. 2021
+#     - title: On the divergence of Fourier series in the general Haar system
+#       description:
+#         - Martin Grigoryan, Artavazd Maranjyan
+#         - Armenian Journal of Mathematics
+#         - vol. 13, p. 1–10, Sep. 2021
 
-    - title: On the unconditional convergence of Faber-Schauder series in L^1
-      description:
-        - Tigran Grigoryan, Artavazd Maranjyan
-        - "Proceedings of the YSU A: Physical and Mathematical Sciences"
-        - vol. 55, no. 1 (254), pp. 12–19, 2021
+#     - title: On the unconditional convergence of Faber-Schauder series in L^1
+#       description:
+#         - Tigran Grigoryan, Artavazd Maranjyan
+#         - "Proceedings of the YSU A: Physical and Mathematical Sciences"
+#         - vol. 55, no. 1 (254), pp. 12–19, 2021
 
-- title: Talks
-  type: time_table
-  contents:
-    - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
-      location: Yerevan, Armenia
-      year: July 5, 2023
-      description: "Mathematics in Armenia: Advances and Perspectives"
+# - title: Talks
+#   type: time_table
+#   contents:
+#     - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
+#       location: Yerevan, Armenia
+#       year: July 5, 2023
+#       description: "Mathematics in Armenia: Advances and Perspectives"
 
-    - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
-      description: Machine Learning Reading Group Yerevan
-      location: Yerevan, Armenia
-      year: March 10, 2023
+#     - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
+#       description: Machine Learning Reading Group Yerevan
+#       location: Yerevan, Armenia
+#       year: March 10, 2023
 
-    - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
-      description: Federated Learning One World Seminar (FLOW)
-      location: Online
-      year: December 7, 2022
+#     - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
+#       description: Federated Learning One World Seminar (FLOW)
+#       location: Online
+#       year: December 7, 2022
 
-    - title: "ProxSkip: Yes! Local Gradient Steps Provably Lead to Communication Acceleration! Finally!"
-      description: Machine Learning Reading Group Yerevan
-      location: Yerevan, Armenia
-      year: April 10, 2022
+#     - title: "ProxSkip: Yes! Local Gradient Steps Provably Lead to Communication Acceleration! Finally!"
+#       description: Machine Learning Reading Group Yerevan
+#       location: Yerevan, Armenia
+#       year: April 10, 2022
 
 # - title: Skills
 #   type: list
@@ -170,6 +170,6 @@
   type: list
   contents:
     - Ultimate Frisbee
-    - Dancing (bachata, salsa, kizomba)
+    - Dancing (bachata, salsa)
     - Board Games
     - Table football (foosball)
