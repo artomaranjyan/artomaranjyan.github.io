@@ -49,10 +49,13 @@
       institution: YerevaNN
       year: March 2023 -- Aug 2023
       description:
+        - Worked on the intersection of Federated Learning and Optimization.
 
     - title: Internship in the group of Prof. Peter Richtárik
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
+      description:
+        - Worked on the <i> GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity paper.</i>
 
     - title: Machine Learning Researcher
 
