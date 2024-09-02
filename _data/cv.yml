@@ -118,25 +118,21 @@
       authors: Martin Grigoryan, Anna Kamont, Artavazd Maranjyan
       publication: Journal of Contemporary Mathematical Analysis
       volume: vol. 58, no. 2, pp. 81–92, 2023
-      link: https://doi.org/10.3103/S106836232302005X
 
     - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
       authors: Artavazd Maranjyan, Mher Safaryan, Peter Richtárik
       publication: arXiv:2210.16402
       year: 2022
-      link: https://arxiv.org/abs/2210.16402
 
     - title: On the divergence of Fourier series in the general Haar system
       authors: Martin Grigoryan, Artavazd Maranjyan
       publication: Armenian Journal of Mathematics
       volume: vol. 13, p. 1–10, Sep. 2021
-      link: https://doi.org/10.52737/18291163-2021.13.6-1-10
 
     - title: On the unconditional convergence of Faber-Schauder series in L^1
       authors: Tigran Grigoryan, Artavazd Maranjyan
       publication: "Proceedings of the YSU A: Physical and Mathematical Sciences"
       volume: vol. 55, no. 1 (254), pp. 12–19, 2021
-      link: http://www.old.ysu.am/files/vol55_no1_2021_pp12%E2%80%9319.pdf
 
 - section: Talks
   type: time_table
