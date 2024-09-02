@@ -4,7 +4,7 @@
     - name: Name
       value: Arto (Artavazd) Maranjyan
     - name: Languages
-      value: Armenian, English, Russian
+      value: English, Russian, Armenian (native)
 
 - title: Education
   type: time_table
@@ -15,10 +15,7 @@
       year: 2023 - present
       description:
         - <b> Advisor:</b> Prof. Peter Richtárik
-        # - title: Description 3.
-        #   contents:
-        #     - Sub-description 1.
-        #     - Sub-description 2.
+
     - title: M.Sc in Applied Statistics and Data Science
       institution: Yerevan State University
       location: Yerevan, Armenia
@@ -115,47 +112,51 @@
   type: time_table
   contents:
     - title: Menshov-type theorem for divergence sets of sequences of localized operators
-      authors: Martin Grigoryan, Anna Kamont, Artavazd Maranjyan
-      publication: Journal of Contemporary Mathematical Analysis
-      volume: vol. 58, no. 2, pp. 81–92, 2023
+      description: 
+        - Martin Grigoryan, Anna Kamont, Artavazd Maranjyan
+        - Journal of Contemporary Mathematical Analysis
+        - vol. 58, no. 2, pp. 81–92, 2023
 
     - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
-      authors: Artavazd Maranjyan, Mher Safaryan, Peter Richtárik
-      publication: arXiv:2210.16402
-      year: 2022
+      description: 
+        - Artavazd Maranjyan, Mher Safaryan, Peter Richtárik
+        - arXiv:2210.16402
+        - 2022
 
     - title: On the divergence of Fourier series in the general Haar system
-      authors: Martin Grigoryan, Artavazd Maranjyan
-      publication: Armenian Journal of Mathematics
-      volume: vol. 13, p. 1–10, Sep. 2021
+      description: 
+        - Martin Grigoryan, Artavazd Maranjyan
+        - Armenian Journal of Mathematics
+        - vol. 13, p. 1–10, Sep. 2021
 
     - title: On the unconditional convergence of Faber-Schauder series in L^1
-      authors: Tigran Grigoryan, Artavazd Maranjyan
-      publication: "Proceedings of the YSU A: Physical and Mathematical Sciences"
-      volume: vol. 55, no. 1 (254), pp. 12–19, 2021
+      description: 
+        - Tigran Grigoryan, Artavazd Maranjyan
+        - "Proceedings of the YSU A: Physical and Mathematical Sciences"
+        - vol. 55, no. 1 (254), pp. 12–19, 2021
 
 - title: Talks
   type: time_table
   contents:
     - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
-      event: "Mathematics in Armenia: Advances and Perspectives"
       location: Yerevan, Armenia
-      date: July 5, 2023
+      year: July 5, 2023
+      description: "Mathematics in Armenia: Advances and Perspectives"
 
     - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
-      event: Machine Learning Reading Group Yerevan
+      description: Machine Learning Reading Group Yerevan
       location: Yerevan, Armenia
-      date: March 10, 2023
+      year: March 10, 2023
 
     - title: "GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity"
-      event: Federated Learning One World Seminar (FLOW)
+      description: Federated Learning One World Seminar (FLOW)
       location: Online
-      date: December 7, 2022
+      year: December 7, 2022
 
     - title: "ProxSkip: Yes! Local Gradient Steps Provably Lead to Communication Acceleration! Finally!"
-      event: Machine Learning Reading Group Yerevan
+      description: Machine Learning Reading Group Yerevan
       location: Yerevan, Armenia
-      date: April 10, 2022
+      year: April 10, 2022
 
 - title: Skills
   type: list
@@ -164,10 +165,6 @@
     - Python, Java, R
     - Numpy, Pandas, Matplotlib, Scikit-learn
     - PyTorch, Tensorflow
-    - Languages:
-        - English: Proficient
-        - Russian: Proficient
-        - Armenian: Native
 
 - title: Hobbies
   type: list
