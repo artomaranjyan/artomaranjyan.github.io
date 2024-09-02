@@ -16,7 +16,7 @@
       location: Thuwal, Saudi Arabia
       year: 2023 - present
       description:
-        - <b> Advisor </b> [Peter Richtárik](https://richtarik.org/)
+        - <b> Advisor:</b> Peter Richtárik
         # - title: Description 3.
         #   contents:
         #     - Sub-description 1.
@@ -26,26 +26,29 @@
       location: Yerevan, Armenia
       year: 2021 - 2023
       description:
-        - <b> Thesis </b> [On local training methods](https://artomaranjyan.github.io/files/Master_thesis.pdf)
-        - <b> Co-supervisors </b> [Peter Richtárik](https://richtarik.org/), [Mher Safaryan](https://scholar.google.com/citations?user=dJNwgT8AAAAJ&hl=en)
+        - <b> Thesis:</b> On local training methods
+        - <b> Co-supervisors:</b> Peter Richtárik, Mher Safaryan
 
     - title: B.Sc. in Informatics and Applied Mathematics
       institution: Yerevan State University
       location: Yerevan, Armenia
       year: 2017 - 2021
       description:
-        - <b> Thesis </b> [On the Convergence of Series in Classical Systems](https://artomaranjyan.github.io/files/Master_thesis.pdf)
-        - <b> Supervisors </b> [Martin Grigoryan](https://scholar.google.com/citations?user=l-2JIPkAAAAJ&hl=en)
+        - <b> Thesis:</b> <i>On the Convergence of Series in Classical Systems</i>
+        - <b> Supervisors:</b> Martin Grigoryan
 
 - title: Experience
   type: time_table
   contents:
     - title: Researcher in the group of [Martin Grigoryan](https://scholar.google.com/citations?user=l-2JIPkAAAAJ&hl=en)
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      institution: Yerevan State University
+      location: Yerevan, Armenia
       year: April 2023 - Aug 2023
+      description:
+        - Studied the existence and properties of universal functions with respect to\\ the Vilenkin and Haar systems across various functional spaces.
 
     - title: Machine Learning Researcher
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      institution: [YerevaNN](https://yerevann.com/)
       year: March 2023 -- Aug 2023
       description:
 
