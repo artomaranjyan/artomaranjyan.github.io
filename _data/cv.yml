@@ -11,7 +11,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Computer Science
+    - title: Ph.D. in Computer Science
       institution: King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia
       year: 2023 - present
       description:
@@ -20,12 +20,19 @@
         #   contents:
         #     - Sub-description 1.
         #     - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: M.Sc in Applied Statistics and Data Science
+      institution: Yerevan State University, Yerevan, Armenia
+      year: 2021 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - <b> Thesis </b> [On local training methods](https://artomaranjyan.github.io/files/Master_thesis.pdf)
+        - <b> Co-supervisors </b> [Peter Richtárik](https://richtarik.org/), [Mher Safaryan](https://scholar.google.com/citations?user=dJNwgT8AAAAJ&hl=en)
+
+    - title: B.Sc. in Informatics and Applied Mathematics
+      institution: Yerevan State University, Yerevan, Armenia
+      year: 2017 - 2021
+      description:
+        - <b> Thesis </b> [On the Convergence of Series in Classical Systems](https://artomaranjyan.github.io/files/Master_thesis.pdf)
+        - <b> Supervisors </b> [Martin Grigoryan](https://scholar.google.com/citations?user=l-2JIPkAAAAJ&hl=en)
 
 - title: Experience
   type: time_table
