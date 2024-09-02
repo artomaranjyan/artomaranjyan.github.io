@@ -40,20 +40,6 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Researcher in the group of [Martin Grigoryan](https://scholar.google.com/citations?user=l-2JIPkAAAAJ&hl=en)
-      institution: Yerevan State University
-      location: Yerevan, Armenia
-      year: April 2023 - Aug 2023
-      description:
-        - Studied the existence and properties of universal functions with respect to the Vilenkin and Haar systems across various functional spaces.
-
-    - title: Machine Learning Researcher
-      institution: [YerevaNN](https://yerevann.com/), Yerevan, Armenia
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
     - title: Director
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
       year: 1917-1933
