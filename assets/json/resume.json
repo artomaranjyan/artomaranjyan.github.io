@@ -23,22 +23,30 @@
   "education": [
     {
       "institution": "KAUST (King Abdullah University of Science and Technology)",
+      "location": "Thuwal, Saudi Arabia",
       "area": "Computer Science",
       "studyType": "Doctor of Philosophy - PhD",
-      "startDate": "2023-08-31",
-      "endDate": "2027-08-31",
-      "highlights": "<b> Advisor: </b>"
+      "startDate": "2023",
+      "endDate": "",
+      "highlights": [
+        "<b> Advisor: </b> [Peter Richtárik](https://richtarik.org/)"
+      ]
     },
     {
       "institution": "Yerevan State University",
+      "location": "Yerevan, Armenia",
       "area": "Applied Statistics and Data Science",
       "studyType": "Master's degree",
       "startDate": "2021-09-30",
       "endDate": "2023-07-31",
-      "highlights": "<b> Co-supervisors </b> [Peter Richtárik](https://richtarik.org/), [Mher Safaryan](https://scholar.google.com/citations?user=dJNwgT8AAAAJ&hl=en)"
+      "highlights": [
+        "<b> Thesis </b> [On local training methods](https://artomaranjyan.github.io/assets/pdf/Master_thesis.pdf)",
+        "<b> Co-supervisors </b> [Peter Richtárik](https://richtarik.org/), [Mher Safaryan](https://scholar.google.com/citations?user=dJNwgT8AAAAJ&hl=en)"
+      ]
     },
     {
       "institution": "Yerevan State University",
+      "location": "Yerevan, Armenia",
       "area": "Informatics and Applied Mathematics Mathematics: Computer Sciences",
       "studyType": "Bachelor's degree",
       "startDate": "2017-09-30",
