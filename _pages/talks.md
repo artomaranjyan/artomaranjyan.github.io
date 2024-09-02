@@ -7,6 +7,11 @@ nav: true
 nav_order: 5
 ---
 
+- **GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity** \
+  Poster presentation @ [Stochastic Numerics and Statistical Learning: Theory and Applications Workshop 2024](https://cemse.kaust.edu.sa/events/event/snsl-workshop-2024) \
+  KAUST, Thuwal, Saudi Arabia \
+  May 27, 2024
+
 - **MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times** \
   Guest lecture @ CS 331, Stochastic Gradient Descent Methods \
   KAUST, Thuwal, Saudi Arabia \
