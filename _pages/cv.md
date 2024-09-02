@@ -12,5 +12,6 @@ toc:
 
 Run this 
 ```
+cd rendercv
 rendercv render "Arto_CV.yaml" --pdf-path "../assets/pdf/"
 ```
