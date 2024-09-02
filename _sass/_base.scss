@@ -27,7 +27,6 @@ table {
   td,
   th {
     font-size: 1rem;
-    padding: 1px 1rem 1px 0;
   }
 
   th {
@@ -72,10 +71,7 @@ blockquote {
     border-color: var(--global-tip-block);
     background-color: var(--global-tip-block-bg);
 
-    em,
-    li,
-    p,
-    strong {
+    p {
       color: var(--global-tip-block-text);
     }
 
@@ -93,10 +89,7 @@ blockquote {
     border-color: var(--global-warning-block);
     background-color: var(--global-warning-block-bg);
 
-    em,
-    li,
-    p,
-    strong {
+    p {
       color: var(--global-warning-block-text);
     }
 
@@ -114,10 +107,7 @@ blockquote {
     border-color: var(--global-danger-block);
     background-color: var(--global-danger-block-bg);
 
-    em,
-    li,
-    p,
-    strong {
+    p {
       color: var(--global-danger-block-text);
     }
 
@@ -205,13 +195,24 @@ ul.task-list input[type="checkbox"] {
       margin: 0;
     }
   }
+
+  .typed-info {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    // min-height: 30px; 
+    font-family: monospace;
+    display: inline-block;
+    margin: 0;
+  }
 }
 
 .profile.float-right {
+  position: relative;
   margin-left: 1rem;
 }
 
 .profile.float-left {
+  position: relative;
   margin-right: 1rem;
 }
 
@@ -247,7 +248,7 @@ ul.task-list input[type="checkbox"] {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
-  opacity: 0.95;
+  opacity: 0.8;
 }
 
 .navbar .dropdown-menu {
@@ -540,7 +541,69 @@ footer.sticky-bottom {
   }
 }
 
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+ 80% { transform: rotate(0deg); }
+ 85% { transform: rotate(50deg); }
+ 95% { transform: rotate(-50deg); }
+100% { transform: rotate(0deg); }
+}
+
+@keyframes shake {
+  10%, 90% { transform: translate3d(-0.15px, 0, 0); }
+  20%, 80% { transform: translate3d(0.3px, 0, 0); }
+  30%, 50%, 70% { transform: translate3d(-0.6px, 0, 0); }
+  40%, 60% { transform: translate3d(0.6px, 0, 0); }
+}
+
+a:hover, a:focus {
+  // color: #ff1303;
+  // animation: wiggle 2.5s infinite;
+  // font-size: 110%;
+  animation: shake 0.75s cubic-bezier(.36,.07,.19,.97) both;
+  // transform: scale(1.1);
+  // transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+.post-title:hover {
+  transform: scale(1.05);
+}
 .post-title {
+  overflow: hidden;
+  // border-right: .15em solid orange;
+  white-space: nowrap;
+  // font-size: 1.6rem;
+  width: 0;
+  animation: fadeInRight 1s ease-in-out, typing 3s forwards ;
+  transition: transform 330ms ease-in-out;
+  transform-origin: 0% 50%;
+  mjx-container[jax="CHTML"][display="true"] {
+    display: unset;
+  }
+
+}
+
+.post-title-typed {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
@@ -645,8 +708,8 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global-text-color);
+    border-bottom: 2px solid var(--global-text-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -676,8 +739,8 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
+    color: var(--global-text-color);
+    border-top: 2px solid var(--global-text-color);
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
@@ -692,6 +755,7 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
+        image-resolution: 600dpi;
       }
 
       .abbr {
@@ -1159,8 +1223,7 @@ ninja-keys::part(ninja-input-wrapper) {
   width: 100%;
 }
 
-.newsletter-form-input,
-.bibsearch-form-input {
+.newsletter-form-input {
   color: var(--global-newsletter-text-color);
   background: var(--global-newsletter-bg-color);
   border: 1px solid var(--global-newsletter-text-color);
@@ -1297,10 +1360,4 @@ ninja-keys::part(ninja-input-wrapper) {
   .arrow:before {
     border-bottom-color: var(--global-divider-color);
   }
-}
-
-// highlight-search-term
-::highlight(search) {
-  background-color: var(--global-theme-color);
-  color: var(--global-text-color);
 }
