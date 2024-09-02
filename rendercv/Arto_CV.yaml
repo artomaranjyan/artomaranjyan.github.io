@@ -11,22 +11,22 @@ cv:
       username: yourusername
   sections:
     welcome_to_RenderCV!:
-      - '[RenderCV](https://github.com/sinaatalay/rendercv) is
+      - "[RenderCV](https://github.com/sinaatalay/rendercv) is
         a LaTeX-based CV/resume framework. It allows you to create
         a high-quality CV or resume as a PDF file from a YAML
         file, with **full Markdown syntax support** and **complete
-        control over the LaTeX code**.'
+        control over the LaTeX code**."
       - The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
     quick_guide:
       - bullet: Each section title is arbitrary and each section
           contains a list of entries.
-      - bullet: 'There are 7 unique entry types: *BulletEntry*,
+      - bullet: "There are 7 unique entry types: *BulletEntry*,
           *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*,
-          *PublicationEntry*, and *OneLineEntry*.'
+          *PublicationEntry*, and *OneLineEntry*."
       - bullet: Select a section title, pick an entry type, and
           start writing your section!
-      - bullet: '[Here](https://docs.rendercv.com/user_guide/),
-          you can find a comprehensive user guide for RenderCV.'
+      - bullet: "[Here](https://docs.rendercv.com/user_guide/),
+          you can find a comprehensive user guide for RenderCV."
     education:
       - institution: University of Pennsylvania
         area: Computer Science
@@ -34,9 +34,9 @@ cv:
         start_date: 2000-09
         end_date: 2005-05
         highlights:
-          - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
-          - '**Coursework:** Computer Architecture, Comparison
-            of Learning Algorithms, Computational Theory'
+          - "GPA: 3.9/4.0 ([a link to somewhere](https://example.com))"
+          - "**Coursework:** Computer Architecture, Comparison
+            of Learning Algorithms, Computational Theory"
     experience:
       - company: Apple
         position: Software Engineer
@@ -72,31 +72,31 @@ cv:
       - title: 3D Finite Element Analysis of No-Insulation Coils
         authors:
           - Frodo Baggins
-          - '***John Doe***'
+          - "***John Doe***"
           - Samwise Gamgee
         doi: 10.1109/TASC.2023.3340648
         date: 2004-01
     projects:
       - name: Multi-User Drawing Tool
-        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
+        date: "[github.com/name/repo](https://github.com/sinaatalay/rendercv)"
         highlights:
           - Developed an electronic classroom where multiple users
             can simultaneously view and draw on a "chalkboard"
             with each person's edits synchronized
-          - 'Tools Used: C++, MFC'
+          - "Tools Used: C++, MFC"
       - name: Synchronized Desktop Calendar
-        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
+        date: "[github.com/name/repo](https://github.com/sinaatalay/rendercv)"
         highlights:
           - Developed a desktop calendar with globally shared
             and synchronized calendars, allowing users to schedule
             meetings with other users
-          - 'Tools Used: C#, .NET, SQL, XML'
+          - "Tools Used: C#, .NET, SQL, XML"
       - name: Custom Operating System
         date: 2002
         highlights:
           - Built a UNIX-style OS with a scheduler, file system,
             text editor, and calculator
-          - 'Tools Used: C'
+          - "Tools Used: C"
     technologies:
       - label: Languages
         details: C++, C, Java, Objective-C, C#, SQL, JavaScript
@@ -108,7 +108,7 @@ design:
   font: Source Sans 3
   font_size: 10pt
   page_size: letterpaper
-  color: '#004f90'
+  color: "#004f90"
   disable_external_link_icons: false
   disable_page_numbering: false
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
@@ -116,7 +116,7 @@ design:
   last_updated_date_style: Last updated in TODAY
   header_font_size: 30 pt
   text_alignment: justified
-  seperator_between_connections: ''
+  seperator_between_connections: ""
   use_icons_for_connections: true
   margins:
     page:

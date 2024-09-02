@@ -1,9 +1,10 @@
-## <<entry.institution>>, ((* if entry.degree *))<<entry.degree>> in ((* endif *))<<entry.area>>
+## <<entry.institution>>, ((_ if entry.degree _))<<entry.degree>> in ((_ endif _))<<entry.area>>
 
-((* if entry.date_string *))- <<entry.date_string>>
-((* endif *))
-((* if entry.location *))- <<entry.location>>
-((* endif *))
-((* for item in entry.highlights *))
+((_ if entry.date_string _))- <<entry.date*string>>
+((* endif _))
+((_ if entry.location _))- <<entry.location>>
+((_ endif _))
+((_ for item in entry.highlights \_))
+
 - <<item>>
-((* endfor *))
+  ((_ endfor _))

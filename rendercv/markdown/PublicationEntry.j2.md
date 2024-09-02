@@ -1,9 +1,10 @@
-## <<entry.title>> ((* if entry.doi *))([<<entry.doi>>](<<entry.doi_url>>))((* elif entry.url *))([<<entry.url>>](<<entry.clean_url>>))((* endif *))
+## <<entry.title>> ((_ if entry.doi _))([<<entry.doi>>](<<entry.doi*url>>))((* elif entry.url _))([<<entry.url>>](<<entry.clean_url>>))((_ endif \_))
 
-((* if entry.date_string *))
-- <<entry.date_string>>
-((* endif *))
+((_ if entry.date_string _))
+
+- <<entry.date*string>>
+  ((* endif \_))
 - <<entry.authors|join(", ")>>
-((* if entry.journal *))
+  ((_ if entry.journal _))
 - <<entry.journal>>
-((* endif *))
+  ((_ endif _))

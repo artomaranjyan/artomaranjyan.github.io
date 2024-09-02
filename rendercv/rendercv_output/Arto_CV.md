@@ -7,7 +7,6 @@
 - LinkedIn: [yourusername](https://linkedin.com/in/yourusername)
 - GitHub: [yourusername](https://github.com/yourusername)
 
-
 # Welcome to RenderCV!
 
 [RenderCV](https://github.com/sinaatalay/rendercv) is a LaTeX-based CV/resume framework. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with **full Markdown syntax support** and **complete control over the LaTeX code**.
@@ -17,9 +16,10 @@ The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-
 # Quick Guide
 
 - Each section title is arbitrary and each section contains a list of entries.
-- There are 7 unique entry types: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.
+- There are 7 unique entry types: _BulletEntry_, _TextEntry_, _EducationEntry_, _ExperienceEntry_, _NormalEntry_, _PublicationEntry_, and _OneLineEntry_.
 - Select a section title, pick an entry type, and start writing your section!
 - [Here](https://docs.rendercv.com/user_guide/), you can find a comprehensive user guide for RenderCV.
+
 # Education
 
 ## University of Pennsylvania, BS in Computer Science
@@ -51,8 +51,9 @@ The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-
 # Publications
 
 ## 3D Finite Element Analysis of No-Insulation Coils ([10.1109/TASC.2023.3340648](https://doi.org/10.1109/TASC.2023.3340648))
+
 - Jan 2004
-- Frodo Baggins, ***John Doe***, Samwise Gamgee
+- Frodo Baggins, **_John Doe_**, Samwise Gamgee
 
 # Projects
 

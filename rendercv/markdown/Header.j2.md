@@ -1,19 +1,20 @@
 # <<cv.name>>'s CV
 
-((* if cv.phone *))
+((_ if cv.phone _))
+
 - Phone: <<cv.phone|replace("tel:", "")|replace("-"," ")>>
-((* endif *))
-((* if cv.email *))
+  ((_ endif _))
+  ((_ if cv.email _))
 - Email: [<<cv.email>>](mailto:<<cv.email>>)
-((* endif *))
-((* if cv.location *))
+  ((_ endif _))
+  ((_ if cv.location _))
 - Location: <<cv.location>>
-((* endif *))
-((* if cv.website *))
+  ((_ endif _))
+  ((_ if cv.website _))
 - Website: [<<cv.website|replace("https://","")|replace("/","")>>](<<cv.website>>)
-((* endif *))
-((* if cv.social_networks *))
-    ((* for network in cv.social_networks *))
+  ((_ endif _))
+  ((_ if cv.social_networks _))
+  ((_ for network in cv.social_networks _))
 - <<network.network>>: [<<network.username>>](<<network.url>>)
-    ((* endfor *))
-((* endif *))
+  ((_ endfor _))
+  ((_ endif _))
