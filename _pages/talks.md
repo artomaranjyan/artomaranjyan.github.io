@@ -7,6 +7,11 @@ nav: true
 nav_order: 5
 ---
 
+- **MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times** \
+  Talk @ [Analysis, PDEs and Applications](https://gmg70.com/) \[[abstract](https://gmg70.com/downloads/ConferenceAbstracts.pdf#page=19)\] \
+  YSU, Yerevan, Armenia, \
+  July 6, 2024
+
 - **GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity** \
   Poster presentation @ [Stochastic Numerics and Statistical Learning: Theory and Applications Workshop 2024](https://cemse.kaust.edu.sa/events/event/snsl-workshop-2024) \
   KAUST, Thuwal, Saudi Arabia \
