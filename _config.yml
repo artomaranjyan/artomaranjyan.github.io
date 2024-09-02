@@ -24,6 +24,12 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 back_to_top: true # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
+# Extra Special Settings
+# -----------------------------------------------------------------------------
+particle_js: true # Set the use of particle JS
+simple_parallax_js: false # Set the use of Simple Parallax JS
+
+# -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
 
