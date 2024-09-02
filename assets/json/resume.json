@@ -20,6 +20,31 @@
       }
     ]
   },
+  "education": [
+    {
+      "institution": "KAUST (King Abdullah University of Science and Technology)",
+      "area": "Computer Science",
+      "studyType": "Doctor of Philosophy - PhD",
+      "startDate": "2023-08-31",
+      "endDate": "2027-08-31",
+      "highlights": "<b> Advisor: </b>"
+    },
+    {
+      "institution": "Yerevan State University",
+      "area": "Applied Statistics and Data Science",
+      "studyType": "Master's degree",
+      "startDate": "2021-09-30",
+      "endDate": "2023-07-31",
+      "highlights": "<b> Co-supervisors </b> [Peter Richtárik](https://richtarik.org/), [Mher Safaryan](https://scholar.google.com/citations?user=dJNwgT8AAAAJ&hl=en)"
+    },
+    {
+      "institution": "Yerevan State University",
+      "area": "Informatics and Applied Mathematics Mathematics: Computer Sciences",
+      "studyType": "Bachelor's degree",
+      "startDate": "2017-09-30",
+      "endDate": "2021-07-31"
+    }
+  ],
   "work": [
     {
       "name": "KAUST (King Abdullah University of Science and Technology)",
@@ -63,35 +88,6 @@
     }
   ],
   "volunteer": [],
-  "education": [
-    {
-      "institution": "KAUST (King Abdullah University of Science and Technology)",
-      "area": "Computer Science",
-      "studyType": "Doctor of Philosophy - PhD",
-      "startDate": "2023-08-31",
-      "endDate": "2027-08-31",
-      "score": "",
-      "courses": []
-    },
-    {
-      "institution": "Yerevan State University",
-      "area": "Applied Statistics and Data Science",
-      "studyType": "Master's degree",
-      "startDate": "2021-09-30",
-      "endDate": "2023-07-31",
-      "score": "",
-      "courses": []
-    },
-    {
-      "institution": "Yerevan State University",
-      "area": "Informatics and Applied Mathematics Mathematics: Computer Sciences",
-      "studyType": "Bachelor's degree",
-      "startDate": "2017-09-30",
-      "endDate": "2021-07-31",
-      "score": "",
-      "courses": []
-    }
-  ],
   "awards": [
     {
       "title": "Outstanding Final Project Award",
