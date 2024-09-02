@@ -22,14 +22,16 @@
         #     - Sub-description 1.
         #     - Sub-description 2.
     - title: M.Sc in Applied Statistics and Data Science
-      institution: Yerevan State University, Yerevan, Armenia
+      institution: Yerevan State University
+      location: Yerevan, Armenia
       year: 2021 - 2023
       description:
         - <b> Thesis </b> [On local training methods](https://artomaranjyan.github.io/files/Master_thesis.pdf)
         - <b> Co-supervisors </b> [Peter Richtárik](https://richtarik.org/), [Mher Safaryan](https://scholar.google.com/citations?user=dJNwgT8AAAAJ&hl=en)
 
     - title: B.Sc. in Informatics and Applied Mathematics
-      institution: Yerevan State University, Yerevan, Armenia
+      institution: Yerevan State University
+      location: Yerevan, Armenia
       year: 2017 - 2021
       description:
         - <b> Thesis </b> [On the Convergence of Series in Classical Systems](https://artomaranjyan.github.io/files/Master_thesis.pdf)
@@ -39,10 +41,12 @@
   type: time_table
   contents:
     - title: Researcher in the group of [Martin Grigoryan](https://scholar.google.com/citations?user=l-2JIPkAAAAJ&hl=en)
-      institution: Yerevan State University, Yerevan, Armenia
+      institution: Yerevan State University
+      location: Yerevan, Armenia
       year: April 2023 – Aug 2023
       description:
         - Studied the existence and properties of universal functions with respect to the Vilenkin and Haar systems across various functional spaces.
+        
     - title: Machine Learning Researcher
       institution: [YerevaNN](https://yerevann.com/), Yerevan, Armenia
       year: 1933
