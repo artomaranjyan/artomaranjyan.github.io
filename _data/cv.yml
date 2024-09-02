@@ -40,35 +40,35 @@
       location: Yerevan, Armenia
       year: April 2023 - Aug 2023
       description:
-        - Studied the existence and properties of universal functions with respect to the Vilenkin and Haar systems across various functional spaces.
+        - Studied the existence and properties of universal functions with respect to the Vilenkin and Haar systems across various functional spaces
 
     - title: Machine Learning Researcher
       institution: YerevaNN
       location: Yerevan, Armenia
       year: March 2023 - Aug 2023
       description:
-        - Worked on the intersection of Federated Learning and Optimization.
+        - Worked on the intersection of Federated Learning and Optimization
 
     - title: Internship in the group of Prof. Peter Richtárik
       institution: King Abdullah University of Science and Technology (KAUST)
       location: Thuwal, Saudi Arabia
       year: June 2022 - Jan 2023
       description:
-        - 'Worked on the <i>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</i> paper.'
+        - "Worked on the <i>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</i> paper"
 
     - title: Machine Learning Researcher
       institution: YerevaNN
       location: Yerevan, Armenia
       year: Jan 2022 - June 2022
       description:
-        - Worked on the intersection of Federated Learning and Optimization.
+        - Worked on the intersection of Federated Learning and Optimization
 
     - title: Co-Founder
       institution: OnePick
       location: Yerevan, Armenia
       year: July 2021 - June 2022
       description:
-        - OnePick is an emerging startup that provides up-to-date and customized social media posts based on page and market data analysis.
+        - OnePick is an emerging startup that provides up-to-date and customized social media posts based on page and market data analysis
         - Winner idea of InVent 2.0 venture building program organized by Foundation for Armenian Science and Technology (FAST)
 
     - title: Backend Developer
@@ -76,14 +76,14 @@
       location: Remote (Yerevan, Armenia)
       year: July 2021 - Sep 2021
       description:
-        - Worked for Nutanix.
+        - Worked for Nutanix
 
     - title: Machine Learning Research Engineer
       institution: Foundation for Armenian Science and Technology (FAST)
       location: Yerevan, Armenia
       year: June 2021 - July 2021
       description:
-        - Worked on Fraud detection.
+        - Worked on Fraud detection
         - Made data-driven forecasts using machine learning algorithms and statistical models
 
     - title: Software Engineer in Test
@@ -91,9 +91,9 @@
       location: Yerevan, Armenia
       year: Sep 2019 - Jan 2021
       description:
-        - Worked with automation team to design and develop automated solutions across several mobile/web applications.
-        - Worked directly with software developers, test engineers, product owners, business analysts to find and resolve issues.
-        - Worked closely with DevOps to suggest improvements in processes and in Jenkins Continuous Integration cycle.
+        - Worked with automation team to design and develop automated solutions across several mobile/web applications
+        - Worked directly with software developers, test engineers, product owners, business analysts to find and resolve issues
+        - Worked closely with DevOps to suggest improvements in processes and in Jenkins Continuous Integration cycle
 
 - title: Awards
   type: time_table
@@ -106,7 +106,7 @@
     - title: Outstanding Final Project Award
       institution: Yerevan State University
       year: May 2021
-      description: Recognized for the Bachelor's thesis (awarded to 6 students among 250+ students).
+      description: Recognized for the Bachelor's thesis (awarded to 6 students among 250+ students)
 
 # - title: Papers
 #   type: time_table
