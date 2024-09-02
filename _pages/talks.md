@@ -61,4 +61,3 @@ nav_order: 5
   Talk @ [Machine Learning Reading Group Yerevan](https://groups.google.com/g/ml-reading-group-yerevan/c/-TZmYEWATuI) \
   Yerevan, Armenia, \
   April 10, 2022
-

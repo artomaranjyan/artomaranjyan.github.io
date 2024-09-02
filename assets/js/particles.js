@@ -781,8 +781,7 @@ var pJS = function (tag_id, params) {
         init();
       }
     } else if (pJS.interactivity.events.onclick.enable && isInArray("bubble", pJS.interactivity.events.onclick.mode)) {
-
-    /* on click event */
+      /* on click event */
       if (pJS.tmp.bubble_clicking) {
         var dx_mouse = p.x - pJS.interactivity.mouse.click_pos_x,
           dy_mouse = p.y - pJS.interactivity.mouse.click_pos_y,
