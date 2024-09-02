@@ -28,9 +28,7 @@ layout: default
           {% endif %}
           {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true zoomable=true sizes = "700px"
-          %}
+          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true zoomable=true sizes = "700px" %}
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
@@ -38,11 +36,7 @@ layout: default
           <div class="typed-info"></div>
           <script>
             var options = {
-              strings: [
-                "Borned in Armenia 🍖",
-                "Living in Saudi Arabia 🐪",
-                "Love Frisbee 🥏",
-              ],
+              strings: ['Borned in Armenia 🍖', 'Living in Saudi Arabia 🐪', 'Love Frisbee 🥏'],
               typeSpeed: 30,
               backSpeed: 20,
               loop: true,
@@ -51,8 +45,8 @@ layout: default
               cursorChar: '|',
               // fadeOut: true,
             };
-          
-            var typed = new Typed(".typed-info", options);
+
+            var typed = new Typed('.typed-info', options);
           </script>
         {% endif %}
       </div>
