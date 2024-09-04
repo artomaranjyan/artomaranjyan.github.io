@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1725456255 "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv.tex" "cv.pdf" "cv" 1725456256
-  "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv.tex" 1725456255 19707 6d2524d878559f166b9bb4e9467de5e8 ""
+["pdflatex"] 1725457360 "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv.tex" "cv.pdf" "cv" 1725457360
+  "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv.tex" 1725457358 20894 9c8e37b4ecef8f2c8a3619351b7bbde7 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1622837620 3083 a707712f77b073b3833e4b1334a30e99 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
@@ -107,6 +107,8 @@
   "/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex" 1621110968 29274 e15c5b7157d21523bd9c9f1dfa146b8e ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def" 1621110968 6825 a2b0ea5b539dda0625e99dd15785ab59 ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty" 1576624663 7008 f92eaa0a3872ed622bbf538217cd2ab7 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex" 1605910342 19231 3cbf682090baecad8e17a66b7a271ed1 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex" 1605910342 7677 cf3e6aa6a8d444f55327f61df80bfa0c ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/academicons/academicons.sty" 1647035839 19357 24035ca64a43d5d6497c6e2467a36d10 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/arydshln/arydshln.sty" 1550877088 46329 ffecd4a08bc2c823f27a610f95aa12d3 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty" 1576191570 19336 ce7ae9438967282886b3b036cfad1e4d ""
@@ -119,6 +121,7 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmss.fd" 1622581934 2374 28abe4a5d502b57c879bda08af825361 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/colortbl/colortbl.sty" 1579991017 10793 d0af3aa11e27ae35ba4685b17597b122 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/etaremune/etaremune.sty" 1137110107 3251 65e8a5d192b62112fb36dfba0bc4c282 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1612734021 17086 7ed8cbc4d361ec87392817e0dd4f65ec ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.sty" 1622837620 1796 b613081fb73f572330a4c23f125aae34 ""
@@ -186,13 +189,14 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty" 1622581934 10214 00ce62e730d0cfe22b35e8f1c84949c7 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty" 1635798903 56029 3f7889dab51d620aa43177c391b7b190 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1605910342 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1660495737 2826441 75039a67a2213547b4fca2e19b446ec8 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "cv.aux" 1725456256 1619 62c7c99cf1619ba3d3b9409b6aeb0b3a "pdflatex"
-  "cv.out" 1725456256 1123 0c66ba117fe4d4b543d1ac53fef515da "pdflatex"
-  "cv.tex" 1725456255 19707 6d2524d878559f166b9bb4e9467de5e8 ""
+  "cv.aux" 1725457360 1873 4ab2577f4bdaad7febcde9b3c5719b30 "pdflatex"
+  "cv.out" 1725457360 1123 0c66ba117fe4d4b543d1ac53fef515da "pdflatex"
+  "cv.tex" 1725457358 20894 9c8e37b4ecef8f2c8a3619351b7bbde7 ""
   (generated)
   "cv.aux"
   "cv.log"
