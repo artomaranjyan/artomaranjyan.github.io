@@ -29,6 +29,35 @@
 
 \usepackage{academicons}
 
+\usepackage{etaremune}
+\usepackage{etoolbox} %% For \AtEndEnvironment
+
+\makeatletter %% <- change @ so that it can be used in macro names
+  %% Define the resume key for etaremune:
+  \define@boolkey[EM]{etaremune}{resume}[true]{}
+  \presetkeys[EM]{etaremune}{resume=false}{} %% <- false by default
+
+  %% Increase starting value of previous etaremune environment if resuming
+  \AtEndEnvironment{etaremune}{%
+    \ifEM@etaremune@resume
+      \EM@resumewrite{\csname EM@prevlist@\@roman{\@enumdepth}\endcsname}{\EM@currlist}%
+    \fi
+    \expandafter\xdef\csname EM@prevlist@\@roman{\@enumdepth}\endcsname{\EM@currlist}%
+  }
+  \newcommand*\EM@resumewrite[2]{% %% Expand arguments and then call EM@resume@write@
+    \begingroup
+      \edef\temp{\noexpand\EM@resumewrite@
+        {\expandafter\string\csname etaremune@#1\endcsname}%
+        {\expandafter\string\csname etaremune@#2\endcsname}}%
+      \temp
+    \endgroup
+  }
+  \newcommand*\EM@resumewrite@[2]{% %% Write to aux file
+    \immediate\write\@auxout{\xdef#1{\string\noexpand\string\the\numexpr#1+\string\noexpand#2 }}%
+  }
+\makeatother %% <- change @ back
+
+
 % personal data
 % \name{Arto}{Maranjyan}
 \name{Artavazd}{Maranjyan}
@@ -272,7 +301,7 @@ Recognized for the Bachelor's thesis (awarded to 6 students among 250+ students)
 
 
 \section{Papers}
-\begin{itemize}
+\begin{etaremune}
 
 \item \textbf{LoCoDL: Communication-Efficient Distributed Learning with Local Training and Compression}\\
 Laurent Condat, \textbf{Artavazd Maranjyan}, Peter Richtárik\\
@@ -300,14 +329,14 @@ Martin Grigoryan, \textbf{Artavazd Maranjyan}\\ \textcolor{accent}{\href{https:/
 \item \textbf{On the unconditional convergence of Faber-Schauder series in $L^1$}\\
 Tigran Grigoryan, \textbf{Artavazd Maranjyan}\\
 \textcolor{accent}{\href{http://www.old.ysu.am/files/vol55\_no1\_2021\_pp12\%E2\%80\%9319.pdf}{\textit{Proceedings of the YSU A: Physical and Mathematical Sciences}}}, vol. 55, no. 1 (254), pp. 12–19, 2021.
-\end{itemize}
+\end{etaremune}
 
 
 \section{Talks and Poster presentations}
 \vspace{4pt}
 
 \subsection{2024 Talks and Posters}
-\begin{itemize}
+\begin{etaremune}
 \item \textbf{MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times} \\
 \textit{Talk} @ \textcolor{accent}{\href{https://gmg70.com/}{\textit{Analysis, PDEs and Applications}}} [\href{https://gmg70.com/downloads/ConferenceAbstracts.pdf#page=19}{abstract}]\\
 Yerevan State University, Yerevan, Armenia, July 6, 2024
@@ -328,10 +357,10 @@ Okinawa Institute of Science and Technology (OIST), Okinawa, Japan, March 13, 20
 \item \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity}\\
 \textit{Poster presentation} @ \textcolor{accent}{\href{https://cemse.kaust.edu.sa/ai/aii-symp-2024}{\textit{KAUST Rising Stars in AI Symposium 2024}}} \\
 KAUST, Thuwal, Saudi Arabia, February 21, 2024
-\end{itemize}
+\end{etaremune}
 
 \subsection{2023 Talks and Posters}
-\begin{itemize}
+\begin{etaremune}[resume]
 \item \textbf{Differentially Private Coordinate Descent for Composite Empirical Risk Minimization}\\
 \textit{Talk} @ Group Seminar \\
 KAUST, Thuwal, Saudi Arabia, November 16, 2023
@@ -347,10 +376,10 @@ Yerevan State University, Yerevan, Armenia, July 5, 2023
 \item \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity}\\
 \textit{Talk} @ \textcolor{accent}{\href{https://groups.google.com/g/ml-reading-group-yerevan/c/F_1OGqeFImY/m/BGDIqZAWBQAJ}{\textit{Machine Learning Reading Group Yerevan}}} \textcolor{orange}{\href{https://www.youtube.com/watch?v=w9iHPgE82oo}{[video (Armenian)]}}\\
 Yerevan State University, Yerevan, Armenia, March 10, 2023
-\end{itemize}
+\end{etaremune}
 
 \subsection{2022 Talks and Posters}
-\begin{itemize}
+\begin{etaremune}[resume]
 \item \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity}\\
 \textit{Talk} @ \textcolor{accent}{\href{https://sites.google.com/view/one-world-seminar-series-flow/archive/2022?authuser=0\#h.99nho9x1b8ju}{\textit{Federated Learning One World Seminar (FLOW)}}} \textcolor{orange}{\href{https://youtu.be/WWhY5tO-FiM}{[video]}}\\
 Online, December 7, 2022
@@ -358,7 +387,7 @@ Online, December 7, 2022
 \item \textbf{ProxSkip: Yes! Local Gradient Steps Provably Lead to Communication Acceleration! Finally!}\\
 \textit{Talk} @ \textcolor{accent}{\href{https://groups.google.com/g/ml-reading-group-yerevan/c/-TZmYEWATuI}{\textit{Machine Learning Reading Group Yerevan}}}\\
 Yerevan State University, Yerevan, Armenia, April 10, 2022
-\end{itemize}
+\end{etaremune}
 
 
 % \section{Skills}
@@ -379,7 +408,7 @@ Yerevan State University, Yerevan, Armenia, April 10, 2022
 
 
 \section{Hobbies}
-Ultimate Frisbee, Dancing (bachata, salsa), Board Games, Table Football (Foosball)
+Ultimate Frisbee, Dancing (bachata, salsa), \href{https://boardgamearena.com/player}{Board Games}, Table Football (Foosball)
 
 
 % Publications from a BibTeX file without multibib
