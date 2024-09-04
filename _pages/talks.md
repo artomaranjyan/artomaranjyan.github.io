@@ -15,7 +15,7 @@ nav_order: 5
       Yerevan State University, Yerevan, Armenia, July 6, 2024
   </li>
   <li><strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong><br>
-      <em>Poster presentation</em> @ <a href="https://cemse.kaust.edu.sa/events/event/snsl-workshop-2024"><em>Stochastic Numerics and Statistical Learning: Theory and Applications Workshop 2024</em></a><br>
+      <em>Poster presentation</em> @ <a href="https://cemse.kaust.edu.sa/events/event/snsl-workshop-2024"><em>Stochastic Numerics and Statistical Learning: Theory and Applications Workshop 2024</em></a> <a href="https://artomaranjyan.github.io/assets/pdf/GradSkip_Rising_Stars.pdf">[poster]</a> <br>
       KAUST, Thuwal, Saudi Arabia, May 27, 2024
   </li>
   <li><strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong><br>
@@ -23,11 +23,11 @@ nav_order: 5
       KAUST, Thuwal, Saudi Arabia, May 5, 2024
   </li>
   <li><strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong><br>
-      <em>Poster presentation</em> @ <a href="https://groups.oist.jp/mlss"><em>The Machine Learning Summer School in Okinawa 2024</em></a><br>
+      <em>Poster presentation</em> @ <a href="https://groups.oist.jp/mlss"><em>The Machine Learning Summer School in Okinawa 2024</em></a> <a href="https://artomaranjyan.github.io/assets/pdf/GradSkip_MLSS_Okinawa.pdf">[poster]</a> <br>
       Okinawa Institute of Science and Technology (OIST), Okinawa, Japan, March 13, 2024
   </li>
   <li><strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong><br>
-      <em>Poster presentation</em> @ <a href="https://cemse.kaust.edu.sa/ai/aii-symp-2024"><em>KAUST Rising Stars in AI Symposium 2024</em></a><br>
+      <em>Poster presentation</em> @ <a href="https://cemse.kaust.edu.sa/ai/aii-symp-2024"><em>KAUST Rising Stars in AI Symposium 2024</em></a> <a href="https://artomaranjyan.github.io/assets/pdf/GradSkip_Rising_Stars.pdf">[poster]</a><br>
       KAUST, Thuwal, Saudi Arabia, February 21, 2024
   </li>
 </ol>
