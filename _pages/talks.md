@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /talks/
-title: Talks and Poster Presentations
+title: Talks
 description: 
 nav: true
 nav_order: 5
@@ -34,7 +34,7 @@ nav_order: 5
 
 ### 2023 Talks and Posters
 
-<ol start="6", reversed>
+<ol start="6" reversed>
   <li><strong>Differentially Private Coordinate Descent for Composite Empirical Risk Minimization</strong><br>
       <em>Talk</em> @ Group Seminar<br>
       KAUST, Thuwal, Saudi Arabia, November 16, 2023
@@ -44,7 +44,7 @@ nav_order: 5
       University of Warwick, Coventry, England, October 6, 2023
   </li>
   <li><strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong><br>
-      <em>Talk</em> @ <a href="http://mathconf.sci.am/index.html"><em>Mathematics in Armenia: Advances and Perspectives</em></a> <a href="https://artomaranjyan.github.io/files/talk4slide.pdf">[slides]</a> <a href="http://mathconf.sci.am/MiA2023AbstractsBook.pdf#page=60">[abstract]</a><br>
+      <em>Talk</em> @ <a href="http://mathconf.sci.am/index.html"><em>Mathematics in Armenia: Advances and Perspectives</em></a> <a href="http://mathconf.sci.am/MiA2023AbstractsBook.pdf#page=60">[abstract]</a><br>
       Yerevan State University, Yerevan, Armenia, July 5, 2023
   </li>
   <li><strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong><br>
@@ -55,7 +55,7 @@ nav_order: 5
 
 ### 2022 Talks and Posters
 
-<ol start="2", reversed>
+<ol start="2" reversed>
   <li><strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong><br>
       <em>Talk</em> @ <a href="https://sites.google.com/view/one-world-seminar-series-flow/archive/2022?authuser=0#h.99nho9x1b8ju"><em>Federated Learning One World Seminar (FLOW)</em></a> <a href="https://youtu.be/WWhY5tO-FiM">[video]</a><br>
       Online, December 7, 2022
