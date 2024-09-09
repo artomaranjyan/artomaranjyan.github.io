@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am reviewing for JMLR. ![JMLR](/assets/Badge_JMLR/I_review_JMLR.gif =20x20)
+I am reviewing for JMLR. <img src="/assets/Badge_JMLR/I_review_JMLR.gif" alt="drawing" width="20"/>
