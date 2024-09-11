@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: talks
 permalink: /talks/
 title: Talks
 description: 
@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-### 2024 Talks and Posters
+### 2024 Talks and Poster Presentations
 
 <ol start="11" reversed>
   <li><strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong><br>
@@ -32,7 +32,7 @@ nav_order: 5
   </li>
 </ol>
 
-### 2023 Talks and Posters
+### 2023 Talks and Poster Presentations
 
 <ol start="6" reversed>
   <li><strong>Differentially Private Coordinate Descent for Composite Empirical Risk Minimization</strong><br>
@@ -53,7 +53,7 @@ nav_order: 5
   </li>
 </ol>
 
-### 2022 Talks and Posters
+### 2022 Talks and Poster Presentations
 
 <ol start="2" reversed>
   <li><strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong><br>
