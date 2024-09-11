@@ -1,26 +1,27 @@
 @article{grigoryan2021unconditional,
+  bibtex_show={true},
   title={ON THE UNCONDITIONAL CONVERGENCE OF FABER-SCHAUDER SERIES IN $ L\^{}$\{$1$\}$ $},
   author={Grigoryan, Tigran M and Maranjyan, Artavazd},
   journal={Proceedings of the YSU A: Physical and Mathematical Sciences},
   volume={55},
   number={1 (254)},
   pages={12--19},
-  year={2021},
-  bibtex_show={true}
+  year={2021}
 }
 
 @article{grigoryan2021divergence,
+  bibtex_show={true},
   title={On the divergence of Fourier series in the general Haar system},
   author={Grigoryan, Martin and Maranjyan, Artavazd},
   journal={Armenian Journal of Mathematics},
   volume={13},
   number={6},
   pages={1--10},
-  year={2021},
-  bibtex_show={true}
+  year={2021}
 }
 
 @article{grigoryan2023menshov,
+  bibtex_show={true},
   title={Menshov-Type Theorem for Divergence Sets of Sequences of Localized Operators},
   journal={Journal of Contemporary Mathematical Analysis (Armenian Academy of Sciences)},
   author={Grigoryan, Martin and Kamont, Anna and Maranjyan, Artavazd},
@@ -28,27 +29,30 @@
   number={2},
   pages={81--92},
   year={2023},
-  publisher={Springer},
-  bibtex_show={true}
+  publisher={Springer}
 }
 
 @article{condat2024locodl,
+  bibtex_show={true},
   title={LoCoDL: Communication-Efficient Distributed Learning with Local Training and Compression},
   author={Condat, Laurent and Maranjyan, Artavazd and Richt{\'a}rik, Peter},
   journal={arXiv preprint arXiv:2403.04348},
   year={2024},
-  bibtex_show={true}
+  html={https://arxiv.org/abs/2403.04348},
+  abstract={In Distributed optimization and Learning, and even more in the modern framework of federated learning, communication, which is slow and costly, is critical. We introduce LoCoDL, a communication-efficient algorithm that leverages the two popular and effective techniques of Local training, which reduces the communication frequency, and Compression, in which short bitstreams are sent instead of full-dimensional vectors of floats. LoCoDL works with a large class of unbiased compressors that includes widely-used sparsification and quantization methods. LoCoDL provably benefits from local training and compression and enjoys a doubly-accelerated communication complexity, with respect to the condition number of the functions and the model dimension, in the general heterogenous regime with strongly convex functions. This is confirmed in practice, with LoCoDL outperforming existing algorithms.}
 }
 
 @article{maranjyan2022gradskip,
+  bibtex_show={true},
   title={Gradskip: Communication-accelerated local gradient methods with better computational complexity},
   author={Maranjyan, Artavazd and Safaryan, Mher and Richt{\'a}rik, Peter},
   journal={arXiv preprint arXiv:2210.16402},
+  html={https://arxiv.org/abs/2210.16402},
   year={2022},
   selected={true},
+  html={https://arxiv.org/abs/2210.16402},
   poster={GradSkip_Rising_Stars.pdf},
   slides={GradSkip_Warwick.pdf},
   video={https://www.youtube.com/watch?v=WWhY5tO-FiM},
-  bibtex_show={true},
   abstract={We study a class of distributed optimization algorithms that aim to alleviate high communication costs by allowing clients to perform multiple local gradient-type training steps prior to communication. In a recent breakthrough, Mishchenko et al. (2022) proved that local training, when properly executed, leads to provable communication acceleration, and this holds in the strongly convex regime without relying on any data similarity assumptions. However, their ProxSkip method requires all clients to take the same number of local training steps in each communication round. We propose a redesign of the original ProxSkip method, allowing clients with ``less important'' data to get away with fewer local training steps without impacting the overall communication complexity of the method. In particular, we prove that our modified method, GradSkip, converges linearly under the same assumptions and has the same accelerated communication complexity, while the number of local gradient steps can be reduced relative to a local condition number. We further generalize our method by extending the randomness of probabilistic alternations to arbitrary unbiased compression operators and by considering a generic proximable regularizer. This generalization, which we call GradSkip+, recovers several related methods in the literature as special cases. Finally, we present an empirical study on carefully designed toy problems that confirm our theoretical claims.}
 }
