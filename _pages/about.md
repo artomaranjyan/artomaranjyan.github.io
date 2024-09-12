@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student at KAUST
+subtitle:
 
 profile:
   align: right
