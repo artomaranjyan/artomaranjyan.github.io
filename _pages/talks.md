@@ -11,7 +11,7 @@ nav_order: 5
 
 <ol start="11" reversed>
   <li><strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong><br>
-      <em>Talk</em> @ <a href="https://cemse.kaust.edu.sa/events/event/e-poster-competition">CEMSE E-Poster Competition</a> [3rd place] <br>
+      <em>Poster presentation</em> @ <a href="https://cemse.kaust.edu.sa/events/event/e-poster-competition">CEMSE E-Poster Competition</a> [3rd place] <br>
       KAUST, Thuwal, Saudi Arabia, October 10, 2024
   </li>
   <li><strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong><br>
