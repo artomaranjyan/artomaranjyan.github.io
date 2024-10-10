@@ -10,6 +10,10 @@ nav_order: 5
 ### 2024 Talks and Poster Presentations
 
 <ol start="11" reversed>
+  <li><strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong><br>
+      <em>Talk</em> @ <a href="https://cemse.kaust.edu.sa/events/event/e-poster-competition">CEMSE E-Poster Competition</a> [3rd place] <br>
+      KAUST, Thuwal, Saudi Arabia, October 10, 2024
+  </li>
   <li><strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong><br>
       <em>Talk</em> @ <a href="https://gmg70.com/">Analysis, PDEs and Applications</a> [<a href="https://gmg70.com/downloads/ConferenceAbstracts.pdf#page=19">abstract</a>]<br>
       Yerevan State University, Yerevan, Armenia, July 6, 2024
