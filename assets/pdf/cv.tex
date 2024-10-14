@@ -11,7 +11,7 @@
 % modern themes
 \moderncvstyle{banking}
 % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{orange}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{grey}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
@@ -103,11 +103,13 @@
 \definecolor{LightGrey}{HTML}{666666}
 \definecolor{DarkPastelRed}{HTML}{450808}
 \definecolor{PastelRed}{HTML}{8F0D0D}
-\definecolor{GoldenEarth}{HTML}{E7D192}
+\definecolor{GoldenEarth}{HTML}{008080}
+\definecolor{Teal}{HTML}{00796B}
 \colorlet{name}{black}
 \colorlet{tagline}{PastelRed}
 \colorlet{heading}{DarkPastelRed}
 \colorlet{headingrule}{GoldenEarth}
+\colorlet{teal}{Teal}
 \colorlet{subheading}{PastelRed}
 \colorlet{accent}{PastelRed}
 \colorlet{emphasis}{SlateGrey}
@@ -146,9 +148,9 @@
 \usepackage[unicode]{hyperref}
 \hypersetup{
     colorlinks=true,
-    linkcolor=accent,
+    linkcolor=teal,
     filecolor=magenta,      
-    urlcolor=accent,
+    urlcolor=teal,
     pdftitle={CV},
     pdfpagemode=FullScreen,
     }
@@ -159,7 +161,7 @@
 \newcommand{\kaust}{\href{https://www.kaust.edu.sa/en}{King Abdullah University of Science and Technology (KAUST)}}
 \newcommand{\picsart}{\href{https://picsart.com/jobs}{Picsart}}
 \newcommand{\yerevann}{\href{https://yerevann.com/}{YerevaNN}}
-\newcommand{\ysu}{\href{http://ysu.am}{Yerevan State University}}
+\newcommand{\ysu}{\href{https://www.ysu.am/en}{Yerevan State University}}
 % \newcommand{\href}[2]{{\textcolor{accent}{\href{#1}{#2}}}}
 
 
@@ -347,65 +349,104 @@ Tigran Grigoryan, \textbf{Artavazd Maranjyan}\\
 \section{Talks and Poster Presentations}
 \vspace{4pt}
 
-\subsection{2024 Talks and Poster Presentations}
+\subsection{Future Talks}
 \begin{etaremune}
+  \item{
+  \cventry{December 15, 2024}{Vancouver Convention Center}{\textcolor{accent}{\href{https://opt-ml.org/index.html}{\textit{Workshop on Optimization for Machine Learning (NeurIPS 2024)}}}}{Vancouver, Canada}{}{\vspace{3pt}
+  Presenting
+  \begin{itemize}
+    \item \textbf{MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times}
+    \item \textbf{Differentially Private Random Block Coordinate Descent}
+    \item \textbf{LoCoDL: Communication-Efficient Distributed Learning with Local Training and Compression}
+  \end{itemize}
+  }}
 
-\item \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity} \\
-\textit{Poster presentation} @ \textcolor{accent}{\href{https://cemse.kaust.edu.sa/events/event/e-poster-competition}{\textit{CEMSE E-Poster Competition}}} [3rd place]\\
-KAUST, Thuwal, Saudi Arabia, October 10, 2024
+  \item{
+    \cventry{November 21, 2024}{Machine Learning Research at Apple}{Seminar}{Online}{}{\vspace{3pt}
+    Invited by {\color{red} Samy Bengio} to give a talk on \textbf{MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times}
+  }}
 
-\item \textbf{MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times} \\
-\textit{Talk} @ \textcolor{accent}{\href{https://gmg70.com/}{\textit{Analysis, PDEs and Applications}}} [\href{https://gmg70.com/downloads/ConferenceAbstracts.pdf#page=19}{abstract}]\\
-Yerevan State University, Yerevan, Armenia, July 6, 2024
+  \item{
+    \cventry{November 15 - 16,  2024}{TBA}{\textcolor{accent}{\href{https://deepmath-conference.com/}{\textit{Conference on the Mathematical Theory of Deep Neural Networks}}}}{Philadelphia, USA}{}{\vspace{3pt}
+    Presenting a poster on \textbf{MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times}
+  }}
 
-\item \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity}\\
-\textit{Poster presentation} @ \textcolor{accent}{\href{https://cemse.kaust.edu.sa/events/event/snsl-workshop-2024}{\textit{Stochastic Numerics and Statistical Learning: Theory and Applications Workshop 2024}}} [\href{https://artomaranjyan.github.io/assets/pdf/GradSkip_Rising_Stars.pdf}{poster}]\\
-KAUST, Thuwal, Saudi Arabia, May 27, 2024
+\end{etaremune}
 
-\item \textbf{MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times}\\
-\textit{Guest lecture} @ CS 331, Stochastic Gradient Descent Methods \\
-KAUST, Thuwal, Saudi Arabia, May 5, 2024
+\subsection{2024 Talks and Poster Presentations}
+\begin{etaremune}[resume]
 
-\item \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity}\\
-\textit{Poster presentation} @ \textcolor{accent}{\href{https://groups.oist.jp/mlss}{\textit{The Machine Learning Summer School in Okinawa 2024
-}}} [\href{https://artomaranjyan.github.io/assets/pdf/GradSkip_MLSS_Okinawa.pdf}{poster}] \\
-Okinawa Institute of Science and Technology (OIST), Okinawa, Japan, March 13, 2024
+\item{
+  \cventry{October 10, 2024}{KAUST}{\textcolor{accent}{\href{https://cemse.kaust.edu.sa/events/event/e-poster-competition}{\textit{CEMSE E-Poster Competition}}}}{KAUST, Saudi Arabia}{}{\vspace{3pt}
+  Presented poster on \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity} [{\color{red} 3rd place}]
+}}
 
-\item \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity}\\
-\textit{Poster presentation} @ \textcolor{accent}{\href{https://cemse.kaust.edu.sa/ai/aii-symp-2024}{\textit{KAUST Rising Stars in AI Symposium 2024}}} [\href{https://artomaranjyan.github.io/assets/pdf/GradSkip_Rising_Stars.pdf}{poster}]\\
-KAUST, Thuwal, Saudi Arabia, February 21, 2024
+\item{
+  \cventry{July 6, 2024}{Yerevan State University}{\textcolor{accent}{\href{https://gmg70.com/}{\textit{Analysis, PDEs and Applications}}}}{Yerevan, Armenia}{}{\vspace{3pt}
+  Delivered a talk on \textbf{MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times} [{\href{https://gmg70.com/downloads/ConferenceAbstracts.pdf\#page=19}{abstract}}]
+}}
+
+\item{
+  \cventry{May 27, 2024}{KAUST}{\textcolor{accent}{\href{https://cemse.kaust.edu.sa/events/event/snsl-workshop-2024}{\textit{Stochastic Numerics and Statistical Learning}}}}{KAUST, Saudi Arabia}{}{\vspace{3pt}
+  Presented poster on \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity} [{\href{https://artomaranjyan.github.io/assets/pdf/GradSkip_Rising_Stars.pdf}{poster}}]
+}}
+
+\item{
+  \cventry{May 5, 2024}{KAUST}{CS 331: Stochastic Gradient Descent Methods}{KAUST, Saudi Arabia}{}{\vspace{3pt}
+  Delivered a guest lecture on \textbf{MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times}
+}}
+
+\item{
+  \cventry{March 13, 2024}{Okinawa Institute of Science and Technology (OIST)}{\textcolor{accent}{\href{https://groups.oist.jp/mlss}{\textit{The Machine Learning Summer School in Okinawa 2024}}}}{Okinawa, Japan}{}{\vspace{3pt}
+  Presented poster on \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity} [{\href{https://artomaranjyan.github.io/assets/pdf/GradSkip_MLSS_Okinawa.pdf}{poster}}]
+}}
+
+\item{
+  \cventry{February 21, 2024}{KAUST}{\textcolor{accent}{\href{https://cemse.kaust.edu.sa/ai/aii-symp-2024}{\textit{KAUST Rising Stars in AI Symposium 2024}}}}{KAUST, Saudi Arabia}{}{\vspace{3pt}
+  Presented poster on \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity} [{\href{https://artomaranjyan.github.io/assets/pdf/GradSkip_Rising_Stars.pdf}{poster}}]
+}}
+
 \end{etaremune}
 
 \subsection{2023 Talks and Poster Presentations}
 \begin{etaremune}[resume]
-\item \textbf{Differentially Private Coordinate Descent for Composite Empirical Risk Minimization}\\
-\textit{Talk} @ Group Seminar \\
-KAUST, Thuwal, Saudi Arabia, November 16, 2023
 
-\item \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity}\\
-\textit{Talk} @ \textcolor{accent}{\href{https://warwick.ac.uk/fac/sci/statistics/news/algorithms-seminars/\#:\textasciitilde:text=06/10-,Artavazd\%20Maranjyan,-Link\%20opens\%20in}{\textit{Algorithms \& Computationally Intensive Inference seminars}}} [\href{https://warwick.ac.uk/fac/sci/statistics/news/algorithms-seminars/slides_2023_10_06_arto_maranjyan_gradskip.pdf}{slides}]\\
-University of Warwick, Coventry, England, October 6, 2023
+\item{
+  \cventry{November 16, 2023}{KAUST}{Group Seminar}{KAUST, Saudi Arabia}{}{\vspace{3pt}
+  Delivered a talk on \textbf{Differentially Private Coordinate Descent for Composite Empirical Risk Minimization}
+}}
 
-\item \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity}\\
-\textit{Talk} @ \textcolor{accent}{\href{http://mathconf.sci.am/index.html}{\textit{Mathematics in Armenia: Advances and Perspectives}}} [\href{http://mathconf.sci.am/MiA2023AbstractsBook.pdf#page=60}{abstract}]\\
-Yerevan State University, Yerevan, Armenia, July 5, 2023
+\item{
+  \cventry{October 6, 2023}{University of Warwick}{\textcolor{accent}{\href{https://warwick.ac.uk/fac/sci/statistics/news/algorithms-seminars/\#:\textasciitilde:text=06/10-,Artavazd\%20Maranjyan,-Link\%20opens\%20in}{\textit{Algorithms \& Computationally Intensive Inference seminars}}}}{Coventry, England}{}{\vspace{3pt}
+  Delivered a talk on \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity} [{\href{https://warwick.ac.uk/fac/sci/statistics/news/algorithms-seminars/slides_2023_10_06_arto_maranjyan_gradskip.pdf}{slides}}]
+}}
 
-\item \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity}\\
-\textit{Talk} @ \textcolor{accent}{\href{https://groups.google.com/g/ml-reading-group-yerevan/c/F_1OGqeFImY/m/BGDIqZAWBQAJ}{\textit{Machine Learning Reading Group Yerevan}}} [\textcolor{orange}{\href{https://www.youtube.com/watch?v=w9iHPgE82oo}{video (Armenian)}}]\\
-Yerevan State University, Yerevan, Armenia, March 10, 2023
+\item{
+  \cventry{July 5, 2023}{Yerevan State University}{\textcolor{accent}{\href{http://mathconf.sci.am/index.html}{\textit{Mathematics in Armenia: Advances and Perspectives}}}}{Yerevan, Armenia}{}{\vspace{3pt}
+  Delivered a talk on \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity} [{\href{http://mathconf.sci.am/MiA2023AbstractsBook.pdf\#page=60}{abstract}}]
+}}
+
+\item{
+  \cventry{March 10, 2023}{Yerevan State University}{\textcolor{accent}{\href{https://groups.google.com/g/ml-reading-group-yerevan/c/F_1OGqeFImY/m/BGDIqZAWBQAJ}{\textit{Machine Learning Reading Group Yerevan}}}}{Yerevan, Armenia}{}{\vspace{3pt}
+  Delivered a talk on \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity} [{\textcolor{orange}{\href{https://www.youtube.com/watch?v=w9iHPgE82oo}{video (Armenian)}}}]
+}}
+
 \end{etaremune}
 
 \subsection{2022 Talks and Poster Presentations}
 \begin{etaremune}[resume]
-\item \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity}\\
-\textit{Talk} @ \textcolor{accent}{\href{https://sites.google.com/view/one-world-seminar-series-flow/archive/2022?authuser=0\#h.99nho9x1b8ju}{\textit{Federated Learning One World Seminar (FLOW)}}} [\textcolor{orange}{\href{https://youtu.be/WWhY5tO-FiM}{video}}]\\
-Online, December 7, 2022
 
-\item \textbf{ProxSkip: Yes! Local Gradient Steps Provably Lead to Communication Acceleration! Finally!}\\
-\textit{Talk} @ \textcolor{accent}{\href{https://groups.google.com/g/ml-reading-group-yerevan/c/-TZmYEWATuI}{\textit{Machine Learning Reading Group Yerevan}}}\\
-Yerevan State University, Yerevan, Armenia, April 10, 2022
+\item{
+  \cventry{December 7, 2022}{Online}{\textcolor{accent}{\href{https://sites.google.com/view/one-world-seminar-series-flow/archive/2022?authuser=0\#h.99nho9x1b8ju}{\textit{Federated Learning One World Seminar (FLOW)}}}}{Online}{}{\vspace{3pt}
+  Delivered a talk on \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity} [{\textcolor{orange}{\href{https://youtu.be/WWhY5tO-FiM}{video}}}]
+}}
+
+\item{
+  \cventry{April 10, 2022}{Yerevan State University}{\textcolor{accent}{\href{https://groups.google.com/g/ml-reading-group-yerevan/c/-TZmYEWATuI}{\textit{Machine Learning Reading Group Yerevan}}}}{Yerevan, Armenia}{}{\vspace{3pt}
+  Delivered a talk on \textbf{ProxSkip: Yes! Local Gradient Steps Provably Lead to Communication Acceleration! Finally!}
+}}
+
 \end{etaremune}
-
 
 % \section{Skills}
 
@@ -439,7 +480,7 @@ Reviewing
   }}
 
   \item{
-    \cventry{Sep 2023 - Dec 2023}{Organized weekly group seminars}{KAUST}{}{}{\vspace{3pt} 
+    \cventry{Sep 2023 - Dec 2023}{KAUST}{Organized weekly group seminars}{}{}{\vspace{3pt} 
   }}
 
   \end{itemize}
