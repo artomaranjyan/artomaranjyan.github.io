@@ -36,7 +36,7 @@ nav_order: 5
         <div>Seminar</div> 
         <div style="text-align: right;">November 21, 2024</div> 
    </div>
-   Invited by <span style="color: red;">Samy Bengio</span> to give a talk on <strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong>
+   Invited by <span style="color: cyan;">Samy Bengio</span> to give a talk on <strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong>
   </li>
   <li>
     <div style="display: flex; justify-content: space-between;"> 
@@ -63,7 +63,7 @@ nav_order: 5
         <div>KAUST</div> 
         <div style="text-align: right;">October 10, 2024</div> 
    </div>
-   Presented poster on <strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong> [3rd place]
+   Presented poster on <strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong> [<span style="color: cyan;">3rd place</span>]
   </li>
   <li>
     <div style="display: flex; justify-content: space-between;"> 
