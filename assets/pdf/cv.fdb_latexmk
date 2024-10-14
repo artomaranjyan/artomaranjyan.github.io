@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1728692657 "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv.tex" "cv.pdf" "cv" 1728692658
-  "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv.tex" 1728692657 22353 a1b8f04575db696c2c287c29b65bfb36 ""
+["pdflatex"] 1728869288 "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv.tex" "cv.pdf" "cv" 1728869289
+  "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv.tex" 1728869288 24089 f4cbd3ac42bd1b2ad3924ae8338423d6 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1622837620 3083 a707712f77b073b3833e4b1334a30e99 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
@@ -160,7 +160,7 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/moderncv/moderncv.cls" 1645477037 33783 be403d83d3699cfdbadbbb37d6a716d2 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/moderncv/moderncvbodyiii.sty" 1645477037 10536 47e4485e5e7c9b2c4afd81dbf1352fab ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/moderncv/moderncvcollection.sty" 1645477037 3575 1a2abf3a782da6b0439c99d2354d12d3 ""
-  "/usr/local/texlive/2022/texmf-dist/tex/latex/moderncv/moderncvcolororange.sty" 1645477037 1067 ad47990ebbd1d0663a93d12bbb5f6470 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/moderncv/moderncvcolorgrey.sty" 1645477037 1062 61f295331390af83e59d3757bfb72594 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/moderncv/moderncvcompatibility.sty" 1645477037 4486 807608270f0f963db367da402a1921b7 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/moderncv/moderncvheadiii.sty" 1645477037 7735 c5f5d078dbf0c76aafb19c1a3c3d9972 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/moderncv/moderncviconsawesome.sty" 1645477037 3597 778fc26e7fb251d532274fe63efc051f ""
@@ -194,9 +194,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1660495737 2826441 75039a67a2213547b4fca2e19b446ec8 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "cv.aux" 1728692658 2030 1742691d994128fdc074681416fc49a9 "pdflatex"
-  "cv.out" 1728692658 1546 6f60fd2c65534f98015944b3785c26e0 "pdflatex"
-  "cv.tex" 1728692657 22353 a1b8f04575db696c2c287c29b65bfb36 ""
+  "cv.aux" 1728869289 2230 27f46af4938bd0065118dbc5ece55825 "pdflatex"
+  "cv.out" 1728869289 1664 b5c12d1197476581dbee43b9848462df "pdflatex"
+  "cv.tex" 1728869288 24089 f4cbd3ac42bd1b2ad3924ae8338423d6 ""
   (generated)
   "cv.aux"
   "cv.log"
