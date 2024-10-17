@@ -76,6 +76,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 scholar_userid: 93WEFj8AAAAJ # your Google Scholar ID
 linkedin_username: arto-maranjyan # your LinkedIn user name
 github_username: artomaranjyan # your GitHub user name
+x_username: ArtoMaranjyan
 acm_id: # your dl.acm.org/profile/id
 blogger_url: # your blogger URL
 bluesky_url: # your bluesky URL
@@ -109,7 +110,6 @@ whatsapp_number: # your WhatsApp number (full phone number in international form
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
-x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
