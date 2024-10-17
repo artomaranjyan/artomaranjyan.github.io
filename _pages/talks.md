@@ -10,7 +10,7 @@ nav_order: 5
 
 ### Future Talks
 
-<ol start="15" reversed>
+<ol start="16" reversed>
   <li>
     <div style="display: flex; justify-content: space-between;"> 
         <div><strong> <a href="https://opt-ml.org/index.html">Workshop on Optimization for Machine Learning (NeurIPS 2024)</a> </strong></div> 
@@ -53,7 +53,18 @@ nav_order: 5
 
 ### 2024 Talks and Poster Presentations
 
-<ol start="12" reversed>
+<ol start="13" reversed>
+  <li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://sites.google.com/view/wala24/home?authuser=0">Interntional Conference on Algebra, Logic, and their Applications</a> </strong></div> 
+        <div style="text-align: right;">Online</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>Yerevan State University</div> 
+        <div style="text-align: right;">October 18, 2024</div> 
+   </div>
+   Delivered a talk on <strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong>
+  </li>
   <li>
     <div style="display: flex; justify-content: space-between;"> 
         <div><strong> <a href="https://cemse.kaust.edu.sa/events/event/e-poster-competition">CEMSE E-Poster Competition</a> </strong></div> 
