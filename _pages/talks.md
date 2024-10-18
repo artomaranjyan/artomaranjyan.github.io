@@ -44,7 +44,7 @@ nav_order: 5
         <div style="text-align: right;">Philadelphia, USA</div> 
    </div>
    <div style="display: flex; justify-content: space-between;"> 
-        <div>TBA</div> 
+        <div>University of Pennsylvania</div> 
         <div style="text-align: right;">November 15 - 16, 2024</div> 
    </div>
    Presenting a poster on <strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong>
@@ -74,7 +74,7 @@ nav_order: 5
         <div>KAUST</div> 
         <div style="text-align: right;">October 10, 2024</div> 
    </div>
-   Presented poster on <strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong> [<span style="color: cyan;">3rd place</span>]
+   Presented a poster on <strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong> [<span style="color: cyan;">3rd place</span>]
   </li>
   <li>
     <div style="display: flex; justify-content: space-between;"> 
@@ -96,7 +96,7 @@ nav_order: 5
         <div>KAUST</div> 
         <div style="text-align: right;">May 27, 2024</div> 
    </div>
-   Presented poster on <strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/GradSkip_Rising_Stars.pdf">poster</a>]
+   Presented a poster on <strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/GradSkip_Rising_Stars.pdf">poster</a>]
   </li>
   <li>
     <div style="display: flex; justify-content: space-between;"> 
@@ -118,7 +118,7 @@ nav_order: 5
         <div>Okinawa Institute of Science and Technology (OIST) </div> 
         <div style="text-align: right;">March 13, 2024</div> 
    </div>
-   Presented poster on <strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/GradSkip_MLSS_Okinawa.pdf">poster</a>]
+   Presented a poster on <strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/GradSkip_MLSS_Okinawa.pdf">poster</a>]
   </li>
   <li>
     <div style="display: flex; justify-content: space-between;"> 
@@ -129,7 +129,7 @@ nav_order: 5
         <div>KAUST</div> 
         <div style="text-align: right;">February 21, 2024</div> 
    </div>
-   Presented poster on <strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/GradSkip_Rising_Stars.pdf">poster</a>]
+   Presented a poster on <strong>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/GradSkip_Rising_Stars.pdf">poster</a>]
   </li>
 </ol>
 

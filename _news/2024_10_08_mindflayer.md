@@ -7,3 +7,4 @@ related_posts: false
 
 New paper out; we have MindFlayer, Vecna, and other Stranger Things:
 [MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times](https://arxiv.org/abs/2410.04285) 
+https://x.com/peter_richtarik/status/1843980976386449848
