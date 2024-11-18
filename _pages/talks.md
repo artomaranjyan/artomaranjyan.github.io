@@ -10,7 +10,7 @@ nav_order: 5
 
 ### Future Talks
 
-<ol start="16" reversed>
+<ol start="15" reversed>
   <li>
     <div style="display: flex; justify-content: space-between;"> 
         <div><strong> <a href="https://opt-ml.org/index.html">Workshop on Optimization for Machine Learning (NeurIPS 2024)</a> </strong></div> 
@@ -33,21 +33,10 @@ nav_order: 5
         <div style="text-align: right;">Online</div> 
    </div>
    <div style="display: flex; justify-content: space-between;"> 
-        <div>Seminar</div> 
+        <div>MLR Weekly Seminar</div> 
         <div style="text-align: right;">November 21, 2024</div> 
    </div>
    Invited by <strong><span style="color: cyan;">Samy Bengio</span></strong> to give a talk on <strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong>
-  </li>
-  <li>
-    <div style="display: flex; justify-content: space-between;"> 
-        <div><strong> <a href="https://deepmath-conference.com/">Conference on the Mathematical Theory of Deep Neural Networks</a> </strong></div> 
-        <div style="text-align: right;">Philadelphia, USA</div> 
-   </div>
-   <div style="display: flex; justify-content: space-between;"> 
-        <div>University of Pennsylvania</div> 
-        <div style="text-align: right;">November 15 - 16, 2024</div> 
-   </div>
-   Presenting a poster on <strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong>
   </li>
 </ol>
 
