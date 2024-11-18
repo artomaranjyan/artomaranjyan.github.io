@@ -29,11 +29,11 @@ nav_order: 5
   </li>
   <li>
     <div style="display: flex; justify-content: space-between;"> 
-        <div><strong>Machine Learning Research at Apple</strong></div> 
+        <div><strong>MLR Weekly Seminar</strong></div> 
         <div style="text-align: right;">Online</div> 
    </div>
    <div style="display: flex; justify-content: space-between;"> 
-        <div>MLR Weekly Seminar</div> 
+        <div>Machine Learning Research at Apple</div> 
         <div style="text-align: right;">November 21, 2024</div> 
    </div>
    Invited by <strong><span style="color: cyan;">Samy Bengio</span></strong> to give a talk on <strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong>
