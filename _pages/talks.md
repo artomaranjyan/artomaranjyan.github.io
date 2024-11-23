@@ -27,6 +27,11 @@ nav_order: 5
        <li><strong>LoCoDL: Communication-Efficient Distributed Learning with Local Training and Compression</strong></li>
    </ul>
   </li>
+</ol>
+
+### 2024 Talks and Poster Presentations
+
+<ol start="14" reversed>
   <li>
     <div style="display: flex; justify-content: space-between;"> 
         <div><strong>MLR Weekly Seminar</strong></div> 
@@ -36,13 +41,9 @@ nav_order: 5
         <div>Machine Learning Research at Apple</div> 
         <div style="text-align: right;">November 21, 2024</div> 
    </div>
-   Invited by <strong><span style="color: cyan;">Samy Bengio</span></strong> to give a talk on <strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong>
+   Invited by <strong><span style="color: cyan;">Samy Bengio</span></strong> to give a talk on <strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong>  [<a href="https://artomaranjyan.github.io/assets/pdf/MindFlayer_AppleMLR.pdf">abstract</a>]
   </li>
-</ol>
 
-### 2024 Talks and Poster Presentations
-
-<ol start="13" reversed>
   <li>
     <div style="display: flex; justify-content: space-between;"> 
         <div><strong> <a href="https://sites.google.com/view/wala24/home?authuser=0">Interntional Conference on Algebra, Logic, and their Applications</a> </strong></div> 
