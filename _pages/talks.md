@@ -29,7 +29,7 @@ nav_order: 5
    </div>
    Presenting
    <ul>
-       <li><strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong> (<strong><span style="color: cyan;">Oral Top 5%</span></strong> )</li>
+       <li><strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong> (<strong><span style="color: cyan;">Oral, Top 5%</span></strong> )</li>
        <li><strong>Differentially Private Random Block Coordinate Descent</strong></li>
        <li><strong>LoCoDL: Communication-Efficient Distributed Learning with Local Training and Compression</strong></li>
    </ul>
