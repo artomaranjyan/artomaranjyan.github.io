@@ -8,9 +8,16 @@ nav_order: 5
 ---
 
 
-### Future Talks
+<!-- ### Future Talks
 
 <ol start="15" reversed>
+
+</ol> -->
+
+### 2024 Talks and Poster Presentations
+
+<ol start="15" reversed>
+
   <li>
     <div style="display: flex; justify-content: space-between;"> 
         <div><strong> <a href="https://opt-ml.org/index.html">Workshop on Optimization for Machine Learning (NeurIPS 2024)</a> </strong></div> 
@@ -22,16 +29,12 @@ nav_order: 5
    </div>
    Presenting
    <ul>
-       <li><strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong> (<strong><span style="color: cyan;">Oral</span></strong> )</li>
+       <li><strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong> (<strong><span style="color: cyan;">Oral Top 5%</span></strong> )</li>
        <li><strong>Differentially Private Random Block Coordinate Descent</strong></li>
        <li><strong>LoCoDL: Communication-Efficient Distributed Learning with Local Training and Compression</strong></li>
    </ul>
   </li>
-</ol>
 
-### 2024 Talks and Poster Presentations
-
-<ol start="14" reversed>
   <li>
     <div style="display: flex; justify-content: space-between;"> 
         <div><strong>MLR Weekly Seminar</strong></div> 
