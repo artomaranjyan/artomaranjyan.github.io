@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1735261342 "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv.tex" "cv.pdf" "cv" 1735261344
-  "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv.tex" 1735261342 24383 4d9c527c08ba3fe75e4d823534596d24 ""
+["pdflatex"] 1735312014 "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv.tex" "cv.pdf" "cv" 1735312015
+  "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv.tex" 1735312014 24910 3592b0cf7a608c17f72c33821ae49794 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1622837620 3083 a707712f77b073b3833e4b1334a30e99 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
@@ -194,9 +194,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1660495737 2826441 75039a67a2213547b4fca2e19b446ec8 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "cv.aux" 1735261343 2034 2df6d6e72c0d78a5c45382cbf81d96c8 "pdflatex"
-  "cv.out" 1735261343 1566 1d5dd22cd3ef03e1bd098cf3a5faee47 "pdflatex"
-  "cv.tex" 1735261342 24383 4d9c527c08ba3fe75e4d823534596d24 ""
+  "cv.aux" 1735312015 2034 2df6d6e72c0d78a5c45382cbf81d96c8 "pdflatex"
+  "cv.out" 1735312015 1566 1d5dd22cd3ef03e1bd098cf3a5faee47 "pdflatex"
+  "cv.tex" 1735312014 24910 3592b0cf7a608c17f72c33821ae49794 ""
   (generated)
   "cv.aux"
   "cv.log"
