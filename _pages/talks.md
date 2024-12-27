@@ -82,7 +82,7 @@ nav_order: 5
   </li>
   <li>
     <div style="display: flex; justify-content: space-between;"> 
-        <div><strong> <a href="https://cemse.kaust.edu.sa/events/event/snsl-workshop-2024">Stochastic Numerics and Statistical Learning</a> </strong></div> 
+        <div><strong> <a href="https://cemse.kaust.edu.sa/events/by-type/workshop/2024/05/19/stochastic-numerics-and-statistical-learning-theory-and">Stochastic Numerics and Statistical Learning</a> </strong></div> 
         <div style="text-align: right;">KAUST, Saudi Arabia</div> 
    </div>
    <div style="display: flex; justify-content: space-between;"> 
