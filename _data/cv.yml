@@ -32,7 +32,7 @@
         - <b> Thesis:</b> <i>On the Convergence of Series in Classical Systems</i>
         - <b> Supervisors:</b> Prof. Martin Grigoryan
 
-- title: Experience
+- title: Academic Experiences
   type: time_table
   contents:
     - title: Researcher in the group of Prof. Martin Grigoryan
@@ -63,6 +63,8 @@
       description:
         - Worked on the intersection of Federated Learning and Optimization
 
+- title: Industry Experiences
+  type: time_table
     - title: Co-Founder
       institution: OnePick
       location: Yerevan, Armenia
