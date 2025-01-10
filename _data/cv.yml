@@ -65,6 +65,7 @@
 
 - title: Industry Experiences
   type: time_table
+  contents:
     - title: Co-Founder
       institution: OnePick
       location: Yerevan, Armenia
