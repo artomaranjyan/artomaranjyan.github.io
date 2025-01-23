@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.14)  11 JAN 2025 16:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.14)  23 JAN 2025 04:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1493,7 +1493,7 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  26496 strings out of 478268
  513048 string characters out of 5846347
- 809554 words of memory out of 5000000
+ 809553 words of memory out of 5000000
  44161 multiletter control sequences out of 15000+600000
  486791 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
