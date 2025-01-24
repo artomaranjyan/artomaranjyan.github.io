@@ -29,7 +29,7 @@ nav_order: 5
    </div>
    Presenting
    <ul>
-       <li><strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong> (<strong><span style="color: cyan;">Oral, Top 5%</span></strong>)</li> [<a href="https://neurips.cc/virtual/2024/100410">video</a>]
+       <li><strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong> (<strong><span style="color: cyan;">Oral, Top 5%</span></strong>) [<a href="https://neurips.cc/virtual/2024/100410">video</a>] </li>
        <li><strong>Differentially Private Random Block Coordinate Descent</strong></li>
        <li><strong>LoCoDL: Communication-Efficient Distributed Learning with Local Training and Compression</strong></li>
    </ul>
