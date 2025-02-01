@@ -155,6 +155,17 @@
     pdfpagemode=FullScreen,
     }
 
+\usepackage{color}
+\usepackage{colortbl}
+\definecolor{mydarkred}{RGB}{192,47,25}
+\definecolor{ruby}{RGB}{155,17,30}
+\definecolor{chili}{RGB}{191,0,0}
+\definecolor{sangria}{RGB}{146,0,10}
+\definecolor{burgundy}{RGB}{128,0,32} 
+\definecolor{darkred}{RGB}{132,0,0} 
+\definecolor{cherry}{RGB}{192,0,0} 
+\newcommand{\red}{\color{cherry}}
+
 
 \newcommand{\peter}{\href{https://richtarik.org/i_bio.html}{Peter Richtárik}}
 \newcommand{\mher}{\href{https://scholar.google.com/citations?user=dJNwgT8AAAAJ&hl=en}{Mher Safaryan}}
@@ -163,7 +174,7 @@
 \newcommand{\picsart}{\href{https://picsart.com/jobs}{Picsart}}
 \newcommand{\yerevann}{\href{https://yerevann.com/}{YerevaNN}}
 \newcommand{\ysu}{\href{https://www.ysu.am/en}{Yerevan State University}}
-\newcommand{\highlight}[1]{\textbf{{\color{red} #1}}}
+\newcommand{\highlight}[1]{{\red #1}}
 % \newcommand{\href}[2]{{\textcolor{accent}{\href{#1}{#2}}}}
 
 
@@ -348,7 +359,7 @@ Recognized for the Bachelor's thesis (awarded to 6 students among 250+ students)
 \item \textbf{MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times}\\
 \textbf{Artavazd Maranjyan}, Omar Shaikh Omar, Peter Richtárik\\
 \textit{OPT 2024: Optimization for Machine Learning (NeurIPS workshop)}\\
-(\highlight{Oral, Top 5\%})
+\highlight{Oral, Top 5\%}
 
 \item \textbf{Differentially Private Random Block Coordinate Descent}\\
 \textbf{Artavazd Maranjyan}, Abdurakhmon Sadiev, Peter Richtárik\\
