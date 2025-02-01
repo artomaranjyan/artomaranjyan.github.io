@@ -982,6 +982,8 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter
 INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT ./cv.aux
 INPUT cv.aux
