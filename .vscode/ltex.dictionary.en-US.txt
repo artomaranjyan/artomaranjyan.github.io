@@ -2,3 +2,5 @@ LoCoDL
 Condat
 Richtárik
 ICLR
+ICML
+NeurIPS
