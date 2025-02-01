@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.14)  1 FEB 2025 16:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.14)  1 FEB 2025 17:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1051,7 +1051,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 352.
+(Font)              using `OT1/cmss/bx/n' instead on input line 351.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
@@ -1059,7 +1059,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 355.
+(Font)              using `OT1/cmss/bx/n' instead on input line 354.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
@@ -1505,7 +1505,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: 972CB5B8E910B339AB49962E3D1BB665;1767.
+(rerunfilecheck)             Checksum: F8B90BAD632F1798B7FB638EC76D6420;1988.
  ) 
 Here is how much of TeX's memory you used:
  26497 strings out of 478268
@@ -1516,7 +1516,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  129i,12n,122p,1066b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb>
-Output written on cv.pdf (4 pages, 211697 bytes).
+Output written on cv.pdf (4 pages, 211806 bytes).
 PDF statistics:
  196 PDF objects out of 1000 (max. 8388607)
  164 compressed objects within 2 object streams
