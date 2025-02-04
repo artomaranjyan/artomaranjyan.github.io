@@ -32,6 +32,8 @@
 \usepackage{etaremune}
 \usepackage{etoolbox} %% For \AtEndEnvironment
 
+\usepackage{lmodern}
+
 \makeatletter %% <- change @ so that it can be used in macro names
   %% Define the resume key for etaremune:
   \define@boolkey[EM]{etaremune}{resume}[true]{}
@@ -191,7 +193,6 @@
 
 
 \section{Education}
-\vspace{4pt}
 
 \begin{itemize}
 
@@ -225,16 +226,13 @@
 
 \end{itemize}
 
-\vspace{2pt}
-
 
 \section{Academic Experiences}
-\vspace{4pt}
 
 \begin{itemize}
 
 \item{
-\cventry{April 2023 -- Aug 2023}{\ysu}{Researcher in the group of \grigoryan}{Yerevan, Armenia}{}{\vspace{3pt} 
+\cventry{April 2023 -- Aug 2023}{\ysu}{Researcher in the group of \grigoryan}{Yerevan, Armenia}{}{
 \begin{itemize}
 \item Studied the existence and properties of universal functions with respect to\\ the Vilenkin and Haar systems across various functional spaces
 \end{itemize}
@@ -242,21 +240,21 @@
 
 
 \item{
-\cventry{March 2023 -- Aug 2023}{\yerevann}{Machine Learning Researcher}{Yerevan, Armenia}{}{\vspace{3pt} 
+\cventry{March 2023 -- Aug 2023}{\yerevann}{Machine Learning Researcher}{Yerevan, Armenia}{}{
 \begin{itemize}
 \item Worked on the intersection of Federated Learning and Optimization
 \end{itemize}
 }}
 
 \item{
-\cventry{June 2022 -- Jan 2023}{\kaust}{Internship in the group of \peter}{Thuwal, Saudi Arabia}{}{\vspace{3pt} 
+\cventry{June 2022 -- Jan 2023}{\kaust}{Internship in the group of \peter}{Thuwal, Saudi Arabia}{}{
 \begin{itemize}
 \item Worked on the "GradSkip: Communication-Accelerated Local Gradient Methods\\ with Better Computational Complexity" paper
 \end{itemize}
 }}
 
 \item{
-\cventry{Jan 2022 -- June 2022}{\yerevann}{Machine Learning Researcher}{Yerevan, Armenia}{}{\vspace{3pt} 
+\cventry{Jan 2022 -- June 2022}{\yerevann}{Machine Learning Researcher}{Yerevan, Armenia}{}{
 \begin{itemize}
 \item Worked on the intersection of Federated Learning and Optimization
 \end{itemize}
@@ -265,11 +263,10 @@
 \end{itemize}
 
 \section{Industry Experiences}
-\vspace{4pt}
 
 \begin{itemize}
 \item{
-\cventry{July 2021 -- June 2022}{OnePick}{Co-Founder}{Yerevan, Armenia}{}{\vspace{3pt} 
+\cventry{July 2021 -- June 2022}{OnePick}{Co-Founder}{Yerevan, Armenia}{}{
 OnePick is an emerging startup that provides up-to-date and customized social media\\ posts based on page and market data analysis
 % \href{https://www.youtube.com/watch?v=KzVpuSDAb3w&t}{[video]}
 % - Idea stage and grand winner of Seaside Startup Summit 2021
@@ -281,14 +278,15 @@ OnePick is an emerging startup that provides up-to-date and customized social me
 }} %One Pick
 
 \item{
-\cventry{July 2021 -- Sep 2021}{\textcolor{accent}{\href{https://www.exalt-tech.com/}{EXALT Technologies Ltd}}}{Backend Developer}{Yerevan, Armenia}{}{\vspace{3pt} 
+\cventry{July 2021 -- Sep 2021}{\textcolor{accent}{\href{https://www.exalt-tech.com/}{EXALT Technologies Ltd}}}{Backend Developer}{Yerevan, Armenia}{}{
 \begin{itemize}
 \item Worked for Nutanix.
 \end{itemize}
 }} %EXALT
 
 \item{
-\cventry{June 2021 -- July 2021}{\textcolor{accent}{\href{https://fast.foundation/}{Foundation for Armenian Science and Technology (FAST)}}}{Machine Learning Research Engineer}{Yerevan, Armenia}{}{\vspace{3pt} \begin{itemize}
+\cventry{June 2021 -- July 2021}{\textcolor{accent}{\href{https://fast.foundation/}{Foundation for Armenian Science and Technology (FAST)}}}{Machine Learning Research Engineer}{Yerevan, Armenia}{}{
+\begin{itemize}
 \item Worked on Fraud detection
 \item Made data-driven forecasts using machine learning algorithms and statistical models
 % \item Build and apply mathematical models to describe the human decision-making process across a range of
@@ -313,7 +311,7 @@ OnePick is an emerging startup that provides up-to-date and customized social me
 }} %FAST
 
 \item{
-\cventry{Sep 2019 -- Jan 2021}{\picsart}{Software Engineer in Test}{Yerevan, Armenia}{}{\vspace{3pt} 
+\cventry{Sep 2019 -- Jan 2021}{\picsart}{Software Engineer in Test}{Yerevan, Armenia}{}{
 \begin{itemize}
 \item Worked with automation team to design and develop automated
 solutions across\\ several mobile/web applications
@@ -327,66 +325,63 @@ product owners, business\\ analysts to find and resolve issues
 
 
 \section{Awards}
-\vspace{4pt}
 
 \begin{itemize}
 
 \item{
-\cventry{Sep 2023}{\textcolor{accent}{\kaust}}{Dean’s Award}{}{}{\vspace{3pt} 
+\cventry{Sep 2023}{\textcolor{accent}{\kaust}}{Dean’s Award}{}{}{
 Awarded to a few top students accepted to KAUST (6000\$ annually for 3 years)
 }} %EXALT
 
 \item{
-\cventry{May 2021}{\textcolor{accent}{\ysu}}{\href{https://artomaranjyan.github.io/files/Outstanding-Final-Project-Award.jpg}{Outstanding Final Project Award}}{}{}{\vspace{3pt} 
+\cventry{May 2021}{\textcolor{accent}{\ysu}}{\href{https://artomaranjyan.github.io/files/Outstanding-Final-Project-Award.jpg}{Outstanding Final Project Award}}{}{}{
 Recognized for the Bachelor's thesis (awarded to 6 students among 250+ students)
 }} %EXALT
 \end{itemize}
 
 
 \section{Publications (in reverse order of preparation)}
-\vspace{4pt}
 
 \begin{etaremune}
 
 \item \textbf{ATA: Adaptive Task Allocation for Efficient Resource Management in Distributed Machine Learning}\\
-\textbf{Artavazd Maranjyan}, El Mehdi Saad, Peter Richtárik, Francesco Orabona\\
-\textit{Submitted to ICML 2025}
-  
+\underline{Artavazd Maranjyan}, El Mehdi Saad, Peter Richtárik, Francesco Orabona\\
+\textcolor{accent}{\href{https://arxiv.org/abs/2502.00775}{\textit{arXiv:2502.00775}}}, 2025
+
 \item \textbf{Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity}\\
-\textbf{Artavazd Maranjyan}, Alexander Tyurin, Peter Richtárik\\
-\textcolor{accent}{\href{https://arxiv.org/abs/2501.16168}{\textit{arXiv:2412.17054}}}, 2025
-  
+\underline{Artavazd Maranjyan}, Alexander Tyurin, Peter Richtárik\\
+\textcolor{accent}{\href{https://arxiv.org/abs/2501.16168}{\textit{arXiv:2501.16168}}}, 2025
+
 \item \textbf{MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times}\\
-\textbf{Artavazd Maranjyan}, Omar Shaikh Omar, Peter Richtárik\\
+\underline{Artavazd Maranjyan}, Omar Shaikh Omar, Peter Richtárik\\
 \textit{OPT 2024: Optimization for Machine Learning (NeurIPS workshop)}\\
 \highlight{Oral presentation (top 5\% of 107 submissions)}
 
 \item \textbf{Differentially Private Random Block Coordinate Descent}\\
-\textbf{Artavazd Maranjyan}, Abdurakhmon Sadiev, Peter Richtárik\\
+\underline{Artavazd Maranjyan}, Abdurakhmon Sadiev, Peter Richtárik\\
 \textit{OPT 2024: Optimization for Machine Learning (NeurIPS workshop)}
-  
+
 \item \textbf{LoCoDL: Communication-Efficient Distributed Learning with Local Training and Compression}\\
-Laurent Condat, \textbf{Artavazd Maranjyan}, Peter Richtárik\\
+Laurent Condat, \underline{Artavazd Maranjyan}, Peter Richtárik\\
 \textit{ICLR 2025: The Thirteenth International Conference on Learning Representations} 
 
 \item \textbf{Menshov-type theorem for divergence sets of sequences of localized operators}\\
-Martin Grigoryan, Anna Kamont, \textbf{Artavazd Maranjyan}\\
+Martin Grigoryan, Anna Kamont, \underline{Artavazd Maranjyan}\\
 \href{https://doi.org/10.3103/S106836232302005X}{Journal of Contemporary Mathematical Analysis}, vol. 58, no. 2, pp. 81–92, 2023
 
 \item \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity}\\
-\textbf{Artavazd Maranjyan}, Mher Safaryan, Peter Richtárik\\
+\underline{Artavazd Maranjyan}, Mher Safaryan, Peter Richtárik\\
 \textcolor{accent}{\href{https://arxiv.org/abs/2210.16402}{\textit{arXiv:2210.16402}}}, 2022
 
 \item \textbf{On the divergence of Fourier series in the general Haar system}\\
-Martin Grigoryan, \textbf{Artavazd Maranjyan}\\ \textcolor{accent}{\href{https://doi.org/10.52737/18291163-2021.13.6-1-10}{\textit{Armenian Journal of Mathematics}}}, vol. 13, pp. 1–10, 2021
+Martin Grigoryan, \underline{Artavazd Maranjyan}\\ \textcolor{accent}{\href{https://doi.org/10.52737/18291163-2021.13.6-1-10}{\textit{Armenian Journal of Mathematics}}}, vol. 13, pp. 1–10, 2021
 
 \item \textbf{On the unconditional convergence of Faber-Schauder series in $L^1$}\\
-Tigran Grigoryan, \textbf{Artavazd Maranjyan}\\
+Tigran Grigoryan, \underline{Artavazd Maranjyan}\\
 \textcolor{accent}{\href{http://www.old.ysu.am/files/vol55\_no1\_2021\_pp12\%E2\%80\%9319.pdf}{\textit{Proceedings of the YSU A: Physical and Mathematical Sciences}}}, vol. 55, no. 1 (254), pp. 12–19, 2021
 \end{etaremune}
 
 \section{Academic and Professional Involvement}
-\vspace{4pt}
 
 \textbf{Reviewer}\\
 SIAM Journal on Mathematics of Data Science (SIMODS) 2024\\
@@ -399,32 +394,44 @@ The Journal of Machine Learning Research (JMLR) 2024
 Co-mentored a group of schoolgirls from diverse backgrounds and grades on a STEM project. 
 The students conducted chemical experiments and developed an educational website to document and share their findings. 
 I primarily supported the website's creation.  
-\href{https://artomaranjyan.github.io/cheminno/}{View the website} [\textcolor{accent}{\href{https://artomaranjyan.github.io/assets/pdf/feminno_certificate.pdf}{certificate}}]
+[\href{https://artomaranjyan.github.io/cheminno/}{website}] [\textcolor{accent}{\href{https://artomaranjyan.github.io/assets/pdf/feminno_certificate.pdf}{certificate}}]
 
 \vspace{5pt}
 
-\cventry{Sep 2023 - Dec 2023}{KAUST}{Organized weekly group seminars}{KAUST, Saudi Arabia}{}{\vspace{3pt}}
+\cventry{Sep 2023 - Dec 2023}{KAUST}{Organized weekly group seminars}{KAUST, Saudi Arabia}{}{}
 
 
 \section{Talks and Poster Presentations}
-% \vspace{4pt}
+
 % \subsection{Future Talks}
-% \vspace{4pt}
 
 % \begin{etaremune}
+%   \item{
+%     \cventry{February 27, 2025}{KAUST}{\textcolor{accent}{\href{https://cemse.kaust.edu.sa/events/by-type/workshop/2024/05/19/stochastic-numerics-and-statistical-learning-theory-and}{\textit{Stochastic Numerics and Statistical Learning}}}}{KAUST, Saudi Arabia}{}{
+%     Delivered a talk on \textbf{Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity} 
+%     [{\href{https://artomaranjyan.github.io/assets/pdf/GradSkip_Rising_Stars.pdf}{slides}}]
+%   }}
+
+% \end{etaremune}
+
+% \subsection{2025 Talks and Poster Presentations}
+
+% \begin{etaremune}[resume]
+%   \item{
+%   }
 
 % \end{etaremune}
 
 \subsection{2024 Talks and Poster Presentations}
-\vspace{4pt}
 
+% \begin{etaremune}[resume]
 \begin{etaremune}
 % add resume if you are gonna have something like future talks above.
 % \begin{etaremune}[resume]
   
 \item{
-  \cventry{December 15, 2024}{Vancouver Convention Center}{\textcolor{accent}{\href{https://opt-ml.org/index.html}{\textit{Workshop on Optimization for Machine Learning (NeurIPS 2024)}}}}{Vancouver, Canada}{}{\vspace{3pt}
-  Presenting
+  \cventry{December 15, 2024}{Vancouver Convention Center}{\textcolor{accent}{\href{https://opt-ml.org/index.html}{\textit{Workshop on Optimization for Machine Learning (NeurIPS 2024)}}}}{Vancouver, Canada}{}{
+  Presented
   \begin{itemize}
     \item \textbf{MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times} (\highlight{\highlight{Oral presentation, top 5\% of 107 submissions}}) [{\textcolor{orange}{\href{https://neurips.cc/virtual/2024/100410}{video}}}]
     \item \textbf{Differentially Private Random Block Coordinate Descent}
@@ -433,86 +440,84 @@ I primarily supported the website's creation.
   }}
 
 \item{
-    \cventry{November 21, 2024}{Machine Learning Research at Apple}{MLR Weekly Seminar}{Online}{}{\vspace{3pt}
+    \cventry{November 21, 2024}{Machine Learning Research at Apple}{MLR Weekly Seminar}{Online}{}{
     Invited by \highlight{Samy Bengio} to give a talk on \textbf{MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times} [{\href{https://artomaranjyan.github.io/assets/pdf/MindFlayer_AppleMLR.pdf}{slides}}]
   }}
 
 \item{
-  \cventry{October 18, 2024}{Yerevan State University}{\textcolor{accent}{\href{https://sites.google.com/view/wala24/home?authuser=0}{\textit{Interntional Conference on Algebra, Logic, and their Applications}}}}{Online}{}{\vspace{3pt}
+  \cventry{October 18, 2024}{Yerevan State University}{\textcolor{accent}{\href{https://sites.google.com/view/wala24/home?authuser=0}{\textit{Interntional Conference on Algebra, Logic, and their Applications}}}}{Online}{}{
   Delivered a talk on \textbf{MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times}
 }}
 
 \item{
-  \cventry{October 10, 2024}{KAUST}{\textcolor{accent}{\href{https://cemse.kaust.edu.sa/events/event/e-poster-competition}{\textit{CEMSE E-Poster Competition}}}}{KAUST, Saudi Arabia}{}{\vspace{3pt}
+  \cventry{October 10, 2024}{KAUST}{\textcolor{accent}{\href{https://cemse.kaust.edu.sa/events/event/e-poster-competition}{\textit{CEMSE E-Poster Competition}}}}{KAUST, Saudi Arabia}{}{
   Awarded 3rd place for presenting a poster on \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity}.  
 }}
 
 \item{
-  \cventry{July 6, 2024}{Yerevan State University}{\textcolor{accent}{\href{https://gmg70.com/}{\textit{Analysis, PDEs and Applications}}}}{Yerevan, Armenia}{}{\vspace{3pt}
+  \cventry{July 6, 2024}{Yerevan State University}{\textcolor{accent}{\href{https://gmg70.com/}{\textit{Analysis, PDEs and Applications}}}}{Yerevan, Armenia}{}{
   Delivered a talk on \textbf{MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times} [{\href{https://gmg70.com/downloads/ConferenceAbstracts.pdf\#page=19}{abstract}}]
 }}
 
 \item{
-  \cventry{May 27, 2024}{KAUST}{\textcolor{accent}{\href{https://cemse.kaust.edu.sa/events/by-type/workshop/2024/05/19/stochastic-numerics-and-statistical-learning-theory-and}{\textit{Stochastic Numerics and Statistical Learning}}}}{KAUST, Saudi Arabia}{}{\vspace{3pt}
+  \cventry{May 27, 2024}{KAUST}{\textcolor{accent}{\href{https://cemse.kaust.edu.sa/events/by-type/workshop/2024/05/19/stochastic-numerics-and-statistical-learning-theory-and}{\textit{Stochastic Numerics and Statistical Learning}}}}{KAUST, Saudi Arabia}{}{
   Presented a poster on \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity} [{\href{https://artomaranjyan.github.io/assets/pdf/GradSkip_Rising_Stars.pdf}{poster}}]
 }}
 
 \item{
-  \cventry{May 5, 2024}{KAUST}{CS 331: Stochastic Gradient Descent Methods}{KAUST, Saudi Arabia}{}{\vspace{3pt}
+  \cventry{May 5, 2024}{KAUST}{CS 331: Stochastic Gradient Descent Methods}{KAUST, Saudi Arabia}{}{
   Delivered a guest lecture on \textbf{MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times}
 }}
 
 \item{
-  \cventry{March 13, 2024}{Okinawa Institute of Science and Technology (OIST)}{\textcolor{accent}{\href{https://groups.oist.jp/mlss}{\textit{The Machine Learning Summer School in Okinawa 2024}}}}{Okinawa, Japan}{}{\vspace{3pt}
+  \cventry{March 13, 2024}{Okinawa Institute of Science and Technology (OIST)}{\textcolor{accent}{\href{https://groups.oist.jp/mlss}{\textit{The Machine Learning Summer School in Okinawa 2024}}}}{Okinawa, Japan}{}{
   Presented a poster on \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity} [{\href{https://artomaranjyan.github.io/assets/pdf/GradSkip_MLSS_Okinawa.pdf}{poster}}]
 }}
 
 \item{
-  \cventry{February 21, 2024}{KAUST}{\textcolor{accent}{\href{https://cemse.kaust.edu.sa/ai/aii-symp-2024}{\textit{KAUST Rising Stars in AI Symposium 2024}}}}{KAUST, Saudi Arabia}{}{\vspace{3pt}
+  \cventry{February 21, 2024}{KAUST}{\textcolor{accent}{\href{https://cemse.kaust.edu.sa/ai/aii-symp-2024}{\textit{KAUST Rising Stars in AI Symposium 2024}}}}{KAUST, Saudi Arabia}{}{
   Presented a poster on \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity} [{\href{https://artomaranjyan.github.io/assets/pdf/GradSkip_Rising_Stars.pdf}{poster}}]
 }}
 
 \end{etaremune}
 
 \subsection{2023 Talks and Poster Presentations}
-\vspace{4pt}
 
 \begin{etaremune}[resume]
 
 \item{
-  \cventry{November 16, 2023}{KAUST}{Group Seminar}{KAUST, Saudi Arabia}{}{\vspace{3pt}
+  \cventry{November 16, 2023}{KAUST}{Group Seminar}{KAUST, Saudi Arabia}{}{
   Delivered a talk on \textbf{Differentially Private Coordinate Descent for Composite Empirical Risk Minimization}
 }}
 
 \item{
-  \cventry{October 6, 2023}{University of Warwick}{\textcolor{accent}{\href{https://warwick.ac.uk/fac/sci/statistics/news/algorithms-seminars/\#:\textasciitilde:text=06/10-,Artavazd\%20Maranjyan,-Link\%20opens\%20in}{\textit{Algorithms \& Computationally Intensive Inference seminars}}}}{Coventry, England}{}{\vspace{3pt}
+  \cventry{October 6, 2023}{University of Warwick}{\textcolor{accent}{\href{https://warwick.ac.uk/fac/sci/statistics/news/algorithms-seminars/\#:\textasciitilde:text=06/10-,Artavazd\%20Maranjyan,-Link\%20opens\%20in}{\textit{Algorithms \& Computationally Intensive Inference seminars}}}}{Coventry, England}{}{
   Delivered a talk on \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity} [{\href{https://warwick.ac.uk/fac/sci/statistics/news/algorithms-seminars/slides_2023_10_06_arto_maranjyan_gradskip.pdf}{slides}}]
 }}
 
 \item{
-  \cventry{July 5, 2023}{Yerevan State University}{\textcolor{accent}{\href{http://mathconf.sci.am/index.html}{\textit{Mathematics in Armenia: Advances and Perspectives}}}}{Yerevan, Armenia}{}{\vspace{3pt}
+  \cventry{July 5, 2023}{Yerevan State University}{\textcolor{accent}{\href{http://mathconf.sci.am/index.html}{\textit{Mathematics in Armenia: Advances and Perspectives}}}}{Yerevan, Armenia}{}{
   Delivered a talk on \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity} [{\href{http://mathconf.sci.am/MiA2023AbstractsBook.pdf\#page=60}{abstract}}]
 }}
 
 \item{
-  \cventry{March 10, 2023}{Yerevan State University}{\textcolor{accent}{\href{https://groups.google.com/g/ml-reading-group-yerevan/c/F_1OGqeFImY/m/BGDIqZAWBQAJ}{\textit{Machine Learning Reading Group Yerevan}}}}{Yerevan, Armenia}{}{\vspace{3pt}
+  \cventry{March 10, 2023}{Yerevan State University}{\textcolor{accent}{\href{https://groups.google.com/g/ml-reading-group-yerevan/c/F_1OGqeFImY/m/BGDIqZAWBQAJ}{\textit{Machine Learning Reading Group Yerevan}}}}{Yerevan, Armenia}{}{
   Delivered a talk on \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity} [{\textcolor{orange}{\href{https://www.youtube.com/watch?v=w9iHPgE82oo}{video (Armenian)}}}]
 }}
 
 \end{etaremune}
 
 \subsection{2022 Talks and Poster Presentations}
-\vspace{4pt}
 
 \begin{etaremune}[resume]
 
 \item{
-  \cventry{December 7, 2022}{Online}{\textcolor{accent}{\href{https://sites.google.com/view/one-world-seminar-series-flow/archive/2022?authuser=0\#h.99nho9x1b8ju}{\textit{Federated Learning One World Seminar (FLOW)}}}}{Online}{}{\vspace{3pt}
+  \cventry{December 7, 2022}{Online}{\textcolor{accent}{\href{https://sites.google.com/view/one-world-seminar-series-flow/archive/2022?authuser=0\#h.99nho9x1b8ju}{\textit{Federated Learning One World Seminar (FLOW)}}}}{Online}{}{
   Delivered a talk on \textbf{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity} [{\textcolor{orange}{\href{https://youtu.be/WWhY5tO-FiM}{video}}}]
 }}
 
 \item{
-  \cventry{April 10, 2022}{Yerevan State University}{\textcolor{accent}{\href{https://groups.google.com/g/ml-reading-group-yerevan/c/-TZmYEWATuI}{\textit{Machine Learning Reading Group Yerevan}}}}{Yerevan, Armenia}{}{\vspace{3pt}
+  \cventry{April 10, 2022}{Yerevan State University}{\textcolor{accent}{\href{https://groups.google.com/g/ml-reading-group-yerevan/c/-TZmYEWATuI}{\textit{Machine Learning Reading Group Yerevan}}}}{Yerevan, Armenia}{}{
   Delivered a talk on \textbf{ProxSkip: Yes! Local Gradient Steps Provably Lead to Communication Acceleration! Finally!}
 }}
 
@@ -535,7 +540,7 @@ I primarily supported the website's creation.
 % \end{itemize}
 
 \section{Hobbies}
-\vspace{4pt}
+
 Ultimate Frisbee, Dancing (bachata, salsa), \href{https://boardgamearena.com/player?section=prestige}{Board Games}, Table Football (Foosball)
 
 

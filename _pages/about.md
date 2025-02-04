@@ -17,14 +17,23 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-<!-- I am contributing to the foundations of ML. (Start with what result I do...)-->
 
-I'm a PhD student at KAUST, working under the guidance of [Prof. Peter Richtárik](https://richtarik.org/i_bio.html).
-My research focuses on optimization for machine learning and federated learning, where I contribute to the development of distributed and randomized optimization algorithms.
+<!-- I’m looking for summer internship opportunities.
+If you have an opening or know of any, please don’t hesitate to contact me. -->
+
+I'm a PhD student at KAUST, advised by [Prof. Peter Richtárik](https://richtarik.org/i_bio.html).
+My research focuses on optimization for machine learning (ML) and federated learning (FL), where I contribute to the development of distributed and randomized optimization algorithms.
+I’m currently focused on addressing **system heterogeneity issues** in distributed ML and FL, with an emphasis on **asynchronous methods**. My recent work includes:
+
+- [Ringmaster ASGD](https://arxiv.org/abs/2501.16168): The first Asynchronous SGD method achieving **optimal time complexity** under heterogeneous and dynamic worker computation times, meeting theoretical lower bounds.
+
+- [ATA](http://arxiv.org/abs/2502.00775): An **Adaptive Task Allocation** method that efficiently manages resources in distributed ML, adapting to heterogeneous worker speeds and performing optimally without prior knowledge.
+
+- [MindFlayer](https://arxiv.org/abs/2410.04285): An efficient parallel SGD framework designed to handle heterogeneous and random worker computation times with heavy-tailed distributions.
 
 
 Before starting my PhD, I earned my MSc and BSc from Yerevan State University. 
-During my bachelor's studies, I coauthored several papers in Harmonic Analysis under the supervision of [Prof. Martin Grigoryan](https://scholar.google.com/citations?user=l-2JIPkAAAAJ&hl=en).
+During my bachelor's, I co-authored several papers in **Harmonic Analysis** under the guidance of [Prof. Martin Grigoryan](https://scholar.google.com/citations?user=l-2JIPkAAAAJ&hl=en).
 
 
-Outside of academics, I enjoy dancing bachata, playing board games, ultimate frisbee and foosball.
+Outside of academics, I enjoy dancing bachata, playing board games, ultimate frisbee, and foosball.

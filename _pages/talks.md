@@ -27,7 +27,7 @@ nav_order: 5
         <div>Vancouver Convention Center</div> 
         <div style="text-align: right;">December 15, 2024</div> 
    </div>
-   Presenting
+   Presented
    <ul>
        <li><strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong> (<strong><span style="color: cyan;">Oral, Top 5%</span></strong>) [<a href="https://neurips.cc/virtual/2024/100410">video</a>] </li>
        <li><strong>Differentially Private Random Block Coordinate Descent</strong></li>

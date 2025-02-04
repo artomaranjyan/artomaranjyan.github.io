@@ -4,3 +4,6 @@ Richtárik
 ICLR
 ICML
 NeurIPS
+SIMODS
+KAUST
+ASGD
