@@ -14,6 +14,23 @@ nav_order: 5
 
 </ol> -->
 
+### 2025 Talks and Poster Presentations
+
+<ol start="16" reversed>
+  <li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://cemse.kaust.edu.sa/events/by-type/graduate-seminar/2025/02/27/ringmaster-asgd-first-asynchronous-sgd-optimal-time">AMCS/STAT graduate seminar</a> </strong></div> 
+        <div style="text-align: right;">KAUST</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>KAUST</div> 
+        <div style="text-align: right;">February 27, 2025</div> 
+   </div>
+   Delivered a talk on <strong>Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity</strong>
+  </li>
+
+</ol>
+
 ### 2024 Talks and Poster Presentations
 
 <ol start="15" reversed>
