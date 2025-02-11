@@ -61,7 +61,7 @@ nav_order: 5
         <div>Machine Learning Research at Apple</div> 
         <div style="text-align: right;">November 21, 2024</div> 
    </div>
-   Invited by <strong><span style="color: cyan;">Samy Bengio</span></strong> to give a talk on <strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous <br> and Random Worker Compute Times</strong>  [<a href="https://artomaranjyan.github.io/assets/pdf/MindFlayer_AppleMLR.pdf">abstract</a>]
+   Invited by <strong><span style="color: cyan;">Samy Bengio</span></strong> to give a talk on <strong>MindFlayer: Efficient Asynchronous Parallel SGD <br> in the Presence of Heterogeneous and Random Worker Compute Times</strong>  [<a href="https://artomaranjyan.github.io/assets/pdf/MindFlayer_AppleMLR.pdf">abstract</a>]
   </li>
 
   <li>
@@ -73,7 +73,7 @@ nav_order: 5
         <div>Yerevan State University</div> 
         <div style="text-align: right;">October 18, 2024</div> 
    </div>
-   Delivered a talk on <strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times</strong>
+   Delivered a talk on <strong>MindFlayer: Efficient Asynchronous Parallel SGD <br> in the Presence of Heterogeneous and Random Worker Compute Times</strong>
   </li>
   <li>
     <div style="display: flex; justify-content: space-between;"> 
@@ -117,7 +117,7 @@ nav_order: 5
         <div>KAUST</div> 
         <div style="text-align: right;">May 5, 2024</div> 
    </div>
-   Delivered a guest lecture on <strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous <br> and Random Worker Compute Times</strong>
+   Delivered a guest lecture on <strong>MindFlayer: Efficient Asynchronous Parallel SGD <br> in the Presence of Heterogeneous and Random Worker Compute Times</strong>
   </li>
   <li>
     <div style="display: flex; justify-content: space-between;"> 
