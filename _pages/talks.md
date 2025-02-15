@@ -66,7 +66,7 @@ nav_order: 5
 
   <li>
     <div style="display: flex; justify-content: space-between;"> 
-        <div><strong> <a href="https://sites.google.com/view/wala24/home?authuser=0">Interntional Conference on Algebra, Logic, and their Applications</a> </strong></div> 
+        <div><strong> <a href="https://sites.google.com/view/wala24/home?authuser=0">International Conference on Algebra, Logic, and their Applications</a> </strong></div> 
         <div style="text-align: right;">Online</div> 
    </div>
    <div style="display: flex; justify-content: space-between;"> 
