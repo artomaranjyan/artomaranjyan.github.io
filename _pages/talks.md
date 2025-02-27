@@ -26,7 +26,7 @@ nav_order: 5
         <div>KAUST</div> 
         <div style="text-align: right;">February 27, 2025</div> 
    </div>
-   Delivered a talk on <strong>Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/Ringmaster_GraduateSeminar.pdf">slides</a>]
+   Delivered a talk on <strong>Ringmaster ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/Ringmaster_GraduateSeminar.pdf">slides</a>]
   </li>
 
 </ol>
