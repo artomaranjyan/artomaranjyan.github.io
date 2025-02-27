@@ -26,7 +26,7 @@ nav_order: 5
         <div>KAUST</div> 
         <div style="text-align: right;">February 27, 2025</div> 
    </div>
-   Delivered a talk on <strong>Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity</strong>
+   Delivered a talk on <strong>Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/Ringmaster_GraduateSeminar.pdf">slides</a>]
   </li>
 
 </ol>
@@ -61,7 +61,7 @@ nav_order: 5
         <div>Machine Learning Research at Apple</div> 
         <div style="text-align: right;">November 21, 2024</div> 
    </div>
-   Invited by <strong><span style="color: cyan;">Samy Bengio</span></strong> to give a talk on <strong>MindFlayer: Efficient Asynchronous Parallel SGD <br> in the Presence of Heterogeneous and Random Worker Compute Times</strong>  [<a href="https://artomaranjyan.github.io/assets/pdf/MindFlayer_AppleMLR.pdf">abstract</a>]
+   Invited by <strong><span style="color: cyan;">Samy Bengio</span></strong> to give a talk on <strong>MindFlayer: Efficient Asynchronous Parallel SGD <br> in the Presence of Heterogeneous and Random Worker Compute Times</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/MindFlayer_AppleMLR.pdf">slides</a>]
   </li>
 
   <li>
