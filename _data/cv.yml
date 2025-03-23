@@ -35,6 +35,14 @@
 - title: Academic Experiences
   type: time_table
   contents:
+    - title: Research visit to Yi-Shuai Niu
+      institution: Beijing Institute of Mathematical Sciences and Applications (BIMSA)
+      location: Beijing, China
+      year: 9-22 March 2025
+      description:
+        - Gave talks at three universities (PKU, BUAA, BIMSA)
+        - Worked with Professor Yi-Shuai Niu on a project on Server-Assisted Federated Learning
+
     - title: Researcher in the group of Prof. Martin Grigoryan
       institution: Yerevan State University
       location: Yerevan, Armenia
