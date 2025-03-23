@@ -16,7 +16,43 @@ nav_order: 5
 
 ### 2025 Talks and Poster Presentations
 
-<ol start="16" reversed>
+<ol start="19" reversed>
+  <li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://math.buaa.edu.cn/info/1296/6437.htm">Academic Report of the School of Mathematical Sciences</a> </strong></div> 
+        <div style="text-align: right;">Beijing, China</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>Beihang University (BUAA)</div> 
+        <div style="text-align: right;">March 17, 2025</div> 
+   </div>
+   Invited by <strong><span style="color: cyan;">Jiaxin Xie</span></strong> to give a talk on <strong>Ringmaster ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/Ringmaster_BUAA.pdf">slides</a>]
+  </li>
+
+  <li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://artomaranjyan.github.io/assets/pdf/BIMSA_talk_announcment.jpg">Optimization Seminar</a> </strong></div> 
+        <div style="text-align: right;">Beijing, China</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>Beijing Institute of Mathematical Sciences and Applications (BIMSA)</div> 
+        <div style="text-align: right;">March 13, 2025</div> 
+   </div>
+   Invited by <strong><span style="color: cyan;">Yi-Shuai Niu</span></strong> to give a talk on <strong>Ringmaster ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/Ringmaster_BIMSA.pdf">slides</a>]
+  </li>
+
+  <li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://artomaranjyan.github.io/assets/pdf/Peking_talk_announcment.jpg">Seminar</a> </strong></div> 
+        <div style="text-align: right;">Beijing, China</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>Peking University</div> 
+        <div style="text-align: right;">March 12, 2025</div> 
+   </div>
+   Invited by <strong><span style="color: cyan;">Kun Yuan</span></strong> to give a talk on <strong>Ringmaster ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/Ringmaster_Peking_Uni.pdf">slides</a>]
+  </li>
+
   <li>
     <div style="display: flex; justify-content: space-between;"> 
         <div><strong> <a href="https://cemse.kaust.edu.sa/events/by-type/graduate-seminar/2025/02/27/ringmaster-asgd-first-asynchronous-sgd-optimal-time">AMCS/STAT graduate seminar</a> </strong></div> 
