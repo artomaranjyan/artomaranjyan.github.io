@@ -16,7 +16,32 @@ nav_order: 5
 
 ### 2025 Talks and Poster Presentations
 
-<ol start="19" reversed>
+
+<ol start="21" reversed>
+  <li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://groups.google.com/g/ml-reading-group-yerevan/c/dWthumVuASM/m/gB5-_BocBQAJ">Machine Learning Reading Group</a> </strong></div> 
+        <div style="text-align: right;">Yerevan, Armenia</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>YSU Krisp-AI Lab</div> 
+        <div style="text-align: right;">March 28, 2025</div> 
+   </div>
+   Delivered a talk on <strong>Ringmaster ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/Ringmaster_YerevaNN.pdf">slides</a>]
+  </li>
+
+   <li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://flower.ai/events/flower-ai-summit-2025/#:~:text=CTO%20%C2%B7-,Ringmaster%20ASGD%3A%20The%20First%20Asynchronous%20SGD%20with%20Optimal%20Time%20Complexity,-Artavazd%20Maranjyan">Flower AI Summit 2025</a> </strong></div> 
+        <div style="text-align: right;">London, England</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>King's House</div> 
+        <div style="text-align: right;">March 26, 2025</div> 
+   </div>
+   Delivered a talk on <strong>Ringmaster ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/Ringmaster_Flower.pdf">slides</a>]
+  </li>
+
   <li>
     <div style="display: flex; justify-content: space-between;"> 
         <div><strong> <a href="https://math.buaa.edu.cn/info/1296/6437.htm">Academic Report of the School of Mathematical Sciences</a> </strong></div> 
