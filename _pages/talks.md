@@ -28,7 +28,7 @@ nav_order: 5
         <div>KAUST</div> 
         <div style="text-align: right;">April 7-10, 2025</div> 
    </div>
-   Presented a poster on <strong>ATA: Adaptive Task Allocation for Efficient Resource Management in Distributed Machine Learning</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/ATA_Rising_Stars.pdf">poster</a>]
+   Presented a poster on <strong>ATA: Adaptive Task Allocation <br> for Efficient Resource Management in Distributed Machine Learning</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/ATA_Rising_Stars.pdf">poster</a>]
   </li>
 
   <li>
