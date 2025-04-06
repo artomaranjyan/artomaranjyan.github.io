@@ -17,7 +17,20 @@ nav_order: 5
 ### 2025 Talks and Poster Presentations
 
 
-<ol start="21" reversed>
+<ol start="22" reversed>
+
+  <li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025">KAUST Rising Stars in AI Symposium 2025</a> </strong></div> 
+        <div style="text-align: right;">KAUST, Saudi Arabia</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>KAUST</div> 
+        <div style="text-align: right;">April 7-10, 2025</div> 
+   </div>
+   Presented a poster on <strong>ATA: Adaptive Task Allocation for Efficient Resource Management in Distributed Machine Learning</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/ATA_Rising_Stars.pdf">poster</a>]
+  </li>
+
   <li>
     <div style="display: flex; justify-content: space-between;"> 
         <div><strong> <a href="https://groups.google.com/g/ml-reading-group-yerevan/c/dWthumVuASM/m/gB5-_BocBQAJ">Machine Learning Reading Group</a> </strong></div> 
