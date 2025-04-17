@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.14)  6 APR 2025 18:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.14)  17 APR 2025 15:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -986,180 +986,189 @@ Overfull \hbox (10.95003pt too wide) in paragraph at lines 478--478
  []
 
 [3]
-
-LaTeX Font Warning: Font shape `OT1/lmss/sb/n' undefined
-(Font)              using `OT1/lmss/b/n' instead on input line 482.
-
-
-Underfull \hbox (badness 10000) detected at line 482
-\OT1/lmss/m/n/8 .
- []
-
-
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 494--494
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 484--484
 [][] 
  []
 
 
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 494--494
-[]$ 
- []
-
-
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 499--499
-[][] 
- []
-
-
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 499--499
-[]$ 
- []
-
-
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 504--504
-[][] 
- []
-
-
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 504--504
-[]$ 
- []
-
-
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 509--509
-[][] 
- []
-
-
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 509--509
-[]$ 
- []
-
-
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 514--514
-[][] 
- []
-
-
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 514--514
-[]$ 
- []
-
-
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 519--519
-[][] 
- []
-
-
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 519--519
-[]$ 
- []
-
-
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 524--524
-[][] 
- []
-
-
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 524--524
-[]$ 
- []
-
-
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 529--529
-[][] 
- []
-
-
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 529--529
-[]$ 
- []
-
-
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 534--534
-[][] 
- []
-
-
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 534--534
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 484--484
 []$ 
  []
 
 
 LaTeX Font Warning: Font shape `OT1/lmss/sb/n' undefined
-(Font)              using `OT1/lmss/b/n' instead on input line 538.
+(Font)              using `OT1/lmss/b/n' instead on input line 488.
 
 
-Underfull \hbox (badness 10000) detected at line 538
+Underfull \hbox (badness 10000) detected at line 488
 \OT1/lmss/m/n/8 .
  []
 
 
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 545--545
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 500--500
 [][] 
  []
 
 
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 545--545
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 500--500
 []$ 
  []
 
 
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 550--550
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 505--505
 [][] 
  []
 
 
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 550--550
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 505--505
+[]$ 
+ []
+
+
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 510--510
+[][] 
+ []
+
+
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 510--510
+[]$ 
+ []
+
+
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 515--515
+[][] 
+ []
+
+
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 515--515
+[]$ 
+ []
+
+
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 520--520
+[][] 
+ []
+
+
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 520--520
+[]$ 
+ []
+
+
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 525--525
+[][] 
+ []
+
+
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 525--525
+[]$ 
+ []
+
+
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 530--530
+[][] 
+ []
+
+
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 530--530
+[]$ 
+ []
+
+
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 535--535
+[][] 
+ []
+
+
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 535--535
+[]$ 
+ []
+
+
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 540--540
+[][] 
+ []
+
+
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 540--540
+[]$ 
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/lmss/sb/n' undefined
+(Font)              using `OT1/lmss/b/n' instead on input line 544.
+
+
+Underfull \hbox (badness 10000) detected at line 544
+\OT1/lmss/m/n/8 .
+ []
+
+
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 551--551
+[][] 
+ []
+
+
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 551--551
 []$ 
  []
 
 [4]
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 555--555
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 556--556
 [][] 
  []
 
 
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 555--555
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 556--556
 []$ 
  []
 
 
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 560--560
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 561--561
 [][] 
  []
 
 
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 560--560
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 561--561
+[]$ 
+ []
+
+
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 566--566
+[][] 
+ []
+
+
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 566--566
 []$ 
  []
 
 
 LaTeX Font Warning: Font shape `OT1/lmss/sb/n' undefined
-(Font)              using `OT1/lmss/b/n' instead on input line 564.
+(Font)              using `OT1/lmss/b/n' instead on input line 570.
 
 
-Underfull \hbox (badness 10000) detected at line 564
+Underfull \hbox (badness 10000) detected at line 570
 \OT1/lmss/m/n/8 .
  []
 
 
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 571--571
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 577--577
 [][] 
  []
 
 
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 571--571
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 577--577
 []$ 
  []
 
 
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 576--576
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 582--582
 [][] 
  []
 
 
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 576--576
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 582--582
 []$ 
  []
 
@@ -1176,10 +1185,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  129i,12n,122p,1066b,489s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbo10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsso10.pfb>
-Output written on cv.pdf (5 pages, 251090 bytes).
+Output written on cv.pdf (5 pages, 252021 bytes).
 PDF statistics:
- 203 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
+ 206 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
  18 named destinations out of 1000 (max. 500000)
  39021 words of extra memory for PDF output out of 42996 (max. 10000000)
 
