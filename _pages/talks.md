@@ -22,10 +22,10 @@ nav_order: 5
   <li>
     <div style="display: flex; justify-content: space-between;"> 
         <div><strong> <a href="https://sites.google.com/view/one-world-seminar-series-flow/archive/2022?authuser=0#h.99nho9x1b8ju">Federated Learning One World Seminar (FLOW)</a> </strong></div> 
-        <div style="text-align: right;">FLOW Talk #126</div> 
+        <div style="text-align: right;">Online</div> 
    </div>
    <div style="display: flex; justify-content: space-between;"> 
-        <div>Online</div> 
+        <div>FLOW Talk #126</div> 
         <div style="text-align: right;">April 16, 2025</div> 
    </div>
    Delivered a talk on <strong>Ringmaster ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity</strong> [<a href="https://youtu.be/DJI1SWfG6ME?si=VJGtD1G840gO5d-w">video</a>] [<a href="https://artomaranjyan.github.io/assets/pdf/Ringmaster_FLOW.pdf">slides</a>]
@@ -284,10 +284,10 @@ nav_order: 5
   <li>
     <div style="display: flex; justify-content: space-between;"> 
         <div><strong> <a href="https://sites.google.com/view/one-world-seminar-series-flow/archive/2022?authuser=0#h.99nho9x1b8ju">Federated Learning One World Seminar (FLOW)</a> </strong></div> 
-        <div style="text-align: right;">FLOW Talk #88</div> 
+        <div style="text-align: right;">Online</div> 
    </div>
    <div style="display: flex; justify-content: space-between;"> 
-        <div>Online</div> 
+        <div>FLOW Talk #88</div> 
         <div style="text-align: right;">December 7, 2022</div> 
    </div>
    Delivered a talk on <strong>GradSkip: Communication-Accelerated Local Gradient Methods <br> with Better Computational Complexity</strong> [<a href="https://youtu.be/WWhY5tO-FiM">video</a>]
