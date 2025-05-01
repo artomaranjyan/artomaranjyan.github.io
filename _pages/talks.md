@@ -17,7 +17,36 @@ nav_order: 5
 ### 2025 Talks and Poster Presentations
 
 
-<ol start="23" reversed>
+<ol start="25" reversed>
+
+  <li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://icml.cc/Conferences/2025">Forty-Second International Conference on Machine Learning</a> </strong></div> 
+        <div style="text-align: right;">Vancouver, Canada</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>Vancouver Convention Center</div> 
+        <div style="text-align: right;">July 13, 2025</div> 
+   </div>
+   Presented
+   <ul>
+       <li><strong>Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity</strong> </li>
+       <li><strong>ATA: Adaptive Task Allocation for Efficient Resource Management <br> in Distributed Machine Learning</strong></li>
+   </ul>
+  </li>
+
+
+  <li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://iclr.cc/virtual/2025/poster/29728">The Thirteenth International Conference on Learning Representations</a> </strong></div> 
+        <div style="text-align: right;">Singapore</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>Singapore EXPO</div> 
+        <div style="text-align: right;">April 25, 2025</div> 
+   </div>
+   Presented <strong>LoCoDL: Communication-Efficient Distributed Learning <br> with Local Training and Compression</strong> <strong><span style="color: cyan;"> Spotlight presentation (top 5.1\% of the submitted papers) </span></strong>
+  </li>
 
   <li>
     <div style="display: flex; justify-content: space-between;"> 
