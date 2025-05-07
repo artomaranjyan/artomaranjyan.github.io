@@ -26,7 +26,7 @@ nav_order: 5
    </div>
    <div style="display: flex; justify-content: space-between;"> 
         <div>Vancouver Convention Center</div> 
-        <div style="text-align: right;">July 13, 2025</div> 
+        <div style="text-align: right;">July 13-19, 2025</div> 
    </div>
    Presented
    <ul>
@@ -43,7 +43,7 @@ nav_order: 5
    </div>
    <div style="display: flex; justify-content: space-between;"> 
         <div>Singapore EXPO</div> 
-        <div style="text-align: right;">April 25, 2025</div> 
+        <div style="text-align: right;">April 24-28, 2025</div> 
    </div>
    Presented <strong>LoCoDL: Communication-Efficient Distributed Learning <br> with Local Training and Compression</strong> <strong><span style="color: cyan;"> Spotlight presentation (top 5.1\% of the submitted papers) </span></strong>
   </li>
