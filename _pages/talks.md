@@ -16,8 +16,19 @@ nav_order: 5
 
 ### 2025 Talks and Poster Presentations
 
+<ol start="26" reversed>
 
-<ol start="25" reversed>
+  <li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://cemse.kaust.edu.sa/events/by-type/workshop/2025/05/18/stochastic-numerics-and-statistical-learning-theory-and">Stochastic Numerics and Statistical Learning</a> </strong></div> 
+        <div style="text-align: right;">KAUST, Saudi Arabia</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>KAUST</div> 
+        <div style="text-align: right;">May 18, 2025</div> 
+   </div>
+   Presented a poster on <strong>ATA: Adaptive Task Allocation for Efficient Resource Management <br> in Distributed Machine Learning</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/posters/ATA_SNSL.pdf">poster</a>]
+  </li>
 
   <li>
     <div style="display: flex; justify-content: space-between;"> 
@@ -45,7 +56,7 @@ nav_order: 5
         <div>Singapore EXPO</div> 
         <div style="text-align: right;">April 24-28, 2025</div> 
    </div>
-   Presented <strong>LoCoDL: Communication-Efficient Distributed Learning <br> with Local Training and Compression</strong> <strong><span style="color: cyan;"> Spotlight presentation (top 5.1\% of the submitted papers) </span></strong>
+   Presented <strong>LoCoDL: Communication-Efficient Distributed Learning <br> with Local Training and Compression</strong> <strong><span style="color: cyan;"> Spotlight presentation (top 5.1% of the submitted papers) </span></strong>
   </li>
 
   <li>
