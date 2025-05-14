@@ -39,7 +39,7 @@ nav_order: 5
         <div>Vancouver Convention Center</div> 
         <div style="text-align: right;">July 13-19, 2025</div> 
    </div>
-   Presented
+   Presented posters on
    <ul>
        <li><strong>Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity</strong> </li>
        <li><strong>ATA: Adaptive Task Allocation for Efficient Resource Management <br> in Distributed Machine Learning</strong></li>
