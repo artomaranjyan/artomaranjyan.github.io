@@ -16,7 +16,19 @@ nav_order: 5
 
 ### 2025 Talks and Poster Presentations
 
-<ol start="26" reversed>
+<ol start="27" reversed>
+
+<li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://www.auai.org/uai2025/">41st Conference on Uncertainty in Artificial Intelligence</a> </strong></div> 
+        <div style="text-align: right;">Rio de Janeiro, Brazil</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>Rio Othon Palace</div> 
+        <div style="text-align: right;">July 21-25, 2025</div> 
+   </div>
+   Presented a poster on <strong>MindFlayer SGD: Efficient Parallel SGD <br> in the Presence of Heterogeneous and Random Worker Compute Times</strong> 
+  </li>
 
   <li>
     <div style="display: flex; justify-content: space-between;"> 
@@ -55,7 +67,7 @@ nav_order: 5
         <div>Singapore EXPO</div> 
         <div style="text-align: right;">April 24-28, 2025</div> 
    </div>
-   Presented <strong>LoCoDL: Communication-Efficient Distributed Learning <br> with Local Training and Compression</strong> <strong><span style="color: cyan;"> Spotlight presentation (top 5.1% of the submitted papers) </span></strong>
+   Presented a poster on <strong>LoCoDL: Communication-Efficient Distributed Learning <br> with Local Training and Compression</strong> <strong><span style="color: cyan;"> Spotlight presentation (top 5.1% of the submitted papers) </span></strong>
   </li>
 
   <li>
