@@ -109,10 +109,15 @@
 - title: Awards
   type: time_table
   contents:
-    - title: Dean’s Award
+    - title: CEMSE Dean's List Award
+      institution: King Abdullah University of Science and Technology (KAUST)
+      year: May 2025
+      description: Awarded for excellent academic and research performance ($2,500 prize)
+
+    - title: Dean's Award
       institution: King Abdullah University of Science and Technology (KAUST)
       year: Sep 2023
-      description: Awarded to a few top students accepted to KAUST (6000$ annually for 3 years)
+      description: Awarded to a few top students accepted to KAUST ($6,000 annually for 3 years)
 
     - title: Outstanding Final Project Award
       institution: Yerevan State University
