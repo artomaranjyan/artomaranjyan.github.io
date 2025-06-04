@@ -36,4 +36,4 @@ Before starting my PhD, I earned my MSc and BSc from Yerevan State University.
 During my bachelor's, I co-authored several papers in **Harmonic Analysis** under the guidance of [Prof. Martin Grigoryan](https://scholar.google.com/citations?user=l-2JIPkAAAAJ&hl=en).
 
 
-Outside of academics, I enjoy dancing bachata, playing board games, ultimate frisbee, and foosball.
+Outside of academics, I enjoy dancing bachata, playing [board games](https://boardgamearena.com/player?section=prestige), ultimate frisbee, and foosball.
