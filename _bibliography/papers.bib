@@ -36,6 +36,21 @@
   video={https://neurips.cc/virtual/2024/100410},
   abstract={We study the problem of minimizing the expectation of smooth nonconvex functions with the help of several parallel workers whose role is to compute stochastic gradients. In particular, we focus on the challenging situation where the workers' compute times are arbitrarily heterogeneous and random. In the simpler regime characterized by arbitrarily heterogeneous but deterministic compute times, Tyurin and Richtárik (NeurIPS 2023) recently designed the first theoretically optimal asynchronous SGD method, called Rennala SGD, in terms of a novel complexity notion called time complexity. The starting point of our work is the observation that Rennala SGD can have arbitrarily bad performance in the presence of random compute times -- a setting it was not designed to handle. To advance our understanding of stochastic optimization in this challenging regime, we propose a new asynchronous SGD method, for which we coin the name MindFlayer SGD. Our theory and empirical results demonstrate the superiority of MindFlayer SGD over existing baselines, including Rennala SGD, in cases when the noise is heavy tailed.}
 }
+
+@article{maranjyan2025gradskip,
+  selected={true},
+  title={{GradSkip}: Communication-Accelerated Local Gradient Methods with Better Computational Complexity},
+  author={Artavazd Maranjyan and Mher Safaryan and Peter Richt{\'a}rik},
+  journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
+  year={2025},
+  url={https://openreview.net/forum?id=6R3fRqFfhn},
+  html={https://openreview.net/forum?id=6R3fRqFfhn},
+  poster={GradSkip_Rising_Stars.pdf},
+  slides={GradSkip_Warwick.pdf},
+  video={https://www.youtube.com/watch?v=WWhY5tO-FiM},
+  abstract={We study a class of distributed optimization algorithms that aim to alleviate high communication costs by allowing clients to perform multiple local gradient-type training steps before communication. In a recent breakthrough, Mishchenko et al. (2022) proved that local training, when properly executed, leads to provable communication acceleration, and this holds in the strongly convex regime without relying on any data similarity assumptions. However, their ProxSkip method requires all clients to take the same number of local training steps in each communication round. We propose a redesign of the ProxSkip method, allowing clients with ``less important'' data to get away with fewer local training steps without impacting the overall communication complexity of the method. In particular, we prove that our modified method, GradSkip, converges linearly under the same assumptions and has the same accelerated communication complexity, while the number of local gradient steps can be reduced relative to a local condition number. We further generalize our method by extending the randomness of probabilistic alternations to arbitrary unbiased compression operators and by considering a generic proximable regularizer. This generalization, which we call GradSkip+, recovers several related methods in the literature as special cases. Finally, we present an empirical study on carefully designed toy problems that confirm our theoretical claims.}
+}
 @inproceedings{condat2024locodl,
   selected={true},
   title={{LoCoDL}: Communication-Efficient Distributed Learning with Local Training and Compression},
@@ -49,7 +64,6 @@
   abstract={In Distributed optimization and Learning, and even more in the modern framework of federated learning, communication, which is slow and costly, is critical. We introduce LoCoDL, a communication-efficient algorithm that leverages the two popular and effective techniques of Local training, which reduces the communication frequency, and Compression, in which short bitstreams are sent instead of full-dimensional vectors of floats. LoCoDL works with a large class of unbiased compressors that includes widely-used sparsification and quantization methods. LoCoDL provably benefits from local training and compression and enjoys a doubly-accelerated communication complexity, with respect to the condition number of the functions and the model dimension, in the general heterogenous regime with strongly convex functions. This is confirmed in practice, with LoCoDL outperforming existing algorithms.}
 }
 @article{maranjyan2024differentially,
-  selected={true},
   title={Differentially Private Random Block Coordinate Descent},
   author={Maranjyan, Artavazd and Sadiev, Abdurakhmon and Richt{\'a}rik, Peter},
   journal={OPT 2024: Optimization for Machine Learning (NeurIPS workshop)},
@@ -59,19 +73,7 @@
   poster={DP-CD_Neurips2024.pdf},
   abstract={Coordinate Descent (CD) methods have gained significant attention in machine learning due to their effectiveness in solving high-dimensional problems and their ability to decompose complex optimization tasks. However, classical CD methods were neither designed nor analyzed with data privacy in mind, a critical concern when handling sensitive information. This has led to the development of differentially private CD methods, such as DP-CD (Differentially Private Coordinate Descent) proposed by Mangold et al. (ICML 2022), yet a disparity remains between non-private CD and DP-CD methods. In our work, we propose a differentially private random block coordinate descent method that selects multiple coordinates with varying probabilities in each iteration using sketch matrices. Our algorithm generalizes both DP-CD and the classical DP-SGD (Differentially Private Stochastic Gradient Descent), while preserving the same utility guarantees. Furthermore, we demonstrate that better utility can be achieved through importance sampling, as our method takes advantage of the heterogeneity in coordinate-wise smoothness constants, leading to improved convergence rates.}
 }
-@article{maranjyan2022gradskip,
-  selected={true},
-  title={{GradSkip}: Communication-accelerated local gradient methods with better computational complexity},
-  author={Maranjyan, Artavazd and Safaryan, Mher and Richt{\'a}rik, Peter},
-  journal={arXiv:2210.16402},
-  year={2022},
-  html={https://arxiv.org/abs/2210.16402},
-  url={https://arxiv.org/abs/2210.16402},
-  poster={GradSkip_Rising_Stars.pdf},
-  slides={GradSkip_Warwick.pdf},
-  video={https://www.youtube.com/watch?v=WWhY5tO-FiM},
-  abstract={We study a class of distributed optimization algorithms that aim to alleviate high communication costs by allowing clients to perform multiple local gradient-type training steps prior to communication. In a recent breakthrough, Mishchenko et al. (2022) proved that local training, when properly executed, leads to provable communication acceleration, and this holds in the strongly convex regime without relying on any data similarity assumptions. However, their ProxSkip method requires all clients to take the same number of local training steps in each communication round. We propose a redesign of the original ProxSkip method, allowing clients with ``less important'' data to get away with fewer local training steps without impacting the overall communication complexity of the method. In particular, we prove that our modified method, GradSkip, converges linearly under the same assumptions and has the same accelerated communication complexity, while the number of local gradient steps can be reduced relative to a local condition number. We further generalize our method by extending the randomness of probabilistic alternations to arbitrary unbiased compression operators and by considering a generic proximable regularizer. This generalization, which we call GradSkip+, recovers several related methods in the literature as special cases. Finally, we present an empirical study on carefully designed toy problems that confirm our theoretical claims.}
-}
+
 @article{grigoryan2023menshov,
   title={{Menshov}-Type Theorem for Divergence Sets of Sequences of Localized Operators},
   journal={Journal of Contemporary Mathematical Analysis (Armenian Academy of Sciences)},
