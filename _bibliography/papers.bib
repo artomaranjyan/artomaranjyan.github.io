@@ -1,16 +1,4 @@
-@article{maranjyan2025ataadaptivetaskallocation,
-  selected={true},
-  title={{ATA}: Adaptive Task Allocation for Efficient Resource Management in Distributed Machine Learning}, 
-  author={Artavazd Maranjyan and El Mehdi Saad and Peter Richtárik and Francesco Orabona},
-  journal={arXiv:2502.00775},
-  year={2025},
-  html={https://arxiv.org/abs/2502.00775}, 
-  url={https://arxiv.org/abs/2502.00775}, 
-  poster={ATA_Rising_Stars.pdf},
-  abstract={Asynchronous methods are fundamental for parallelizing computations in distributed machine learning. They aim to accelerate training by fully utilizing all available resources. However, their greedy approach can lead to inefficiencies using more computation than required, especially when computation times vary across devices. If the computation times were known in advance, training could be fast and resource-efficient by assigning more tasks to faster workers. The challenge lies in achieving this optimal allocation without prior knowledge of the computation time distributions. In this paper, we propose ATA (Adaptive Task Allocation), a method that adapts to heterogeneous and random distributions of worker computation times. Through rigorous theoretical analysis, we show that ATA identifies the optimal task allocation and performs comparably to methods with prior knowledge of computation times. Experimental results further demonstrate that ATA is resource-efficient, significantly reducing costs compared to the greedy approach, which can be arbitrarily expensive depending on the number of workers.}
-}
-
-@article{maranjyan2025ringmasterasgdasynchronoussgd,
+@article{maranjyan2025ringmaster,
   selected={true},
   title={{R}ingmaster {ASGD}: The First {A}synchronous {SGD} with Optimal Time Complexity}, 
   author={Artavazd Maranjyan and Alexander Tyurin and Peter Richtárik},
@@ -23,18 +11,30 @@
   abstract={Asynchronous Stochastic Gradient Descent (Asynchronous SGD) is a cornerstone method for parallelizing learning in distributed machine learning. However, its performance suffers under arbitrarily heterogeneous computation times across workers, leading to suboptimal time complexity and inefficiency as the number of workers scales. While several Asynchronous SGD variants have been proposed, recent findings by Tyurin & Richtárik (NeurIPS 2023) reveal that none achieve optimal time complexity, leaving a significant gap in the literature. In this paper, we propose Ringmaster ASGD, a novel Asynchronous SGD method designed to address these limitations and tame the inherent challenges of Asynchronous SGD. We establish, through rigorous theoretical analysis, that Ringmaster ASGD achieves optimal time complexity under arbitrarily heterogeneous and dynamically fluctuating worker computation times. This makes it the first Asynchronous SGD method to meet the theoretical lower bounds for time complexity in such scenarios.}, 
 }
 
-@article{maranjyan2024mindflayer,
+@article{maranjyan2025ata,
   selected={true},
-  title={{MindFlayer}: Efficient Asynchronous Parallel {SGD} in the Presence of Heterogeneous and Random Worker Compute Times},
-  author={Maranjyan, Artavazd and Omar, Omar Shaikh and Richt{\'a}rik, Peter},
-  journal={OPT 2024: Optimization for Machine Learning (NeurIPS workshop)},
-  year={2024},
-  html={https://arxiv.org/abs/2410.04285},
-  url={https://arxiv.org/abs/2410.04285},
+  title={{ATA}: Adaptive Task Allocation for Efficient Resource Management in Distributed Machine Learning}, 
+  author={Artavazd Maranjyan and El Mehdi Saad and Peter Richtárik and Francesco Orabona},
+  journal={arXiv:2502.00775},
+  year={2025},
+  html={https://arxiv.org/abs/2502.00775}, 
+  url={https://arxiv.org/abs/2502.00775}, 
+  poster={ATA_Rising_Stars.pdf},
+  abstract={Asynchronous methods are fundamental for parallelizing computations in distributed machine learning. They aim to accelerate training by fully utilizing all available resources. However, their greedy approach can lead to inefficiencies using more computation than required, especially when computation times vary across devices. If the computation times were known in advance, training could be fast and resource-efficient by assigning more tasks to faster workers. The challenge lies in achieving this optimal allocation without prior knowledge of the computation time distributions. In this paper, we propose ATA (Adaptive Task Allocation), a method that adapts to heterogeneous and random distributions of worker computation times. Through rigorous theoretical analysis, we show that ATA identifies the optimal task allocation and performs comparably to methods with prior knowledge of computation times. Experimental results further demonstrate that ATA is resource-efficient, significantly reducing costs compared to the greedy approach, which can be arbitrarily expensive depending on the number of workers.}
+}
+
+@inproceedings{maranjyan2025mindflayer,
+  selected={true},
+  title={MindFlayer {SGD}: Efficient Parallel {SGD} in the Presence of Heterogeneous and Random Worker Compute Times},
+  author={Artavazd Maranjyan and Omar Shaikh Omar and Peter Richt{\'a}rik},
+  booktitle={The 41st Conference on Uncertainty in Artificial Intelligence},
+  year={2025},
+  html={https://openreview.net/forum?id=RNpvu3MSvm},
+  url={https://openreview.net/forum?id=RNpvu3MSvm},
   poster={MindFlayer_Neurips2024.pdf},
   slides={MindFlayer_AppleMLR.pdf},
   video={https://neurips.cc/virtual/2024/100410},
-  abstract={We study the problem of minimizing the expectation of smooth nonconvex functions with the help of several parallel workers whose role is to compute stochastic gradients. In particular, we focus on the challenging situation where the workers' compute times are arbitrarily heterogeneous and random. In the simpler regime characterized by arbitrarily heterogeneous but deterministic compute times, Tyurin and Richtárik (NeurIPS 2023) recently designed the first theoretically optimal asynchronous SGD method, called Rennala SGD, in terms of a novel complexity notion called time complexity. The starting point of our work is the observation that Rennala SGD can have arbitrarily bad performance in the presence of random compute times -- a setting it was not designed to handle. To advance our understanding of stochastic optimization in this challenging regime, we propose a new asynchronous SGD method, for which we coin the name MindFlayer SGD. Our theory and empirical results demonstrate the superiority of MindFlayer SGD over existing baselines, including Rennala SGD, in cases when the noise is heavy tailed.}
+  abstract={We investigate the problem of minimizing the expectation of smooth nonconvex functions in a distributed setting with multiple parallel workers that are able to compute stochastic gradients. A significant challenge in this context is the presence of arbitrarily heterogeneous and stochastic compute times among workers, which can severely degrade the performance of existing parallel stochastic gradient descent (SGD) methods. While some parallel SGD algorithms achieve optimal performance under deterministic but heterogeneous delays, their effectiveness diminishes when compute times are random—a scenario not explicitly addressed in their design. To bridge this gap, we introduce MindFlayer SGD, a novel parallel SGD method specifically designed to handle stochastic and heterogeneous compute times. Through theoretical analysis and empirical evaluation, we demonstrate that MindFlayer SGD consistently outperforms existing baselines, particularly in environments with heavy-tailed noise. Our results highlight its robustness and scalability, making it a compelling choice for large-scale distributed learning tasks.}
 }
 
 @article{maranjyan2025gradskip,
@@ -52,7 +52,6 @@
   abstract={We study a class of distributed optimization algorithms that aim to alleviate high communication costs by allowing clients to perform multiple local gradient-type training steps before communication. In a recent breakthrough, Mishchenko et al. (2022) proved that local training, when properly executed, leads to provable communication acceleration, and this holds in the strongly convex regime without relying on any data similarity assumptions. However, their ProxSkip method requires all clients to take the same number of local training steps in each communication round. We propose a redesign of the ProxSkip method, allowing clients with ``less important'' data to get away with fewer local training steps without impacting the overall communication complexity of the method. In particular, we prove that our modified method, GradSkip, converges linearly under the same assumptions and has the same accelerated communication complexity, while the number of local gradient steps can be reduced relative to a local condition number. We further generalize our method by extending the randomness of probabilistic alternations to arbitrary unbiased compression operators and by considering a generic proximable regularizer. This generalization, which we call GradSkip+, recovers several related methods in the literature as special cases. Finally, we present an empirical study on carefully designed toy problems that confirm our theoretical claims.}
 }
 @inproceedings{condat2024locodl,
-  selected={true},
   title={{LoCoDL}: Communication-Efficient Distributed Learning with Local Training and Compression},
   author={Condat, Laurent and Maranjyan, Artavazd and Richt{\'a}rik, Peter},
   booktitle={ICLR 2025: The Thirteenth International Conference on Learning Representations},
