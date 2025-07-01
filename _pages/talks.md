@@ -16,7 +16,20 @@ nav_order: 5
 
 ### 2025 Talks and Poster Presentations
 
-<ol start="27" reversed>
+<ol start="28" reversed>
+
+<li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://impa.br/evento/35o-coloquio-brasileiro-de-matematica/">35º Colóquio Brasileiro de Matemática</a> </strong></div> 
+        <div style="text-align: right;">Rio de Janeiro, Brazil</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>Instituto Nacional de Matemática Pura e Aplicada (IMPA)</div> 
+        <div style="text-align: right;">July 27-31, 2025</div> 
+   </div>
+   Delivered a talk and a poster on <strong>Ringmaster ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/posters/Ringmaster_IMPA.pdf">poster</a>]
+  </li>
+
 
 <li>
     <div style="display: flex; justify-content: space-between;"> 

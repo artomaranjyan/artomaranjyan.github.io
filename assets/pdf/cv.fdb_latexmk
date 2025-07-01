@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1749657193 "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv.tex" "cv.pdf" "cv" 1749657195
-  "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv.tex" 1749657193 32761 0213916f91441a5b210a48744e2f4f16 ""
+["pdflatex"] 1751337089 "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv.tex" "cv.pdf" "cv" 1751337090
+  "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv.tex" 1751337088 33347 0d727065a6d4df2075e94a8018b215f5 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1622837620 3083 a707712f77b073b3833e4b1334a30e99 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -30,6 +30,7 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/rm-lmsso10.tfm" 1254269338 11124 45afcc3392e4ed490e3ca106dafbddb6 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ts1-lmr10.tfm" 1254269338 1556 b86d923e6b2f9aab2e313098a95cb0b8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ts1-lmss10.tfm" 1254269338 1576 dc39c0165a09a2dd2c8da4cbb869c2e7 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ts1-lmssbo10.tfm" 1254269338 1768 61f2c98f94e3f9783ee0273f9cdcf01d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/tex-gyre/rm-qplr.tfm" 1529098226 11860 c3b4aba4cfa63b7a6c3688dc5ab4931d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb" 1622837620 58496 160940836a031edaf88d7e6c9773e6dd ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb" 1622837620 295383 425769cf436959e0c2b23bd6a2316a48 ""
@@ -202,9 +203,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1660495737 2826441 75039a67a2213547b4fca2e19b446ec8 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "cv.aux" 1749657195 2379 547bef6a613df4d870cdd6fe974ae23e "pdflatex"
-  "cv.out" 1749657195 2039 df611fb5be5d956e1b546de9890d0701 "pdflatex"
-  "cv.tex" 1749657193 32761 0213916f91441a5b210a48744e2f4f16 ""
+  "cv.aux" 1751337090 2379 5253f2767f45aa8ecd1256494d9444ba "pdflatex"
+  "cv.out" 1751337090 2039 df611fb5be5d956e1b546de9890d0701 "pdflatex"
+  "cv.tex" 1751337088 33347 0d727065a6d4df2075e94a8018b215f5 ""
   (generated)
   "cv.aux"
   "cv.log"

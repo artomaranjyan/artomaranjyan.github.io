@@ -1134,12 +1134,13 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/lm/ts1lmss.fd
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ts1-lmss10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/rm-lmss8.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/rm-lmssbo10.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ts1-lmssbo10.tfm
 INPUT cv.aux
 INPUT ./cv.out
 INPUT ./cv.out
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb
