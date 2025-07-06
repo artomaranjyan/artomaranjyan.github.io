@@ -40,7 +40,7 @@ nav_order: 5
         <div>Rio Othon Palace</div> 
         <div style="text-align: right;">July 21-25, 2025</div> 
    </div>
-   Presented a poster on <strong>MindFlayer SGD: Efficient Parallel SGD <br> in the Presence of Heterogeneous and Random Worker Compute Times</strong> 
+   Presented a poster on <strong>MindFlayer SGD: Efficient Parallel SGD <br> in the Presence of Heterogeneous and Random Worker Compute Times</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/posters/MindFlayer_UAI.pdf">poster</a>]
   </li>
 
   <li>
@@ -55,7 +55,7 @@ nav_order: 5
    Presented posters on
    <ul>
        <li><strong>Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/posters/Ringmaster_ICML.pdf">poster</a>] </li>
-       <li><strong>ATA: Adaptive Task Allocation for Efficient Resource Management <br> in Distributed Machine Learning [<a href="https://artomaranjyan.github.io/assets/pdf/posters/ATA_ICML.pdf">poster</a>] </strong></li>
+       <li><strong>ATA: Adaptive Task Allocation for Efficient Resource Management <br> in Distributed Machine Learning </strong> [<a href="https://artomaranjyan.github.io/assets/pdf/posters/ATA_ICML.pdf">poster</a>] </li>
    </ul>
   </li>
 
