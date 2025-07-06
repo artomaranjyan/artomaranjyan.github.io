@@ -55,7 +55,7 @@ nav_order: 5
    Presented posters on
    <ul>
        <li><strong>Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/posters/Ringmaster_ICML.pdf">poster</a>] </li>
-       <li><strong>ATA: Adaptive Task Allocation for Efficient Resource Management <br> in Distributed Machine Learning</strong></li>
+       <li><strong>ATA: Adaptive Task Allocation for Efficient Resource Management <br> in Distributed Machine Learning [<a href="https://artomaranjyan.github.io/assets/pdf/posters/ATA_ICML.pdf">poster</a>] </strong></li>
    </ul>
   </li>
 
