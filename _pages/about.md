@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 <!-- I’m looking for summer internship opportunities.
 If you have an opening or know of any, please don’t hesitate to contact me. -->
 
-As I’m completing my PhD this year, I’m actively exploring **postdoc** and **research scientist** positions.
+As I complete my PhD this year, I’m actively exploring **postdoc** and **research scientist** positions.
 
 
 I’m a PhD student at KAUST, advised by [Peter Richtárik](https://richtarik.org/i_bio.html).
