@@ -27,9 +27,8 @@ nav_order: 5
         <div>Instituto Nacional de Matemática Pura e Aplicada (IMPA)</div> 
         <div style="text-align: right;">July 27-31, 2025</div> 
    </div>
-   Delivered a talk and a poster on <strong>Ringmaster ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/posters/Ringmaster_IMPA.pdf">poster</a>]
+   Delivered a talk and a poster on <strong>Ringmaster ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/slides/Ringmaster_IMPA.pdf">slides</a>] [<a href="https://artomaranjyan.github.io/assets/pdf/posters/Ringmaster_IMPA.pdf">poster</a>]
   </li>
-
 
 <li>
     <div style="display: flex; justify-content: space-between;"> 
