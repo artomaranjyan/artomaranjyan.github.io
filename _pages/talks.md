@@ -16,7 +16,19 @@ nav_order: 5
 
 ### 2025 Talks and Poster Presentations
 
-<ol start="28" reversed>
+<ol start="29" reversed>
+
+  <li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://scml.kaust.edu.sa/articles/2023/02/05/mathematics-and-applications-colloquium">Mathematics and Applications Colloquium</a> </strong></div> 
+        <div style="text-align: right;">KAUST, Saudi Arabia</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>KAUST</div> 
+        <div style="text-align: right;">October 28, 2025</div> 
+   </div>
+   Delivered a talk on <strong>Ringleader ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity under Data Heterogeneity</strong>
+  </li>
 
 <li>
     <div style="display: flex; justify-content: space-between;"> 
