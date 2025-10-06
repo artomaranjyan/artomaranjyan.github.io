@@ -16,7 +16,19 @@ nav_order: 5
 
 ### 2025 Talks and Poster Presentations
 
-<ol start="29" reversed>
+<ol start="30" reversed>
+
+  <li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://cemse.kaust.edu.sa/events/by-type/graduate-seminar">AMCS/STAT graduate seminar</a> </strong></div> 
+        <div style="text-align: right;">KAUST, Saudi Arabia</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>KAUST</div> 
+        <div style="text-align: right;">November 13, 2025</div> 
+   </div>
+   Delivered a talk on <strong>Ringleader ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity under Data Heterogeneity</strong>
+  </li>
 
   <li>
     <div style="display: flex; justify-content: space-between;"> 
