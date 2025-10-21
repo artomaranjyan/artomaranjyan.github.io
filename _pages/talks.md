@@ -32,7 +32,7 @@ nav_order: 5
 
   <li>
     <div style="display: flex; justify-content: space-between;"> 
-        <div><strong> <a href="https://scml.kaust.edu.sa/articles/2023/02/05/mathematics-and-applications-colloquium">Mathematics and Applications Colloquium</a> </strong></div> 
+        <div><strong> <a href="https://cemse.kaust.edu.sa/events/by-type/mathematics-and-applications-colloquium/2025/10/28/ringleader-asgd-first">Mathematics and Applications Colloquium</a> </strong></div> 
         <div style="text-align: right;">KAUST, Saudi Arabia</div> 
    </div>
    <div style="display: flex; justify-content: space-between;"> 
