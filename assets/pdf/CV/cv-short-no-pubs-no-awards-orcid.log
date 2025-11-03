@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.14)  2 NOV 2025 17:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.14)  3 NOV 2025 13:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv.tex
-(/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv.tex
+**/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/CV/cv-short-no-pubs-no-awards-orcid.tex
+(/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/CV/cv-short-no-pubs-no-awards-orcid.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/moderncv/moderncv.cls
 Document Class: moderncv 2022-02-21 v2.3.1 modern curriculum vitae and letter document class
@@ -582,34 +582,34 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip97
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 158.
-Package hyperref Info: Option `breaklinks' set `true' on input line 190.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 190.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 190.
+Package hyperref Info: Option `colorlinks' set `true' on input line 160.
+Package hyperref Info: Option `breaklinks' set `true' on input line 192.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 192.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 192.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./cv.aux)
-\openout1 = `cv.aux'.
+) (./cv-short-no-pubs-no-awards-orcid.aux)
+\openout1 = `cv-short-no-pubs-no-awards-orcid.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 190.
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 190.
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 190.
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 190.
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 190.
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 190.
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 190.
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 190.
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 190.
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 190.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 192.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -631,18 +631,18 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Redefining \microtypecontext on input line 190.
-Package microtype Info: Applying patch `item' on input line 190.
-Package microtype Info: Applying patch `toc' on input line 190.
-Package microtype Info: Applying patch `eqnum' on input line 190.
-Package microtype Info: Applying patch `footnote' on input line 190.
+LaTeX Info: Redefining \microtypecontext on input line 192.
+Package microtype Info: Applying patch `item' on input line 192.
+Package microtype Info: Applying patch `toc' on input line 192.
+Package microtype Info: Applying patch `eqnum' on input line 192.
+Package microtype Info: Applying patch `footnote' on input line 192.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 190.
+LaTeX Info: Redefining \showhyphens on input line 192.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -685,7 +685,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 190.
+Package hyperref Info: Link coloring ON on input line 192.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -695,589 +695,312 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count319
 )
-LaTeX Info: Redefining \ref on input line 190.
-LaTeX Info: Redefining \pageref on input line 190.
-LaTeX Info: Redefining \nameref on input line 190.
- (./cv.out) (./cv.out)
+LaTeX Info: Redefining \ref on input line 192.
+LaTeX Info: Redefining \pageref on input line 192.
+LaTeX Info: Redefining \nameref on input line 192.
+ (./cv-short-no-pubs-no-awards-orcid.out) (./cv-short-no-pubs-no-awards-orcid.out)
 \@outlinefile=\write4
-\openout4 = `cv.out'.
+\openout4 = `cv-short-no-pubs-no-awards-orcid.out'.
 
 \pagenumberwidth=\skip98
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 190.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 192.
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <24.88> not available
-(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 194.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 194.
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 196.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 196.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd) (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 194.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 196.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 194.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on input line 196.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd)
+LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <9> not available
+(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead on input line 196.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 196.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 194.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 196.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 194.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 196.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 194.
+(Font)              <10> on input line 196.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 194.
+(Font)              <7> on input line 196.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 194.
+(Font)              <5> on input line 196.
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
 
  []
 
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 202.
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 204.
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <10> not available
-(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 211.
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 213.
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <9> not available
-(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 211.
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 213.
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 211--211
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 213--213
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 211--211
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 213--213
 []$ 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 221--221
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 224--224
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 221--221
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 224--224
 []$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 231--231
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 234--234
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 231--231
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 234--234
 []$ 
  []
 
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <12> not available
-(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 247.
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 251.
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 247--247
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 251--251
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 247--247
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 251--251
 []$ 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 254--254
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 258--258
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 254--254
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 258--258
 []$ 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 261--261
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 265--265
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 261--261
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 265--265
 []$ 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 268--268
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 272--272
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 268--268
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 272--272
 []$ 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 275--275
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 279--279
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 275--275
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 279--279
 []$ 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 296--296
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 301--301
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 296--296
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 301--301
 []$ 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 304--304
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 309--309
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 304--304
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 309--309
 []$ 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 331--331
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 336--336
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 331--331
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 336--336
 []$ 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 342--342
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 347--347
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 342--342
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 347--347
 []$ 
  []
 
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 353.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ts1lmss.fd
+LaTeX Font Info:    Font shape `OT1/lmss/b/it' in size <10> not available
+(Font)              Font shape `OT1/lmss/bx/it' tried instead on input line 420.
+LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <10> not available
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 420.
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 420--420
+[][] 
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 420--420
+[]$ 
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 428.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
+LaTeX Font Info:    Font shape `TS1/lmss/b/it' in size <10> not available
+(Font)              Font shape `TS1/lmss/bx/it' tried instead on input line 428.
+LaTeX Font Info:    Font shape `TS1/lmss/bx/it' in size <10> not available
+(Font)              Font shape `TS1/lmss/bx/sl' tried instead on input line 428.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 353--353
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 428--428
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 353--353
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 428--428
 []$ 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 358--358
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 434--434
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 358--358
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 434--434
 []$ 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 363--363
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 440--440
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 363--363
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 440--440
 []$ 
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
 
- []
-
-
-LaTeX Font Warning: Font shape `OT1/lmss/sb/n' undefined
-(Font)              using `OT1/lmss/b/n' instead on input line 459.
-
-
-Underfull \hbox (badness 10000) detected at line 459
-\OT1/lmss/m/n/7 .
- []
-
-LaTeX Font Info:    Font shape `OT1/lmss/b/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/bx/it' tried instead on input line 467.
-LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 467.
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 467--467
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 445--445
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 467--467
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 445--445
 []$ 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 474--474
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 450--450
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 474--474
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 450--450
 []$ 
  []
 
-LaTeX Font Info:    Font shape `TS1/lmss/b/it' in size <10> not available
-(Font)              Font shape `TS1/lmss/bx/it' tried instead on input line 482.
-LaTeX Font Info:    Font shape `TS1/lmss/bx/it' in size <10> not available
-(Font)              Font shape `TS1/lmss/bx/sl' tried instead on input line 482.
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 482--482
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 455--455
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 482--482
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 455--455
 []$ 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 487--487
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 460--460
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 487--487
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 460--460
 []$ 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 497--497
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 465--465
 [][] 
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 497--497
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 465--465
 []$ 
  []
 
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 502--502
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 502--502
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 509--509
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 509--509
-[]$ 
- []
-
-[3]
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 515--515
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 515--515
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 521--521
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 521--521
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 527--527
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 527--527
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 533--533
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 533--533
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 539--539
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 539--539
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 545--545
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 545--545
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 551--551
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 551--551
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 557--557
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 557--557
-[]$ 
- []
-
-
-LaTeX Font Warning: Font shape `OT1/lmss/sb/n' undefined
-(Font)              using `OT1/lmss/b/n' instead on input line 561.
-
-
-Underfull \hbox (badness 10000) detected at line 561
-\OT1/lmss/m/n/7 .
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 573--573
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 573--573
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 578--578
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 578--578
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 583--583
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 583--583
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 588--588
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 588--588
-[]$ 
- []
-
-[4]
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 593--593
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 593--593
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 598--598
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 598--598
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 603--603
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 603--603
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 608--608
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 608--608
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 613--613
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 613--613
-[]$ 
- []
-
-
-LaTeX Font Warning: Font shape `OT1/lmss/sb/n' undefined
-(Font)              using `OT1/lmss/b/n' instead on input line 617.
-
-
-Underfull \hbox (badness 10000) detected at line 617
-\OT1/lmss/m/n/7 .
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 624--624
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 624--624
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 629--629
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 629--629
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 634--634
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 634--634
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 639--639
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 639--639
-[]$ 
- []
-
-
-LaTeX Font Warning: Font shape `OT1/lmss/sb/n' undefined
-(Font)              using `OT1/lmss/b/n' instead on input line 643.
-
-
-Underfull \hbox (badness 10000) detected at line 643
-\OT1/lmss/m/n/7 .
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 650--650
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 650--650
-[]$ 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 655--655
-[][] 
- []
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 655--655
-[]$ 
- []
-
-[5] (./cv.aux)
-Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: DF611FB5BE5D956E1B546DE9890D0701;2039.
+[2] (./cv-short-no-pubs-no-awards-orcid.aux)
+Package rerunfilecheck Info: File `cv-short-no-pubs-no-awards-orcid.out' has not changed.
+(rerunfilecheck)             Checksum: B3EE2ACE730DD37C1B1373D2EB1799A9;662.
  ) 
 Here is how much of TeX's memory you used:
- 26625 strings out of 478268
- 516245 string characters out of 5846347
- 814346 words of memory out of 5000000
- 44263 multiletter control sequences out of 15000+600000
- 530236 words of font info for 100 fonts, out of 8000000 for 9000
+ 26622 strings out of 478268
+ 517258 string characters out of 5846347
+ 816735 words of memory out of 5000000
+ 44272 multiletter control sequences out of 15000+600000
+ 527354 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,12n,122p,1066b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbo10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsso10.pfb>
-Output written on cv.pdf (5 pages, 281718 bytes).
+ 129i,12n,122p,1099b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbo10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsso10.pfb>
+Output written on cv-short-no-pubs-no-awards-orcid.pdf (2 pages, 251640 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
- 190 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
- 41069 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 136 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
+ 9 named destinations out of 1000 (max. 500000)
+ 36925 words of extra memory for PDF output out of 42996 (max. 10000000)
 

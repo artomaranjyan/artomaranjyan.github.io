@@ -17,3 +17,10 @@ YSU
 Faber-Schauder
 Haar
 Menshov-Type
+Tyurin
+Maranjyan
+Artavazd
+Saad
+Kamont
+Grigoryan
+Tigran
