@@ -1,0 +1,434 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}
+% style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+%\usepackage[scale=0.8]{geometry}
+ \usepackage[left=2cm, right=2cm, top=1.7cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+\usepackage{academicons}
+
+\usepackage{etaremune}
+\usepackage{etoolbox} %% For \AtEndEnvironment
+
+\usepackage{lmodern}
+
+\makeatletter %% <- change @ so that it can be used in macro names
+  %% Define the resume key for etaremune:
+  \define@boolkey[EM]{etaremune}{resume}[true]{}
+  \presetkeys[EM]{etaremune}{resume=false}{} %% <- false by default
+
+  %% Increase starting value of previous etaremune environment if resuming
+  \AtEndEnvironment{etaremune}{%
+    \ifEM@etaremune@resume
+      \EM@resumewrite{\csname EM@prevlist@\@roman{\@enumdepth}\endcsname}{\EM@currlist}%
+    \fi
+    \expandafter\xdef\csname EM@prevlist@\@roman{\@enumdepth}\endcsname{\EM@currlist}%
+  }
+  \newcommand*\EM@resumewrite[2]{% %% Expand arguments and then call EM@resume@write@
+    \begingroup
+      \edef\temp{\noexpand\EM@resumewrite@
+        {\expandafter\string\csname etaremune@#1\endcsname}%
+        {\expandafter\string\csname etaremune@#2\endcsname}}%
+      \temp
+    \endgroup
+  }
+  \newcommand*\EM@resumewrite@[2]{% %% Write to aux file
+    \immediate\write\@auxout{\xdef#1{\string\noexpand\string\the\numexpr#1+\string\noexpand#2 }}%
+  }
+\makeatother %% <- change @ back
+
+
+% personal data
+% \name{Arto}{Maranjyan}
+\name{Artavazd}{Maranjyan}
+
+% \address{28, Rue Marcelin Berthelot, 92120 - Montrouge - France}
+% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+
+% \phone[mobile]{+33768149269}
+% optional, remove / comment the line if not wanted
+%\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+
+\email{arto.maranjyan@gmail.com}   
+
+% optional, remove / comment the line if not wanted
+
+\homepage{artomaranjyan.github.io}                         % optional, remove / comment the line if not wanted
+
+\social[orcid]{0000-0001-8409-817X}
+
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+
+% \makeatletter
+% \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+
+% \makeatother
+% \renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+% \usepackage{multibib}
+% \newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{DarkPastelRed}{HTML}{450808}
+\definecolor{PastelRed}{HTML}{8F0D0D}
+\definecolor{GoldenEarth}{HTML}{008080}
+\definecolor{Teal}{HTML}{00796B}
+\colorlet{name}{black}
+\colorlet{tagline}{PastelRed}
+\colorlet{heading}{DarkPastelRed}
+\colorlet{headingrule}{GoldenEarth}
+\colorlet{teal}{Teal}
+\colorlet{subheading}{PastelRed}
+\colorlet{accent}{PastelRed}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+\newcommand{\ExternalLink}{
+    \tikz[x=1.2ex, y=1.2ex, baseline=-0.05ex]{
+        \begin{scope}[x=1ex, y=1ex]
+            \clip (-0.1,-0.1)
+                --++ (-0, 1.2)
+                --++ (0.6, 0)
+                --++ (0, -0.6)
+                --++ (0.6, 0)
+                --++ (0, -1);
+            \path[draw,
+                line width = 0.5,
+                rounded corners=0.5]
+                (0,0) rectangle (1,1);
+        \end{scope}
+        \path[draw, line width = 0.5] (0.5, 0.5)
+            -- (1, 1);
+        \path[draw, line width = 0.5] (0.6, 1)
+            -- (1, 1) -- (1, 0.6);
+        }
+}
+
+
+
+\usepackage[unicode]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=teal,
+    filecolor=magenta,      
+    urlcolor=teal,
+    pdftitle={CV},
+    pdfpagemode=FullScreen,
+    }
+
+\usepackage{color}
+\usepackage{colortbl}
+\definecolor{mydarkred}{RGB}{192,47,25}
+\definecolor{ruby}{RGB}{155,17,30}
+\definecolor{chili}{RGB}{191,0,0}
+\definecolor{sangria}{RGB}{146,0,10}
+\definecolor{burgundy}{RGB}{128,0,32} 
+\definecolor{darkred}{RGB}{132,0,0} 
+\definecolor{cherry}{RGB}{192,0,0} 
+\newcommand{\red}{\color{cherry}}
+
+
+% \newcommand{\peter}{\href{https://richtarik.org/i_bio.html}{Peter Richtárik}}
+\newcommand{\peter}{Peter Richtárik}
+% \newcommand{\mher}{\href{https://scholar.google.com/citations?user=dJNwgT8AAAAJ&hl=en}{Mher Safaryan}}
+\newcommand{\mher}{Mher Safaryan}
+% \newcommand{\grigoryan}{\href{https://scholar.google.com/citations?user=l-2JIPkAAAAJ&hl=en}{Martin Grigoryan}}
+\newcommand{\grigoryan}{Martin Grigoryan}
+% \newcommand{\kaust}{\href{https://www.kaust.edu.sa/en}{King Abdullah University of Science and Technology (KAUST)}}
+\newcommand{\kaust}{King Abdullah University of Science and Technology (KAUST)}
+% \newcommand{\picsart}{\href{https://picsart.com/jobs}{Picsart}}
+\newcommand{\picsart}{Picsart}
+% \newcommand{\yerevann}{\href{https://yerevann.com/}{YerevaNN}}
+\newcommand{\yerevann}{YerevaNN}
+% \newcommand{\ysu}{\href{https://www.ysu.am/en}{Yerevan State University}}
+\newcommand{\ysu}{Yerevan State University}
+\newcommand{\highlight}[1]{{\red #1}}
+% \newcommand{\href}[2]{{\textcolor{accent}{\href{#1}{#2}}}}
+
+
+\begin{document}
+
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle 
+
+% \vspace{-20pt}
+% Après 7 ans d'expérience dans la Communication, je suis à la recherche d'un poste dans le domaine des campagnes de marketing.\\
+% { \textbf{Expertise}: Marketing online et offline, Coordination des projets, Branding, Merchandising.\\
+% \textbf{Projets réalisés}:http://gnt.globo.com/especiais/projetos-multitelas}
+
+% \vspace{-5pt}
+\section{Education}
+
+\begin{itemize}
+
+\item{
+  \cventry{2023 -- 2025}
+  {King Abdullah University of Science and Technology (KAUST)}
+  {Ph.D. in Computer Science}
+  {Thuwal, Saudi Arabia}{}
+  {\textbf{Advisor:} \peter}
+} 
+
+\vspace{1mm}
+
+\item{
+  \cventry{2021 -- 2023}
+  {Yerevan State University}
+  {M.Sc. in Applied Statistics and Data Science}
+  {Yerevan, Armenia}{}
+  {\faFile \ \textbf{Thesis:} \href{https://artomaranjyan.github.io/assets/pdf/Master_thesis.pdf}{On local training methods}; \textbf{co-supervisors:} \peter, \mher }
+}
+
+\vspace{1mm}
+
+\item{
+  \cventry{2017 -- 2021}
+  {Yerevan State University}
+  {B.Sc. in Informatics and Applied Mathematics}
+  {Yerevan, Armenia}{}
+  {\faFile \ \textbf{Thesis:} \href{https://artomaranjyan.github.io/assets/pdf/Bachelor_thesis.pdf}{On the Convergence of Series in Classical Systems}; \textbf{supervisor:} \grigoryan\\ }
+}
+
+\end{itemize}
+
+
+% \vspace{-7pt}
+\section{Selected Industry and Academic Experiences}
+
+\begin{itemize}
+
+\item{
+\cventry{9-22 March 2025}{Beijing Institute of Mathematical Sciences and Applications (BIMSA)}{Research visit to Yi-Shuai Niu}{Beijing, China}{}{
+\begin{itemize}
+\item Gave talks at three universities (PKU, BUAA, BIMSA)
+\item Worked with Professor Yi-Shuai Niu on a project on Server-Assisted Federated Learning
+\end{itemize}
+}}
+
+\item{
+\cventry{June 2022 -- January 2023}{\kaust}{Internship in the group of \peter}{Thuwal, Saudi Arabia}{}{
+\begin{itemize}
+\item Worked on the "GradSkip: Communication-Accelerated Local Gradient Methods\\ with Better Computational Complexity" paper
+\end{itemize}
+}}
+
+\item{
+\cventry{July 2021 -- June 2022}{\href{https://www.crunchbase.com/organization/onepick-me\#overview}{OnePick}}{Co-Founder}{Yerevan, Armenia}{}{
+  \begin{itemize}
+    \item Built an MVP platform to help content creators and marketers generate\\
+    or select photos that best matched their text descriptions
+    \item Participated in the \href{https://fast.foundation/en/program/857/2023/general-information}{InVent 2.0} venture building program, advancing through\\
+    team formation, idea generation, product development, and pitching
+    \item Secured initial funding and continued development beyond the program
+  \end{itemize}
+}} %One Pick
+
+\item{
+\cventry{September 2019 -- January 2021}{\picsart}{Software Engineer in Test}{Yerevan, Armenia}{}{
+\begin{itemize}
+\item Worked with automation team to design and develop automated
+solutions across\\ several mobile/web applications
+\item Worked directly with software developers, test engineers,
+product owners, business\\ analysts to find and resolve issues
+\item Worked closely with DevOps to suggest improvements in processes and in Jenkins\\ Continuous Integration cycle
+\end{itemize}
+}} %Picsart
+
+\end{itemize}
+
+
+% \section{Awards}
+
+
+% \begin{itemize}
+%   \item{
+%   \cventry{May 2025}{\kaust}{CEMSE Dean's List Award}{}{}{
+%     Awarded for excellent academic and research performance (\$2,500 prize)
+%   }}
+  
+%   \item{
+%   \cventry{September 2023}{\kaust}{Dean's Award}{}{}{
+%   Awarded to a few top students accepted to KAUST (\$6,000 annually for 3 years)
+%   }}
+  
+%   \item{
+%   \cventry{May 2021}{\ysu}{Outstanding Final Project Award}{}{}{
+%   Recognized for the Bachelor's thesis (awarded to 6 students among 250+ students)
+%   }}
+% \end{itemize}
+% 
+
+
+% \vspace{-7pt}
+% \section{Selected Publications}
+% {
+% \begin{etaremune}
+% \item Ringleader ASGD: The First Asynchronous SGD with Optimal Time Complexity under Data Heterogeneity\\
+% \underline{Artavazd Maranjyan}, Peter Richtárik\\
+% \textit{Submitted to ICLR 2026}
+
+% \item Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity\\
+% \underline{Artavazd Maranjyan}, Alexander Tyurin, Peter Richtárik\\
+% \textit{ICML 2025: Forty-Second International Conference on Machine Learning}
+
+% \item ATA: Adaptive Task Allocation for Efficient Resource Management in Distributed Machine Learning\\
+% \underline{Artavazd Maranjyan}, El Mehdi Saad, Peter Richtárik, Francesco Orabona\\
+% \textit{ICML 2025: Forty-Second International Conference on Machine Learning}
+
+% \item MindFlayer SGD: Efficient Parallel SGD in the Presence of Heterogeneous and Random Worker Compute Times\\
+% \underline{Artavazd Maranjyan}, Omar Shaikh Omar, Peter Richtárik\\
+% \textit{UAI 2025: The 41st Conference on Uncertainty in Artificial Intelligence}\\
+% \textit{OPT 2024: Optimization for Machine Learning (NeurIPS workshop)}
+% \highlight{Oral presentation (top 5\% of 107 submissions)}
+
+% \item GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity\\
+% \underline{Artavazd Maranjyan}, Mher Safaryan, Peter Richtárik\\
+% \textit{TMLR 2025: Transactions on Machine Learning Research}
+% \end{etaremune}
+% }
+
+\section{Reviewing}
+
+\begin{tabular}{@{}r l@{}}
+  2024--Now &\quad Transactions on Machine Learning Research (TMLR) \\
+  2026      &\quad International Conference on Learning Representations (ICLR) \\
+  2024      &\quad SIAM Journal on Mathematics of Data Science (SIMODS) \\
+  2024      &\quad The Journal of Machine Learning Research (JMLR) \\
+\end{tabular}
+
+\section{Selected Talks}
+% 
+\begin{etaremune}
+% 
+  \item{
+    \cventry{July 27-31, 2025}{Instituto Nacional de Matemática Pura e Aplicada (IMPA)}{\textcolor{accent}{\href{https://impa.br/evento/35o-coloquio-brasileiro-de-matematica/}{\textit{35º Colóquio Brasileiro de Matemática}}}}{Rio de Janeiro, Brazil}{}{
+    Delivered a talk and a poster on 
+    \textbf{Ringmaster ASGD: The First Asynchronous SGD\\with Optimal Time Complexity}  
+    [{\href{https://artomaranjyan.github.io/assets/pdf/slides/Ringmaster_IMPA.pdf}{slides}}]
+    [{\href{https://artomaranjyan.github.io/assets/pdf/posters/Ringmaster_IMPA.pdf}{poster}}] 
+  }}
+% 
+  \item{
+    \cventry{April 16, 2025}{FLOW Talk \#126}{\textcolor{accent}{\href{https://sites.google.com/view/one-world-seminar-series-flow/archive/2025?authuser=0\#h.99nho9x1b8ju}{\textit{Federated Learning One World Seminar (FLOW)}}}}{Online}{}{
+    Delivered a talk on \textbf{Ringmaster ASGD: The First Asynchronous SGD\\
+    with Optimal Time Complexity} [{\textcolor{orange}{\href{https://youtu.be/DJI1SWfG6ME?si=VJGtD1G840gO5d-w}{video}}}] [{\href{https://artomaranjyan.github.io/assets/pdf/Ringmaster_FLOW.pdf}{slides}}]
+  }}
+
+\end{etaremune}
+
+\begin{etaremune}[resume]
+  
+\item{
+    \cventry{November 21, 2024}{Machine Learning Research at Apple}{MLR Weekly Seminar}{Online}{}{
+    Invited by \highlight{Samy Bengio} to give a talk on \textbf{MindFlayer: Efficient Asynchronous Parallel SGD \\ in the Presence of Heterogeneous and Random Worker Compute Times} [{\href{https://artomaranjyan.github.io/assets/pdf/MindFlayer_AppleMLR.pdf}{slides}}]
+  }}
+
+\end{etaremune}
+
+\begin{etaremune}[resume]
+
+\item{
+  \cventry{October 6, 2023}{University of Warwick}{\textcolor{accent}{\href{https://warwick.ac.uk/fac/sci/statistics/news/algorithms-seminars/\#:\textasciitilde:text=06/10-,Artavazd\%20Maranjyan,-Link\%20opens\%20in}{\textit{Algorithms \& Computationally Intensive Inference seminars}}}}{Coventry, England}{}{
+  Delivered a talk on \textbf{GradSkip: Communication-Accelerated Local Gradient Methods \\ with Better Computational Complexity} [{\href{https://warwick.ac.uk/fac/sci/statistics/news/algorithms-seminars/slides_2023_10_06_arto_maranjyan_gradskip.pdf}{slides}}]
+}}
+
+\end{etaremune}
+
+\begin{etaremune}[resume]
+
+\item{
+  \cventry{December 7, 2022}{FLOW Talk \#88}{\textcolor{accent}{\href{https://sites.google.com/view/one-world-seminar-series-flow/archive/2022?authuser=0\#h.99nho9x1b8ju}{\textit{Federated Learning One World Seminar (FLOW)}}}}{Online}{}{
+  Delivered a talk on \textbf{GradSkip: Communication-Accelerated Local Gradient Methods \\ with Better Computational Complexity} [{\textcolor{orange}{\href{https://youtu.be/WWhY5tO-FiM}{video}}}]
+}}
+
+\end{etaremune}
+
+% \section{Skills}
+
+% \begin{itemize}
+%     \item Algorithms and Data Structures \href{https://artomaranjyan.github.io/files/Algorithms-and-Data-Structures.jpg}{[certificate]},
+%     \item Python, Java, R,
+%     \item Numpy, Pandas, Matplotlib, Scikit-learn,
+%     \item PyTorch, Tensorflow,
+%     \item Languages
+%         \begin{itemize}
+%         \item English: Proficient, 
+%         % \href{https://artomaranjyan.github.io/files/TOEFL-iBT-Score-Report.pdf}{[TOEFL iBT - 99]}
+%         \item Russian: Proficient,
+%         \item Armenian: Native 
+%         \end{itemize}
+% \end{itemize}
+
+\section{Hobbies}
+
+Ultimate Frisbee, Dancing (bachata, salsa), \href{https://boardgamearena.com/player?section=prestige}{Board Games}, Foosball
+
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels:
+% \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+
+% \nocite{*}
+% \bibliographystyle{ieeetr}
+% \bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+% \section{Publications}
+% \nocitebook{book1,book2}
+% \bibliographystylebook{plain}
+% \bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+% \nocitemisc{misc1,misc2,misc3}
+% \bibliographystylemisc{plain}
+% \bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.
