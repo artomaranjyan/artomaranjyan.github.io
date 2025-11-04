@@ -16,11 +16,11 @@ nav_order: 5
 
 ### 2025 Talks and Poster Presentations
 
-<ol start="30" reversed>
+<ol start="31" reversed>
 
   <li>
     <div style="display: flex; justify-content: space-between;"> 
-        <div><strong> <a href="https://cemse.kaust.edu.sa/events/by-type/graduate-seminar">AMCS/STAT graduate seminar</a> </strong></div> 
+        <div><strong> <a href="https://cemse.kaust.edu.sa/events/by-type/graduate-seminar/2025/11/13/first-provably-optimal-asynchronous-sgd-homogeneous-and">AMCS/STAT graduate seminar</a> </strong></div> 
         <div style="text-align: right;">KAUST, Saudi Arabia</div> 
    </div>
    <div style="display: flex; justify-content: space-between;"> 
@@ -28,6 +28,22 @@ nav_order: 5
         <div style="text-align: right;">November 13, 2025</div> 
    </div>
    Delivered a talk on <strong>Ringleader ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity under Data Heterogeneity</strong>
+  </li>
+
+  <li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://cemse.kaust.edu.sa/events/by-type/workshop/2025/11/02/kaust-2025-workshop-statistics">The KAUST 2025 Workshop on Statistics</a> </strong></div> 
+        <div style="text-align: right;">KAUST, Saudi Arabia</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>KAUST</div> 
+        <div style="text-align: right;">November 4, 2025</div> 
+   </div>
+   Presented posters on
+   <ul>
+       <li><strong>Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/posters/Ringmaster_ICML.pdf">poster</a>] </li>
+       <li><strong>ATA: Adaptive Task Allocation for Efficient Resource Management <br> in Distributed Machine Learning </strong> [<a href="https://artomaranjyan.github.io/assets/pdf/posters/ATA_ICML.pdf">poster</a>] </li>
+   </ul>
   </li>
 
   <li>
