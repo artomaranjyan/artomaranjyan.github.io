@@ -27,7 +27,7 @@ nav_order: 5
         <div>KAUST</div> 
         <div style="text-align: right;">November 13, 2025</div> 
    </div>
-   Delivered a talk on <strong>Ringleader ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity under Data Heterogeneity</strong>
+   Delivered a talk titled <strong>First Provably Optimal Asynchronous SGD <br> for Homogeneous and Heterogeneous Data</strong>
   </li>
 
   <li>
