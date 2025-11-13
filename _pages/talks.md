@@ -27,7 +27,7 @@ nav_order: 5
         <div>KAUST</div> 
         <div style="text-align: right;">November 13, 2025</div> 
    </div>
-   Delivered a talk titled <strong>First Provably Optimal Asynchronous SGD <br> for Homogeneous and Heterogeneous Data</strong>
+   Delivered a talk titled <strong>First Provably Optimal Asynchronous SGD <br> for Homogeneous and Heterogeneous Data</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/slides/Async_Graduate_Seminar.pdf">slides</a>]
   </li>
 
   <li>
