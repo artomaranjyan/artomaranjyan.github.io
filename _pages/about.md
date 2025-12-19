@@ -21,16 +21,11 @@ social: true # includes social icons at the bottom of the page
 <!-- I’m looking for summer internship opportunities.
 If you have an opening or know of any, please don’t hesitate to contact me. -->
 
-As I complete my PhD this year, I’m actively exploring **postdoc** and **research scientist** positions.
 
+I’m a fresh PhD graduate in Computer Science from KAUST, where I was advised by [Prof. Peter Richtárik](https://richtarik.org/i_bio.html).
+I work on optimization for machine learning and federated learning, with a focus on asynchronous and distributed algorithms that handle system and data heterogeneity.
 
-I’m a PhD student at KAUST, advised by [Peter Richtárik](https://richtarik.org/i_bio.html).
-Recently, my focus has been on the theory and design of asynchronous optimization methods—developing efficient, scalable, and theoretically grounded algorithms.
-More broadly, I work on optimization for machine learning and federated learning.
-
-
-Before starting my PhD, I earned my MSc and BSc from Yerevan State University. 
-During my bachelor's, I co-authored several papers in **Harmonic Analysis** under the guidance of [Prof. Martin Grigoryan](https://scholar.google.com/citations?user=l-2JIPkAAAAJ&hl=en).
-
+Before my PhD, I earned both my MSc and BSc from Yerevan State University.
+During my bachelor’s studies, I co-authored several papers in harmonic analysis under the supervision of [Prof. Martin Grigoryan](https://scholar.google.com/citations?user=l-2JIPkAAAAJ&hl=en).
 
 Outside of academics, I enjoy dancing bachata, playing [board games](https://boardgamearena.com/player?section=prestige), ultimate frisbee, and foosball.
