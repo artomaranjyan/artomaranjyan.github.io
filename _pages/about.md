@@ -26,6 +26,6 @@ I’m a fresh PhD graduate in Computer Science from KAUST, where I was advised b
 I work on optimization for machine learning and federated learning, with a focus on asynchronous and distributed algorithms that handle system and data heterogeneity.
 
 Before my PhD, I earned both my MSc and BSc from Yerevan State University.
-During my bachelor’s studies, I co-authored several papers in harmonic analysis under the supervision of [Prof. Martin Grigoryan](https://scholar.google.com/citations?user=l-2JIPkAAAAJ&hl=en).
+During my bachelor’s and master's studies, I co-authored several papers in harmonic analysis under the supervision of [Prof. Martin Grigoryan](https://scholar.google.com/citations?user=l-2JIPkAAAAJ&hl=en).
 
 Outside of academics, I enjoy dancing bachata, playing [board games](https://boardgamearena.com/player?section=prestige), ultimate frisbee, and foosball.
