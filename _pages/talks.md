@@ -16,7 +16,24 @@ nav_order: 5
 
 ### 2025 Talks and Poster Presentations
 
-<ol start="31" reversed>
+<ol start="32" reversed>
+
+  <li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://www.kaust.edu.sa/events/rsais26/">KAUST Rising Stars in AI Symposium 2026</a> </strong></div> 
+        <div style="text-align: right;">KAUST, Saudi Arabia</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>KAUST</div> 
+        <div style="text-align: right;">February 9, 2026</div> 
+   </div>
+   Presented posters on
+   <ul>
+       <li><strong>Ringleader ASGD: The First Asynchronous SGD with Optimal Time Complexity <br> under Data Heterogeneity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/posters/Ringleader_KAUST.pdf">poster</a>] </li>
+       <li><strong>Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/posters/Ringmaster_KAUST.pdf">poster</a>] </li>
+       <li><strong>ATA: Adaptive Task Allocation for Efficient Resource Management <br> in Distributed Machine Learning </strong> [<a href="https://artomaranjyan.github.io/assets/pdf/posters/ATA_KAUST.pdf">poster</a>] </li>
+   </ul>
+  </li>
 
   <li>
     <div style="display: flex; justify-content: space-between;"> 
