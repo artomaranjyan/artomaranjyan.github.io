@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.14)  22 FEB 2026 14:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.14)  22 FEB 2026 14:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv/cv.tex
-(/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv/cv.tex
+**/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv_/cv.tex
+(/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv_/cv.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/moderncv/moderncv.cls
 Document Class: moderncv 2022-02-21 v2.3.1 modern curriculum vitae and letter document class
@@ -463,10 +463,10 @@ l.45 \msg_fatal:nn {fontspec} {cannot-use-pdftex}
  
 Here is how much of TeX's memory you used:
  18654 strings out of 478268
- 386717 string characters out of 5846347
+ 386720 string characters out of 5846347
  663958 words of memory out of 5000000
  36589 multiletter control sequences out of 15000+600000
  469816 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,1n,122p,626b,177s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,1n,122p,627b,177s stack positions out of 10000i,1000n,20000p,200000b,200000s
 /usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.sty:45:  ==> Fatal error occurred, no output PDF file produced!

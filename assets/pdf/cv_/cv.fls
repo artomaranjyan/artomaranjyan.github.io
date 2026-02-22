@@ -1,8 +1,8 @@
-PWD /Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv
+PWD /Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv_
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv/cv.tex
+INPUT /Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv_/cv.tex
 OUTPUT cv.log
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/moderncv/moderncv.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/moderncv/moderncv.cls

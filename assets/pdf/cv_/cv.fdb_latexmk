@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1771760187 "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv/cv.tex" "cv.pdf" "cv" 1771760187
-  "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv/cv.tex" 1771760186 35343 23aecf5a489f675bd3b8bf1bfadd609a ""
+["pdflatex"] 1771760701 "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv_/cv.tex" "cv.pdf" "cv" 1771760701
+  "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv_/cv.tex" 1771760701 35343 23aecf5a489f675bd3b8bf1bfadd609a ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fontawesome5/fa5free0regular.tfm" 1622837620 1132 8aee78c25f591abde3c9ce09e694423f ""
@@ -119,8 +119,8 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1660495737 2826441 75039a67a2213547b4fca2e19b446ec8 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "cv.aux" 1771760187 32 3985256e7290058c681f74d7a3565a19 ""
-  "cv.tex" 1771760186 35343 23aecf5a489f675bd3b8bf1bfadd609a ""
+  "cv.aux" 1771760701 32 3985256e7290058c681f74d7a3565a19 ""
+  "cv.tex" 1771760701 35343 23aecf5a489f675bd3b8bf1bfadd609a ""
   (generated)
   "cv.log"
   "cv.pdf"
