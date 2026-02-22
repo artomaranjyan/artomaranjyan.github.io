@@ -1,12 +1,12 @@
 @article{maranjyan2025thesis,
-  selected={true},
   title = {First Provably Optimal Asynchronous {SGD} for Homogeneous and Heterogeneous Data},
   author = {Artavazd Maranjyan},
   year = {2025},
-  publisher = {KAUST Research Repository},
+  journal = {KAUST Research Repository},
   url = {https://arxiv.org/abs/2601.02523},
   html = {https://arxiv.org/abs/2601.02523},
-  doi = {10.25781/KAUST-WH234}
+  doi = {10.25781/KAUST-WH234},
+  abstract={Artificial intelligence has advanced rapidly through large neural networks trained on massive datasets using thousands of GPUs or TPUs. Such training can occupy entire data centers for weeks and requires enormous computational and energy resources. Yet the optimization algorithms behind these runs have not kept pace. Most large scale training still relies on synchronous methods, where workers must wait for the slowest device, wasting compute and amplifying the effects of hardware and network variability. Removing synchronization seems like a simple fix, but asynchrony introduces staleness, meaning updates computed on outdated models. This makes analysis difficult, especially when delays arise from system level randomness rather than algorithmic choices. As a result, the time complexity of asynchronous methods remains poorly understood. This dissertation develops a rigorous framework for asynchronous first order stochastic optimization, focusing on the core challenge of heterogeneous worker speeds. Within this framework, we show that with proper design, asynchronous SGD can achieve optimal time complexity, matching guarantees previously known only for synchronous methods. Our first contribution, Ringmaster ASGD, attains optimal time complexity in the homogeneous data setting by selectively discarding stale updates. The second, Ringleader ASGD, extends optimality to heterogeneous data, common in federated learning, using a structured gradient table mechanism. Finally, ATA improves resource efficiency by learning worker compute time distributions and allocating tasks adaptively, achieving near optimal wall clock time with less computation. Together, these results establish asynchronous optimization as a theoretically sound and practically efficient foundation for distributed learning, showing that coordination without synchronization can be both feasible and optimal.}
 }
 
 @article{maranjyan2026ringleader,
@@ -52,7 +52,7 @@
   selected={true},
   title={MindFlayer {SGD}: Efficient Parallel {SGD} in the Presence of Heterogeneous and Random Worker Compute Times},
   author={Artavazd Maranjyan and Omar Shaikh Omar and Peter Richt{\'a}rik},
-  booktitle={UAI 2025: The 41st Conference on Uncertainty in Artificial Intelligence},
+  journal={UAI 2025: The 41st Conference on Uncertainty in Artificial Intelligence},
   year={2025},
   html={https://openreview.net/forum?id=RNpvu3MSvm},
   url={https://openreview.net/forum?id=RNpvu3MSvm},
