@@ -1,19 +1,12 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Name
-      value: Artavazd Maranjyan
-    - name: Languages
-      value: English, Russian, Armenian (native)
-
 - title: Education
   type: time_table
   contents:
     - title: Ph.D. in Computer Science
       institution: King Abdullah University of Science and Technology (KAUST)
       location: Thuwal, Saudi Arabia
-      year: 2023 - present
+      year: 2023 - 2025
       description:
+        - <b> Thesis:</b> <i>First Provably Optimal Asynchronous SGD for Homogeneous and Heterogeneous Data</i>
         - <b> Advisor:</b> Prof. Peter Richtárik
 
     - title: M.Sc. in Applied Statistics and Data Science
@@ -50,13 +43,6 @@
       description:
         - Studied the existence and properties of universal functions with respect to the Vilenkin and Haar systems across various functional spaces
 
-    - title: Machine Learning Researcher
-      institution: YerevaNN
-      location: Yerevan, Armenia
-      year: March 2023 - Aug 2023
-      description:
-        - Worked on the intersection of Federated Learning and Optimization
-
     - title: Internship in the group of Prof. Peter Richtárik
       institution: King Abdullah University of Science and Technology (KAUST)
       location: Thuwal, Saudi Arabia
@@ -67,7 +53,7 @@
     - title: Machine Learning Researcher
       institution: YerevaNN
       location: Yerevan, Armenia
-      year: Jan 2022 - June 2022
+      year: Jan 2022 - Aug 2023
       description:
         - Worked on the intersection of Federated Learning and Optimization
 
@@ -79,8 +65,9 @@
       location: Yerevan, Armenia
       year: July 2021 - June 2022
       description:
-        - OnePick is an emerging startup that provides up-to-date and customized social media posts based on page and market data analysis
-        - Winner idea of InVent 2.0 venture building program organized by Foundation for Armenian Science and Technology (FAST)
+        - Built an MVP platform to help content creators and marketers generate or select photos that best matched their text descriptions
+        - Participated in the InVent 2.0 (FAST) venture building program, advancing through team formation, idea generation, product development, and pitching
+        - Secured initial funding and continued development beyond the program
 
     - title: Backend Developer
       institution: EXALT Technologies Ltd.
@@ -181,11 +168,3 @@
 #     - Python, Java, R
 #     - Numpy, Pandas, Matplotlib, Scikit-learn
 #     - PyTorch, Tensorflow
-
-- title: Hobbies
-  type: list
-  contents:
-    - Ultimate Frisbee
-    - Dancing (Bachata, Salsa)
-    - Board Games
-    - Table Football (Foosball)
