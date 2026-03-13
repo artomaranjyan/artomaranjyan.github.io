@@ -48,7 +48,7 @@
   abstract={Asynchronous methods are fundamental for parallelizing computations in distributed machine learning. They aim to accelerate training by fully utilizing all available resources. However, their greedy approach can lead to inefficiencies using more computation than required, especially when computation times vary across devices. If the computation times were known in advance, training could be fast and resource-efficient by assigning more tasks to faster workers. The challenge lies in achieving this optimal allocation without prior knowledge of the computation time distributions. In this paper, we propose ATA (Adaptive Task Allocation), a method that adapts to heterogeneous and random distributions of worker computation times. Through rigorous theoretical analysis, we show that ATA identifies the optimal task allocation and performs comparably to methods with prior knowledge of computation times. Experimental results further demonstrate that ATA is resource-efficient, significantly reducing costs compared to the greedy approach, which can be arbitrarily expensive depending on the number of workers.}
 }
 
-@inproceedings{maranjyan2025mindflayer,
+@article{maranjyan2025mindflayer,
   selected={true},
   title={MindFlayer {SGD}: Efficient Parallel {SGD} in the Presence of Heterogeneous and Random Worker Compute Times},
   author={Artavazd Maranjyan and Omar Shaikh Omar and Peter Richtárik},
@@ -76,10 +76,10 @@
   video={https://www.youtube.com/watch?v=WWhY5tO-FiM},
   abstract={We study a class of distributed optimization algorithms that aim to alleviate high communication costs by allowing clients to perform multiple local gradient-type training steps before communication. In a recent breakthrough, Mishchenko et al. (2022) proved that local training, when properly executed, leads to provable communication acceleration, and this holds in the strongly convex regime without relying on any data similarity assumptions. However, their ProxSkip method requires all clients to take the same number of local training steps in each communication round. We propose a redesign of the ProxSkip method, allowing clients with ``less important'' data to get away with fewer local training steps without impacting the overall communication complexity of the method. In particular, we prove that our modified method, GradSkip, converges linearly under the same assumptions and has the same accelerated communication complexity, while the number of local gradient steps can be reduced relative to a local condition number. We further generalize our method by extending the randomness of probabilistic alternations to arbitrary unbiased compression operators and by considering a generic proximable regularizer. This generalization, which we call GradSkip+, recovers several related methods in the literature as special cases. Finally, we present an empirical study on carefully designed toy problems that confirm our theoretical claims.}
 }
-@inproceedings{condat2024locodl,
+@article{condat2024locodl,
   title={{LoCoDL}: Communication-Efficient Distributed Learning with Local Training and Compression},
   author={Condat, Laurent and Maranjyan, Artavazd and Richt{\'a}rik, Peter},
-  booktitle={ICLR 2025: The Thirteenth International Conference on Learning Representations},
+  journal={ICLR 2025: The Thirteenth International Conference on Learning Representations},
   year={2025},
   html={https://openreview.net/forum?id=PpYy0dR3Qw},
   url={https://openreview.net/forum?id=PpYy0dR3Qw},
