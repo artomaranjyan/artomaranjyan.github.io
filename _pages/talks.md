@@ -16,7 +16,20 @@ nav_order: 5
 
 ### 2025 Talks and Poster Presentations
 
-<ol start="32" reversed>
+<ol start="33" reversed>
+
+
+<li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://iclr.cc/Conferences/2026">(ICLR 2026) The Fourteenth International Conference on Learning Representations</a> </strong></div> 
+        <div style="text-align: right;">Rio de Janeiro, Brazil</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>Riocentro Convention and Event Center</div> 
+        <div style="text-align: right;">July 21-25, 2025</div> 
+   </div>
+   Presented a poster on <strong>Ringleader ASGD: The First Asynchronous SGD <br>with Optimal Time Complexity under Data Heterogeneity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/posters/Ringleader_ICLR.pdf">poster</a>]
+  </li>
 
   <li>
     <div style="display: flex; justify-content: space-between;"> 
