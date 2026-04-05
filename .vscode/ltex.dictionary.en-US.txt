@@ -38,3 +38,4 @@ Samy
 Bengio
 OIST
 TMLR
+JMLR
