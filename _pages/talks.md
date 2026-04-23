@@ -16,8 +16,19 @@ nav_order: 5
 
 ### 2025 Talks and Poster Presentations
 
-<ol start="33" reversed>
+<ol start="34" reversed>
 
+<li>
+    <div style="display: flex; justify-content: space-between;"> 
+        <div><strong> <a href="https://luma.com/q3pji65z?tk=YCVUBL">Protocol Learning: Decentralized Collaborative Learning at Scale (ICLR 2026 Workshop)</a> </strong></div> 
+        <div style="text-align: right;">Rio de Janeiro, Brazil</div> 
+   </div>
+   <div style="display: flex; justify-content: space-between;"> 
+        <div>Lagune Barra Hotel</div> 
+        <div style="text-align: right;">April 26, 2025</div> 
+   </div>
+   Delivered a talk titled <strong>Controlling Delay in Asynchronous SGD: Optimality for Any Data Regim</strong>
+  </li>
 
 <li>
     <div style="display: flex; justify-content: space-between;"> 
@@ -26,7 +37,7 @@ nav_order: 5
    </div>
    <div style="display: flex; justify-content: space-between;"> 
         <div>Riocentro Convention and Event Center</div> 
-        <div style="text-align: right;">July 21-25, 2025</div> 
+        <div style="text-align: right;">April 23-27, 2026</div> 
    </div>
    Presented a poster on <strong>Ringleader ASGD: The First Asynchronous SGD <br>with Optimal Time Complexity under Data Heterogeneity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/posters/Ringleader_ICLR.pdf">poster</a>]
   </li>
