@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.8.14)  24 APR 2026 14:15
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.8.14)  24 APR 2026 16:44
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv/cv_short.tex
@@ -977,31 +977,31 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 212.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 412.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 420.
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 555.
- [2] (./cv_short.aux)
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 563.
+ [2] [3] (./cv_short.aux)
 Package rerunfilecheck Info: File `cv_short.out' has not changed.
 (rerunfilecheck)             Checksum: B313D9ED0C54BC072A7BFBC42EE017D9;902.
 )
 
 Here is how much of LuaTeX's memory you used:
- 29627 strings out of 477785
+ 29628 strings out of 477785
  156557,953878 words of node,token memory allocated
  2351 words of node memory still in use:
    22 hlist, 3 vlist, 9 rule, 5 disc, 2 local_par, 2 math, 39 glue, 18 kern, 4 penalty, 2 margin_kern, 99 glyph, 64 attribute, 84 glue_spec, 64 attribute_list, 2 write, 4 pdf_start_link, 4 pdf_end_link, 4 pdf_action, 18 pdf_colorstack nodes
-   avail lists: 1:1,2:2169,3:704,4:433,5:649,6:257,7:12360,8:53,9:2296,10:1,11:851
+   avail lists: 1:2,2:2264,3:689,4:430,5:654,6:254,7:12288,8:53,9:2274,10:1,11:865
  49151 multiletter control sequences out of 65536+600000
  54 fonts using 4535087 bytes
  129i,14n,116p,1074b,1119s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-boldoblique.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans9-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-oblique.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Brands-Regular-400.otf></usr/local/texlive/2022/texmf-dist/fonts/truetype/public/academicons/academicons.ttf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Free-Solid-900.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans9-oblique.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Free-Regular-400.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans17-regular.otf>
-Output written on cv_short.pdf (2 pages, 62243 bytes).
+Output written on cv_short.pdf (3 pages, 63335 bytes).
 
-PDF statistics: 168 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
- 10 named destinations out of 1000 (max. 131072)
+PDF statistics: 174 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
+ 11 named destinations out of 1000 (max. 131072)
  72 words of extra memory for PDF output out of 10000 (max. 100000000)
 

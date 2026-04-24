@@ -1,3 +1,11 @@
+- title: Future Position
+  type: time_table
+  contents:
+    - title: Postdoctoral Researcher, working with Volkan Cevher and Martin Jaggi
+      institution: EPFL
+      location: Lausanne, Switzerland
+      year: 2026
+
 - title: Education
   type: time_table
   contents:
@@ -96,6 +104,11 @@
 - title: Awards
   type: time_table
   contents:
+    - title: EPFL AI Center and Swiss AI Initiative Postdoctoral Fellowships
+      institution: EPFL
+      year: June 2026
+      description: Competitive fellowship supporting independent postdoctoral research, with additional travel funding
+
     - title: CEMSE Dean's List Award
       institution: King Abdullah University of Science and Technology (KAUST)
       year: May 2025

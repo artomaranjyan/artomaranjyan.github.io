@@ -1,6 +1,6 @@
 # Fdb version 3
-["lualatex"] 1777050948 "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv/cv_short.tex" "cv_short.pdf" "cv_short" 1777050951
-  "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv/cv_short.tex" 1777050938 37423 746db9c7c128c1fb512a2eaa836e211a ""
+["lualatex"] 1777059882 "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv/cv_short.tex" "cv_short.pdf" "cv_short" 1777059884
+  "/Users/maranja/Documents/GitHub/artomaranjyan.github.io/assets/pdf/cv/cv_short.tex" 1777059635 37643 176f10054219339093b15cf59b25b359 ""
   "/Users/maranja/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/academicons.luc" 1765280632 15095 419785c9a7b9e1ce205742dcf85903d4 ""
   "/Users/maranja/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/fontawesome5brands-regular-400.luc" 1765280632 180490 380050e654503a796300be96db3793ed ""
   "/Users/maranja/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/fontawesome5free-regular-400.luc" 1765280632 68531 89661fbb5d35b4c820e11e4efa18ed71 ""
@@ -261,9 +261,9 @@
   "/usr/local/texlive/2022/texmf-dist/tex/luatex/luatexbase/luatexbase.sty" 1443997592 10170 b1a2248f43cab899e3fe36f676176865 ""
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/luahbtex/lualatex.fmt" 1660495719 4558538 4fce7bead7a64910515c8a2b53c84808 ""
-  "cv_short.aux" 1777050951 1426 5838b93f1e69e0709a916d9afc299b64 "lualatex"
-  "cv_short.out" 1777050951 902 b313d9ed0c54bc072a7bfbc42ee017d9 "lualatex"
-  "cv_short.tex" 1777050938 37423 746db9c7c128c1fb512a2eaa836e211a ""
+  "cv_short.aux" 1777059883 1426 4f12ce327af2cabb13af411e3741b12c "lualatex"
+  "cv_short.out" 1777059883 902 b313d9ed0c54bc072a7bfbc42ee017d9 "lualatex"
+  "cv_short.tex" 1777059635 37643 176f10054219339093b15cf59b25b359 ""
   (generated)
   "cv_short.aux"
   "cv_short.log"
