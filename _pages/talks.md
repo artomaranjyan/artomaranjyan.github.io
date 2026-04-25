@@ -25,7 +25,7 @@ nav_order: 5
    </div>
    <div style="display: flex; justify-content: space-between;"> 
         <div>Lagune Barra Hotel</div> 
-        <div style="text-align: right;">April 26, 2025</div> 
+        <div style="text-align: right;">April 26, 2026</div> 
    </div>
    Delivered a talk titled <strong>Controlling Delay in Asynchronous SGD: Optimality for Any Data Regim</strong>
   </li>
