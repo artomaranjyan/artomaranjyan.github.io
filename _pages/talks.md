@@ -27,7 +27,7 @@ nav_order: 5
         <div>Lagune Barra Hotel</div> 
         <div style="text-align: right;">April 26, 2026</div> 
    </div>
-   Delivered a talk titled <strong>Controlling Delay in Asynchronous SGD: Optimality for Any Data Regim</strong>
+   Delivered a talk titled <strong>Controlling Delay in Asynchronous SGD: Optimality for Any Data Regim</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/slides/ICLR2026_Workshop.pdf">slides</a>]
   </li>
 
 <li>
