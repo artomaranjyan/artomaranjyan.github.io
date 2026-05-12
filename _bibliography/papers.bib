@@ -1,3 +1,15 @@
+@article{tovmasyan2026rennala_mvr,
+  title={{Rennala} {MVR}: Improved Time Complexity for Parallel Stochastic Optimization via Momentum-Based Variance Reduction}, 
+  author={Zhirayr Tovmasyan and Artavazd Maranjyan and Peter Richt{\'a}rik},
+  year={2026},
+  eprint={2605.08871},
+  archivePrefix={arXiv},
+  primaryClass={math.OC},
+  html={https://arxiv.org/abs/2605.08871},
+  url={https://arxiv.org/abs/2605.08871},
+  abstract={Large-scale machine learning models are trained on clusters of machines that exhibit heterogeneous performance due to hardware variability, network delays, and system-level instabilities. In such environments, time complexity rather than iteration complexity becomes the relevant performance metric for optimization algorithms. Recent work by Tyurin and Richtárik (2023) established the first time complexity analysis for parallel first-order stochastic optimization, proposing Rennala SGD as a time-optimal method for smooth nonconvex optimization. However, Rennala SGD is fundamentally a modification of SGD, and variance reduction techniques are known to improve the iteration complexity of SGD. In this work, we investigate whether variance reduction can also improve time complexity in heterogeneous systems. We show that, under a mean-squared smoothness assumption, variance reduction can improve time complexity in relevant parameter regimes. To this end, we propose Rennala MVR, a variance-reduced extension of Rennala SGD based on momentum-based variance reduction, and analyze its oracle and time complexity. We establish lower bounds for time complexity under these assumptions. On a stochastic quadratic benchmark, experiments with the exact method support the theory, while neural-network experiments with a practical inexact variant show similar empirical gains over Rennala SGD.}
+}
+
 @article{maranjyan2025thesis,
   title = {First Provably Optimal Asynchronous {SGD} for Homogeneous and Heterogeneous Data},
   author = {Artavazd Maranjyan},
