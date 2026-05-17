@@ -1,3 +1,13 @@
+@article{mahran2026rescaled,
+  title={Rescaled Asynchronous {SGD}: Optimal Distributed Optimization under Data and System Heterogeneity}, 
+  author={Ammar Mahran and Artavazd Maranjyan and Peter Richt{\'a}rik},
+  journal={arXiv preprint arXiv:2605.13434},
+  year={2026},
+  html={https://arxiv.org/abs/2605.13434},
+  url={https://arxiv.org/abs/2605.13434},
+  abstract={Asynchronous stochastic gradient descent (ASGD) is a standard way to exploit heterogeneous compute resources in distributed learning: instead of forcing fast workers to wait for slow ones, the server updates the model whenever a gradient arrives. Vanilla ASGD applies each arriving gradient with the same weight. When local data distributions are heterogeneous, this becomes problematic: faster workers contribute more updates, and we show theoretically that the method is biased toward a frequency-weighted average of the local objectives rather than the desired global objective. Existing remedies typically move away from the simple ASGD template by introducing gathering phases, buffering, or extra memory. We show that this is unnecessary. Keeping the standard ASGD mechanism, we recover the correct objective by rescaling worker-specific stepsizes in proportion to their computation times, so that each worker contributes the same aggregate learning rate over a cycle. In the non-convex setting, under smoothness and bounded heterogeneity assumptions, we prove that the resulting method, Rescaled ASGD, converges to stationary points of the correct global objective in the fixed-computation model. Its time complexity matches the known lower bound in the leading term, while the effects of staleness and data heterogeneity appear only in lower-order terms. Experiments confirm that the method converges to the correct objective and is competitive with state-of-the-art baselines.}
+}
+
 @article{tovmasyan2026rennala_mvr,
   title={{Rennala} {MVR}: Improved Time Complexity for Parallel Stochastic Optimization via Momentum-Based Variance Reduction}, 
   author={Zhirayr Tovmasyan and Artavazd Maranjyan and Peter Richt{\'a}rik},
