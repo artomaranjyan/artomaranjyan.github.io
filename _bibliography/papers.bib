@@ -1,4 +1,13 @@
+@article{sadiev2026ringmaster_lmo,
+  selected={true},
+  title={Ringmaster {LMO}: Asynchronous Linear Minimization Oracle Momentum Method}, 
+  author={Abdurakhmon Sadiev and Artavazd Maranjyan and Ivan Ilin and Peter Richt{\'a}rik},
+  year={2026},
+  abstract={Muon has recently emerged as a strong alternative to AdamW for training neural networks, with encouraging large-scale pretraining results and growing evidence that matrix-structured updates can be faster in practice. Yet Muon, and more generally Linear Minimization Oracle (LMO) based methods, are typically used synchronously. This is problematic in heterogeneous distributed systems, where workers complete gradient computations at different speeds and synchronous training must repeatedly wait for slower workers. In this work, we introduce Ringmaster LMO, an asynchronous LMO-based momentum method for unconstrained stochastic nonconvex optimization. Our method builds on the delay-thresholding idea of Ringmaster ASGD. For SGD-type methods, Ringmaster ASGD achieves optimal time complexity by discarding overly stale gradients. Ringmaster LMO extends this mechanism to general LMO-based updates. We establish convergence guarantees under generalized $(L_0, L_1)$-smoothness and further develop a parameter-agnostic variant with decreasing stepsizes and adaptive delay thresholds. Finally, we translate our iteration guarantees into time complexity bounds under heterogeneous worker computation times. In the classical Euclidean smooth setting, these bounds recover the optimal time complexity of Ringmaster ASGD. Experiments on stochastic quadratic problems and NanoChat language-model pretraining show that the advantages of Ringmaster LMO grow with system heterogeneity and that the method outperforms strong synchronous and asynchronous baselines.}
+}
+
 @article{mahran2026rescaled,
+  selected={true},
   title={Rescaled Asynchronous {SGD}: Optimal Distributed Optimization under Data and System Heterogeneity}, 
   author={Ammar Mahran and Artavazd Maranjyan and Peter Richt{\'a}rik},
   journal={arXiv preprint arXiv:2605.13434},
