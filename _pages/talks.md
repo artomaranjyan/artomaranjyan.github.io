@@ -58,6 +58,7 @@ nav_order: 5
        <li><strong>ATA: Adaptive Task Allocation for Efficient Resource Management <br> in Distributed Machine Learning </strong> [<a href="https://artomaranjyan.github.io/assets/pdf/posters/ATA_KAUST.pdf">poster</a>] </li>
    </ul>
   </li>
+</ol>
 
 ### 2025 Talks and Poster Presentations
 
