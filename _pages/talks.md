@@ -14,7 +14,7 @@ nav_order: 5
 
 </ol> -->
 
-### 2025 Talks and Poster Presentations
+### 2026 Talks and Poster Presentations
 
 <ol start="34" reversed>
 
@@ -58,6 +58,10 @@ nav_order: 5
        <li><strong>ATA: Adaptive Task Allocation for Efficient Resource Management <br> in Distributed Machine Learning </strong> [<a href="https://artomaranjyan.github.io/assets/pdf/posters/ATA_KAUST.pdf">poster</a>] </li>
    </ul>
   </li>
+
+### 2025 Talks and Poster Presentations
+
+<ol start="31" reversed>
 
   <li>
     <div style="display: flex; justify-content: space-between;"> 
