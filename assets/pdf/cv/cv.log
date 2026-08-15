@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.14)  15 AUG 2026 18:15
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.14)  15 AUG 2026 21:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -813,42 +813,42 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip96
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 166.
-Package hyperref Info: Option `breaklinks' set `true' on input line 206.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 206.
+Package hyperref Info: Option `colorlinks' set `true' on input line 169.
+Package hyperref Info: Option `breaklinks' set `true' on input line 210.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 210.
  (./cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 206.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 210.
+LaTeX Font Info:    ... okay on input line 210.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 210.
+LaTeX Font Info:    ... okay on input line 210.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 210.
+LaTeX Font Info:    ... okay on input line 210.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 210.
+LaTeX Font Info:    ... okay on input line 210.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 210.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-06.
+10.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Info: Redefining \microtypecontext on input line 206.
-Package microtype Info: Applying patch `item' on input line 206.
-Package microtype Info: Applying patch `toc' on input line 206.
-Package microtype Info: Applying patch `eqnum' on input line 206.
-Package microtype Info: Applying patch `footnote' on input line 206.
+LaTeX Font Info:    ... okay on input line 210.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 210.
+LaTeX Font Info:    ... okay on input line 210.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 210.
+LaTeX Font Info:    ... okay on input line 210.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 210.
+LaTeX Font Info:    ... okay on input line 210.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 210.
+LaTeX Font Info:    ... okay on input line 210.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 210.
+LaTeX Font Info:    ... okay on input line 210.
+LaTeX Info: Redefining \microtypecontext on input line 210.
+Package microtype Info: Applying patch `item' on input line 210.
+Package microtype Info: Applying patch `toc' on input line 210.
+Package microtype Info: Applying patch `eqnum' on input line 210.
+Package microtype Info: Applying patch `footnote' on input line 210.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -868,11 +868,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(42.67912pt, 700.96107pt, 101.40665pt)
+* v-part:(T,H,B)=(42.67912pt, 739.77176pt, 62.59596pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=512.14963pt
-* \textheight=700.96107pt
+* \textheight=739.77176pt
 * \oddsidemargin=-29.59087pt
 * \evensidemargin=-29.59087pt
 * \topmargin=-66.59087pt
@@ -893,7 +893,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 206.
+Package hyperref Info: Link coloring ON on input line 210.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -906,19 +906,19 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count329
 )
-LaTeX Info: Redefining \ref on input line 206.
-LaTeX Info: Redefining \pageref on input line 206.
-LaTeX Info: Redefining \nameref on input line 206.
+LaTeX Info: Redefining \ref on input line 210.
+LaTeX Info: Redefining \pageref on input line 210.
+LaTeX Info: Redefining \nameref on input line 210.
  (./cv.out) (./cv.out)
 \@outlinefile=\write4
 \openout4 = `cv.out'.
 
 \pagenumberwidth=\skip97
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <9> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 206.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 210.
 \makecvheaddetailsbox=\box68
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-10.
+14.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -932,35 +932,35 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-10.
+14.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-210.
+214.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-210.
+214.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 210.
+(Font)              <9> on input line 214.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 210.
+(Font)              <6> on input line 214.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 210.
+(Font)              <5> on input line 214.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-TU-empty.cfg
 File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonsta
 ndard glyph set (RS)
 )
 LaTeX Font Info:    Trying to load font information for TU+academicons on input
- line 210.
+ line 214.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/academicons/tuacademicons.fd)
 Missing character: There is no   (U+0020) in font [academicons.ttf]:!
@@ -1135,33 +1135,33 @@ Package microtype Info: Character `\textgreater ' is missing
 \makecvheadpicturewidth=\skip99
 \makecvheadnamebox=\box70
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--210
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 218.
+(Font)              <10> on input line 222.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 218.
+(Font)              <7> on input line 222.
 [1
 
 ]
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 421.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 424.
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 441.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 448.
 
- [2] [3] [4] (./cv.aux)
+ [2] [3] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: A9FF624824127F021A3D59F7AD544B5E;962.
+(rerunfilecheck)             Checksum: 7636334BAF4D934AFB486D862C14BBE7;962.
  ) 
 Here is how much of TeX's memory you used:
- 26795 strings out of 476179
- 545854 string characters out of 5809544
- 925063 words of memory out of 5000000
- 47042 multiletter control sequences out of 15000+600000
+ 26797 strings out of 476179
+ 545875 string characters out of 5809544
+ 930462 words of memory out of 5000000
+ 47044 multiletter control sequences out of 15000+600000
  487994 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  129i,14n,122p,999b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cv.xdv (4 pages, 176344 bytes).
+Output written on cv.xdv (3 pages, 136208 bytes).
