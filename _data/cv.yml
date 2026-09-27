@@ -14,7 +14,7 @@
       location: Thuwal, Saudi Arabia
       year: 2023 - 2025
       description:
-        - <b> Thesis:</b> <i>First Provably Optimal Asynchronous SGD for Homogeneous and Heterogeneous Data</i>
+        - <b> Thesis:</b> <a href="https://arxiv.org/abs/2601.02523"><i>First Provably Optimal Asynchronous SGD for Homogeneous and Heterogeneous Data</i></a>
         - <b> Advisor:</b> Prof. Peter Richtárik
 
     - title: M.Sc. in Applied Statistics and Data Science
@@ -22,7 +22,7 @@
       location: Yerevan, Armenia
       year: 2021 - 2023
       description:
-        - <b> Thesis:</b> <i>On local training methods</i>
+        - <b> Thesis:</b> <a href="/assets/pdf/Master_thesis.pdf"><i>On local training methods</i></a>
         - <b> Co-supervisors:</b> Prof. Peter Richtárik, Mher Safaryan
 
     - title: B.Sc. in Informatics and Applied Mathematics
@@ -30,7 +30,7 @@
       location: Yerevan, Armenia
       year: 2017 - 2021
       description:
-        - <b> Thesis:</b> <i>On the Convergence of Series in Classical Systems</i>
+        - <b> Thesis:</b> <a href="/assets/pdf/Bachelor_thesis.pdf"><i>On the Convergence of Series in Classical Systems</i></a>
         - <b> Supervisors:</b> Prof. Martin Grigoryan
 
 - title: Academic Experiences
@@ -73,7 +73,7 @@
       location: Yerevan, Armenia
       year: July 2021 - June 2022
       description:
-        - Built an MVP platform to help content creators and marketers generate or select photos that best matched their text descriptions
+        - Built an MVP that helped content creators and marketers select photos matching their text descriptions
         - Participated in the InVent 2.0 (FAST) venture building program, advancing through team formation, idea generation, product development, and pitching
         - Secured initial funding and continued development beyond the program
 

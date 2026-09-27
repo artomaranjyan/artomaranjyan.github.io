@@ -194,6 +194,10 @@ let setSearchTheme = (theme) => {
 };
 
 let transTheme = () => {
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    document.documentElement.classList.remove("transition");
+    return;
+  }
   document.documentElement.classList.add("transition");
   window.setTimeout(() => {
     document.documentElement.classList.remove("transition");

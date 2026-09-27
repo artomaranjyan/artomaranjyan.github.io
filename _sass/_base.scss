@@ -637,6 +637,45 @@ a:focus {
   }
 }
 
+@media (max-width: 767.98px) {
+  .post-title {
+    white-space: normal;
+    overflow: visible;
+    overflow-wrap: break-word;
+    width: auto;
+    animation: fadeInRight 1s ease-in-out;
+  }
+
+  .post-title:hover {
+    transform: none;
+  }
+}
+
+.talk-meta-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+
+  > div {
+    min-width: 0;
+  }
+
+  > div:last-child {
+    text-align: right;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .talk-meta-row {
+    flex-direction: column;
+    gap: 0;
+
+    > div:last-child {
+      text-align: left;
+    }
+  }
+}
+
 .post-list {
   margin: 0;
   margin-bottom: 40px;
@@ -953,6 +992,34 @@ code {
   padding: 3px 3px;
 }
 
+// Back to top
+#back-to-top {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+
+  &[hidden] {
+    display: none;
+  }
+
+  &:focus-visible {
+    outline: 3px solid var(--global-theme-color);
+    outline-offset: 3px;
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+}
+
 // Transitioning Themes
 html.transition,
 html.transition *,
@@ -960,6 +1027,33 @@ html.transition *:before,
 html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .post-title,
+  .post-title:hover,
+  a:hover,
+  a:focus {
+    animation: none;
+    transform: none;
+    transition: none;
+  }
+
+  .post-title {
+    width: auto;
+    white-space: normal;
+  }
+
+  html.transition,
+  html.transition *,
+  html.transition *:before,
+  html.transition *:after {
+    transition: none !important;
+  }
 }
 
 // Extra Markdown style (post Customization)

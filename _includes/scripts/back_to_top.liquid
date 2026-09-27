@@ -1,6 +1,6 @@
 {% if site.back_to_top %}
-  <script src="{{ '/assets/js/vanilla-back-to-top.min.js' | relative_url | bust_file_cache }}"></script>
-  <script>
-    addBackToTop();
-  </script>
+  <button id="back-to-top" type="button" aria-label="Back to top" hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg>
+  </button>
+  <script defer src="{{ '/assets/js/back-to-top.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}

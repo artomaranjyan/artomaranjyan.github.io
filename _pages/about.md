@@ -25,4 +25,4 @@ I received my MSc and BSc degrees from Yerevan State University.
 My research focuses on optimization for machine learning, especially distributed, federated, and asynchronous optimization methods.
 I develop algorithms with provable convergence guarantees to make large-scale AI training faster and more resource-efficient.
 
-Outside of academics, I enjoy dancing bachata, playing [board games](https://boardgamearena.com/player?section=prestige), ultimate frisbee, and foosball.
+Outside of academics, I enjoy dancing bachata, playing [board games](https://boardgamearena.com/player?id=96502891), ultimate frisbee, and foosball.
