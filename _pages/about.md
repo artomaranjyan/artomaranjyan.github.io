@@ -23,6 +23,6 @@ Before joining EPFL, I received my PhD in Computer Science from **KAUST**, where
 I received my MSc and BSc degrees from Yerevan State University.
 
 My research focuses on optimization for machine learning, especially distributed, federated, and asynchronous optimization methods.
-I am interested in developing practically motivated algorithms with provable convergence guarantees for large-scale learning systems.
+I develop algorithms with provable convergence guarantees to make large-scale AI training faster and more resource-efficient.
 
 Outside of academics, I enjoy dancing bachata, playing [board games](https://boardgamearena.com/player?section=prestige), ultimate frisbee, and foosball.

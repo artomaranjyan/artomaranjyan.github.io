@@ -28,7 +28,7 @@ layout: default
           {% endif %}
           {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
-          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true zoomable=true sizes = "700px" %}
+          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt="Arto Maranjyan" cache_bust=true zoomable=true sizes = "700px" %}
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
@@ -52,7 +52,21 @@ layout: default
               // fadeOut: true,
             };
 
-            var typed = new Typed('.typed-info', options);
+            const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+            let typed;
+            const updateCaptionMotion = () => {
+              if (typed) {
+                typed.destroy();
+                typed = null;
+              }
+              if (reducedMotion.matches) {
+                document.querySelector('.typed-info').textContent = options.strings[0];
+              } else {
+                typed = new Typed('.typed-info', options);
+              }
+            };
+            updateCaptionMotion();
+            reducedMotion.addEventListener('change', updateCaptionMotion);
           </script>
         {% endif %}
       </div>

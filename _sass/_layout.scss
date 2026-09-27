@@ -56,7 +56,8 @@ body {
   background-size: cover;
   background-position: 50% 50%;
   z-index: -10;
-  animation: fadein 2s ease-in;
+  opacity: 0.22;
+  pointer-events: none;
 }
 
 // #particles-js {
@@ -125,3 +126,7 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+@media (prefers-reduced-motion: reduce) {
+  #particles-js { visibility: hidden; }
+}

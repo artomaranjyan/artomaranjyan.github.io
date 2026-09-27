@@ -58,7 +58,7 @@
       {% if site.particle_js == true %}
         <script src="{{ '/assets/js/particles.js' | relative_url }}"></script>
         <script src="{{ '/assets/js/particle-call-function.js' | relative_url }}"></script>
-        <div id="particles-js"></div>
+        <div id="particles-js" aria-hidden="true" data-config="{{ '/assets/json/particles.json' | relative_url }}"></div>
       {% endif %}
     {% endif %}
 

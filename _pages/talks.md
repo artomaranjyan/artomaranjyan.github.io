@@ -16,7 +16,19 @@ nav_order: 5
 
 ### 2026 Talks and Poster Presentations
 
-<ol start="34" reversed>
+<ol start="35" reversed>
+
+<li>
+    <div style="display: flex; justify-content: space-between;">
+        <div><strong><a href="https://swiss-opt.github.io/">Swiss Optimization Symposium</a></strong></div>
+        <div style="text-align: right;">Ascona, Switzerland</div>
+    </div>
+    <div style="display: flex; justify-content: space-between;">
+        <div>Monte Verità</div>
+        <div style="text-align: right;">August 23–27, 2026</div>
+    </div>
+    Presented a poster on <strong>Rescaled Asynchronous SGD: Optimal Distributed Optimization under Data and System Heterogeneity</strong> [<a href="{{ '/assets/pdf/posters/Rescaled_SOS.pdf' | relative_url }}">poster</a>]
+</li>
 
 <li>
     <div style="display: flex; justify-content: space-between;"> 
@@ -27,7 +39,7 @@ nav_order: 5
         <div>Lagune Barra Hotel</div> 
         <div style="text-align: right;">April 26, 2026</div> 
    </div>
-   Delivered a talk titled <strong>Controlling Delay in Asynchronous SGD: Optimality for Any Data Regim</strong> [<a href="https://www.youtube.com/watch?v=gdR0agmkEtY">video</a>] [<a href="https://artomaranjyan.github.io/assets/pdf/slides/ICLR2026_Workshop.pdf">slides</a>]
+   Delivered a talk titled <strong>Controlling Delay in Asynchronous SGD: Optimality for Any Data Regime</strong> [<a href="https://www.youtube.com/watch?v=gdR0agmkEtY">video</a>] [<a href="https://artomaranjyan.github.io/assets/pdf/slides/ICLR2026_Workshop.pdf">slides</a>]
   </li>
 
 <li>
@@ -165,7 +177,7 @@ nav_order: 5
         <div>Singapore EXPO</div> 
         <div style="text-align: right;">April 24-28, 2025</div> 
    </div>
-   Presented a poster on <strong>LoCoDL: Communication-Efficient Distributed Learning <br> with Local Training and Compression</strong> <strong><span style="color: cyan;"> Spotlight presentation (top 5.1% of the submitted papers) </span></strong>
+   Presented a poster on <strong>LoCoDL: Communication-Efficient Distributed Learning <br> with Local Training and Compression</strong> <strong><span class="text-distinction"> Spotlight presentation (top 5.1% of the submitted papers) </span></strong>
   </li>
 
   <li>
@@ -225,7 +237,7 @@ nav_order: 5
         <div>Beihang University (BUAA)</div> 
         <div style="text-align: right;">March 17, 2025</div> 
    </div>
-   Invited by <strong><span style="color: cyan;">Jiaxin Xie</span></strong> to give a talk on <strong>Ringmaster ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/Ringmaster_BUAA.pdf">slides</a>]
+   Invited by <strong><span class="text-distinction">Jiaxin Xie</span></strong> to give a talk on <strong>Ringmaster ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/Ringmaster_BUAA.pdf">slides</a>]
   </li>
 
   <li>
@@ -237,7 +249,7 @@ nav_order: 5
         <div>Beijing Institute of Mathematical Sciences and Applications (BIMSA)</div> 
         <div style="text-align: right;">March 13, 2025</div> 
    </div>
-   Invited by <strong><span style="color: cyan;">Yi-Shuai Niu</span></strong> to give a talk on <strong>Ringmaster ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/Ringmaster_BIMSA.pdf">slides</a>]
+   Invited by <strong><span class="text-distinction">Yi-Shuai Niu</span></strong> to give a talk on <strong>Ringmaster ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/Ringmaster_BIMSA.pdf">slides</a>]
   </li>
 
   <li>
@@ -249,7 +261,7 @@ nav_order: 5
         <div>Peking University</div> 
         <div style="text-align: right;">March 12, 2025</div> 
    </div>
-   Invited by <strong><span style="color: cyan;">Kun Yuan</span></strong> to give a talk on <strong>Ringmaster ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/Ringmaster_Peking_Uni.pdf">slides</a>]
+   Invited by <strong><span class="text-distinction">Kun Yuan</span></strong> to give a talk on <strong>Ringmaster ASGD: The First Asynchronous SGD <br> with Optimal Time Complexity</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/Ringmaster_Peking_Uni.pdf">slides</a>]
   </li>
 
   <li>
@@ -281,7 +293,7 @@ nav_order: 5
    </div>
    Presented
    <ul>
-       <li><strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous <br> and Random Worker Compute Times</strong> (<strong><span style="color: cyan;">Oral, Top 5%</span></strong>) [<a href="https://neurips.cc/virtual/2024/100410">video</a>] </li>
+       <li><strong>MindFlayer: Efficient Asynchronous Parallel SGD in the Presence of Heterogeneous <br> and Random Worker Compute Times</strong> (<strong><span class="text-distinction">Oral, Top 5%</span></strong>) [<a href="https://neurips.cc/virtual/2024/100410">video</a>] </li>
        <li><strong>Differentially Private Random Block Coordinate Descent</strong></li>
        <li><strong>LoCoDL: Communication-Efficient Distributed Learning with Local Training and Compression</strong></li>
    </ul>
@@ -296,7 +308,7 @@ nav_order: 5
         <div>Machine Learning Research at Apple</div> 
         <div style="text-align: right;">November 21, 2024</div> 
    </div>
-   Invited by <strong><span style="color: cyan;">Samy Bengio</span></strong> to give a talk on <strong>MindFlayer: Efficient Asynchronous Parallel SGD <br> in the Presence of Heterogeneous and Random Worker Compute Times</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/MindFlayer_AppleMLR.pdf">slides</a>]
+   Invited by <strong><span class="text-distinction">Samy Bengio</span></strong> to give a talk on <strong>MindFlayer: Efficient Asynchronous Parallel SGD <br> in the Presence of Heterogeneous and Random Worker Compute Times</strong> [<a href="https://artomaranjyan.github.io/assets/pdf/MindFlayer_AppleMLR.pdf">slides</a>]
   </li>
 
   <li>
@@ -319,7 +331,7 @@ nav_order: 5
         <div>KAUST</div> 
         <div style="text-align: right;">October 10, 2024</div> 
    </div>
-   Presented a poster on <strong>GradSkip: Communication-Accelerated Local Gradient Methods <br> with Better Computational Complexity</strong> [<strong><span style="color: cyan;">3rd place</span></strong>]
+   Presented a poster on <strong>GradSkip: Communication-Accelerated Local Gradient Methods <br> with Better Computational Complexity</strong> [<strong><span class="text-distinction">3rd place</span></strong>]
   </li>
   <li>
     <div style="display: flex; justify-content: space-between;"> 
