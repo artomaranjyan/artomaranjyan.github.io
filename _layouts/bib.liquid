@@ -149,7 +149,13 @@
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
-      {% capture entrytype %}<em>{{entry.journal}}</em>{% endcapture %}
+      {% if entry.journal contains ': ' %}
+        {% assign venue_label = entry.journal | split: ': ' | first %}
+        {% assign venue_name = entry.journal | remove_first: venue_label | remove_first: ': ' %}
+        {% capture entrytype %}<em><strong>{{ venue_label }}</strong>: {{ venue_name }}</em>{% endcapture %}
+      {% else %}
+        {% capture entrytype %}<em>{{entry.journal}}</em>{% endcapture %}
+      {% endif %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{entry.booktitle}}</em> {% endcapture %}
     {% elsif thesis contains entry.type %}

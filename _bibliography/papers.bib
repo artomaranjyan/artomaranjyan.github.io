@@ -1,12 +1,37 @@
+@article{mahran2026rescaled,
+  selected={true},
+  title={Rescaled Asynchronous {SGD}: Optimal Distributed Optimization under Data and System Heterogeneity},
+  author={Ammar Mahran and Artavazd Maranjyan and Peter Richt{\'a}rik},
+  journal={NeurIPS 2026: Conference on Neural Information Processing Systems},
+  year={2026},
+  html={https://arxiv.org/abs/2605.13434},
+  url={https://arxiv.org/abs/2605.13434},
+  poster={posters/Rescaled_SOS.pdf},
+  abstract={Asynchronous stochastic gradient descent (ASGD) is a standard way to exploit heterogeneous compute resources in distributed learning: instead of forcing fast workers to wait for slow ones, the server updates the model whenever a gradient arrives. Vanilla ASGD applies each arriving gradient with the same weight. When local data distributions are heterogeneous, this becomes problematic: faster workers contribute more updates, and we show theoretically that the method is biased toward a frequency-weighted average of the local objectives rather than the desired global objective. Existing remedies typically move away from the simple ASGD template by introducing gathering phases, buffering, or extra memory. We show that this is unnecessary. Keeping the standard ASGD mechanism, we recover the correct objective by rescaling worker-specific stepsizes in proportion to their computation times, so that each worker contributes the same aggregate learning rate over a cycle. In the non-convex setting, under smoothness and bounded heterogeneity assumptions, we prove that the resulting method, Rescaled ASGD, converges to stationary points of the correct global objective in the fixed-computation model. Its time complexity matches the known lower bound in the leading term, while the effects of staleness and data heterogeneity appear only in lower-order terms. Experiments confirm that the method converges to the correct objective and is competitive with state-of-the-art baselines.}
+}
+
 @article{maziane2026loscar,
   selected={true},
   title={{LOSCAR-SGD}: Local {SGD} with Communication-Computation Overlap and Delay-Corrected Sparse Model Averaging},
   author={Yassine Maziane and Ammar Mahran and Artavazd Maranjyan and Peter Richt\'{a}rik},
-  journal={arXiv preprint arXiv:2605.20866},
+  journal={NeurIPS 2026: Conference on Neural Information Processing Systems},
   year={2026},
   html={https://arxiv.org/abs/2605.20866},
   url={https://arxiv.org/abs/2605.20866},
   abstract={Communication is a major bottleneck in distributed learning, especially in large-scale settings and in federated learning environments with slow links. Three standard ways to reduce this cost are communication compression, local training, and communication-computation overlap. Methods that combine these ingredients are used in practice and have been found to be effective for large-scale training, but there is little theory for methods that combine all three. We study a heterogeneous-compute setting in which different workers may take different numbers of local steps, and we propose LOSCAR-SGD, a Local SGD method that communicates only a sparse subset of model coordinates and continues optimizing while communication is in flight. A key ingredient is a delay-corrected merge rule that incorporates delayed synchronized information without discarding the progress made during the overlap phase. We give convergence guarantees for smooth non-convex objectives and show how sparsity, overlap, and worker heterogeneity affect the rate. To the best of our knowledge, this is the first theory for this combination of ingredients. Experiments further show that communication-computation overlap reduces training time and that the delay-corrected merge outperforms naive overwriting.}
+}
+
+@article{maranjyan2026ringleader,
+  selected={true},
+  title={Ringleader {ASGD}: The First Asynchronous {SGD} with Optimal Time Complexity under Data Heterogeneity},
+  author={Artavazd Maranjyan and Peter Richtárik},
+  journal={ICLR 2026: The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  html={https://openreview.net/forum?id=5wqTal0EuC},
+  url={https://openreview.net/forum?id=5wqTal0EuC},
+  slides={slides/Ringleader_Colloquium.pdf},
+  poster={posters/Ringleader_ICLR.pdf},
+  abstract={Asynchronous stochastic gradient methods are central to scalable distributed optimization, particularly when devices differ in computational capabilities. Such settings arise naturally in federated learning, where training takes place on smartphones and other heterogeneous edge devices. In addition to varying computation speeds, these devices often hold data from different distributions. However, existing asynchronous SGD methods struggle in such heterogeneous settings and face two key limitations. First, many rely on unrealistic assumptions of similarity across workers' data distributions. Second, methods that relax this assumption still fail to achieve theoretically optimal performance under heterogeneous computation times. We introduce Ringleader ASGD, the first asynchronous SGD algorithm that attains the theoretical lower bounds for parallel first-order stochastic methods in the smooth nonconvex regime, thereby achieving optimal time complexity under data heterogeneity and without restrictive similarity assumptions. Our analysis further establishes that Ringleader ASGD remains optimal under arbitrary and even time-varying worker computation speeds, closing a fundamental gap in the theory of asynchronous optimization.},
 }
 
 @article{sadiev2026ringmaster_lmo,
@@ -20,18 +45,6 @@
   abstract={Muon has recently emerged as a strong alternative to AdamW for training neural networks, with encouraging large-scale pretraining results and growing evidence that matrix-structured updates can be faster in practice. Yet Muon, and more generally Linear Minimization Oracle (LMO) based methods, are typically used synchronously. This is problematic in heterogeneous distributed systems, where workers complete gradient computations at different speeds and synchronous training must repeatedly wait for slower workers. In this work, we introduce Ringmaster LMO, an asynchronous LMO-based momentum method for unconstrained stochastic nonconvex optimization. Our method builds on the delay-thresholding idea of Ringmaster ASGD. For SGD-type methods, Ringmaster ASGD achieves optimal time complexity by discarding overly stale gradients. Ringmaster LMO extends this mechanism to general LMO-based updates. We establish convergence guarantees under generalized $(L_0, L_1)$-smoothness and further develop a parameter-agnostic variant with decreasing stepsizes and adaptive delay thresholds. Finally, we translate our iteration guarantees into time complexity bounds under heterogeneous worker computation times. In the classical Euclidean smooth setting, these bounds recover the optimal time complexity of Ringmaster ASGD. Experiments on stochastic quadratic problems and NanoChat language-model pretraining show that the advantages of Ringmaster LMO grow with system heterogeneity and that the method outperforms strong synchronous and asynchronous baselines.}
 }
 
-@article{mahran2026rescaled,
-  selected={true},
-  title={Rescaled Asynchronous {SGD}: Optimal Distributed Optimization under Data and System Heterogeneity}, 
-  author={Ammar Mahran and Artavazd Maranjyan and Peter Richt{\'a}rik},
-  journal={arXiv preprint arXiv:2605.13434},
-  year={2026},
-  html={https://arxiv.org/abs/2605.13434},
-  url={https://arxiv.org/abs/2605.13434},
-  poster={posters/Rescaled_SOS.pdf},
-  abstract={Asynchronous stochastic gradient descent (ASGD) is a standard way to exploit heterogeneous compute resources in distributed learning: instead of forcing fast workers to wait for slow ones, the server updates the model whenever a gradient arrives. Vanilla ASGD applies each arriving gradient with the same weight. When local data distributions are heterogeneous, this becomes problematic: faster workers contribute more updates, and we show theoretically that the method is biased toward a frequency-weighted average of the local objectives rather than the desired global objective. Existing remedies typically move away from the simple ASGD template by introducing gathering phases, buffering, or extra memory. We show that this is unnecessary. Keeping the standard ASGD mechanism, we recover the correct objective by rescaling worker-specific stepsizes in proportion to their computation times, so that each worker contributes the same aggregate learning rate over a cycle. In the non-convex setting, under smoothness and bounded heterogeneity assumptions, we prove that the resulting method, Rescaled ASGD, converges to stationary points of the correct global objective in the fixed-computation model. Its time complexity matches the known lower bound in the leading term, while the effects of staleness and data heterogeneity appear only in lower-order terms. Experiments confirm that the method converges to the correct objective and is competitive with state-of-the-art baselines.}
-}
-
 @article{tovmasyan2026rennala_mvr,
   title={{Rennala} {MVR}: Improved Time Complexity for Parallel Stochastic Optimization via Momentum-Based Variance Reduction}, 
   author={Zhirayr Tovmasyan and Artavazd Maranjyan and Peter Richt{\'a}rik},
@@ -40,31 +53,6 @@
   html={https://arxiv.org/abs/2605.08871},
   url={https://arxiv.org/abs/2605.08871},
   abstract={Large-scale machine learning models are trained on clusters of machines that exhibit heterogeneous performance due to hardware variability, network delays, and system-level instabilities. In such environments, time complexity rather than iteration complexity becomes the relevant performance metric for optimization algorithms. Recent work by Tyurin and Richtárik (2023) established the first time complexity analysis for parallel first-order stochastic optimization, proposing Rennala SGD as a time-optimal method for smooth nonconvex optimization. However, Rennala SGD is fundamentally a modification of SGD, and variance reduction techniques are known to improve the iteration complexity of SGD. In this work, we investigate whether variance reduction can also improve time complexity in heterogeneous systems. We show that, under a mean-squared smoothness assumption, variance reduction can improve time complexity in relevant parameter regimes. To this end, we propose Rennala MVR, a variance-reduced extension of Rennala SGD based on momentum-based variance reduction, and analyze its oracle and time complexity. We establish lower bounds for time complexity under these assumptions. On a stochastic quadratic benchmark, experiments with the exact method support the theory, while neural-network experiments with a practical inexact variant show similar empirical gains over Rennala SGD.}
-}
-
-@article{maranjyan2025thesis,
-  selected={true},
-  title = {First Provably Optimal Asynchronous {SGD} for Homogeneous and Heterogeneous Data},
-  author = {Artavazd Maranjyan},
-  year = {2025},
-  journal = {KAUST Research Repository},
-  url = {https://arxiv.org/abs/2601.02523},
-  html = {https://arxiv.org/abs/2601.02523},
-  doi = {10.25781/KAUST-WH234},
-  abstract={Artificial intelligence has advanced rapidly through large neural networks trained on massive datasets using thousands of GPUs or TPUs. Such training can occupy entire data centers for weeks and requires enormous computational and energy resources. Yet the optimization algorithms behind these runs have not kept pace. Most large scale training still relies on synchronous methods, where workers must wait for the slowest device, wasting compute and amplifying the effects of hardware and network variability. Removing synchronization seems like a simple fix, but asynchrony introduces staleness, meaning updates computed on outdated models. This makes analysis difficult, especially when delays arise from system level randomness rather than algorithmic choices. As a result, the time complexity of asynchronous methods remains poorly understood. This dissertation develops a rigorous framework for asynchronous first order stochastic optimization, focusing on the core challenge of heterogeneous worker speeds. Within this framework, we show that with proper design, asynchronous SGD can achieve optimal time complexity, matching guarantees previously known only for synchronous methods. Our first contribution, Ringmaster ASGD, attains optimal time complexity in the homogeneous data setting by selectively discarding stale updates. The second, Ringleader ASGD, extends optimality to heterogeneous data, common in federated learning, using a structured gradient table mechanism. Finally, ATA improves resource efficiency by learning worker compute time distributions and allocating tasks adaptively, achieving near optimal wall clock time with less computation. Together, these results establish asynchronous optimization as a theoretically sound and practically efficient foundation for distributed learning, showing that coordination without synchronization can be both feasible and optimal.}
-}
-
-@article{maranjyan2026ringleader,
-  selected={true},
-  title={Ringleader {ASGD}: The First Asynchronous {SGD} with Optimal Time Complexity under Data Heterogeneity},
-  author={Artavazd Maranjyan and Peter Richtárik},
-  journal={ICLR 2026: The Fourteenth International Conference on Learning Representations},
-  year={2026},
-  html={https://openreview.net/forum?id=5wqTal0EuC},
-  url={https://openreview.net/forum?id=5wqTal0EuC},
-  slides={slides/Ringleader_Colloquium.pdf},
-  poster={posters/Ringleader_ICLR.pdf},
-  abstract={Asynchronous stochastic gradient methods are central to scalable distributed optimization, particularly when devices differ in computational capabilities. Such settings arise naturally in federated learning, where training takes place on smartphones and other heterogeneous edge devices. In addition to varying computation speeds, these devices often hold data from different distributions. However, existing asynchronous SGD methods struggle in such heterogeneous settings and face two key limitations. First, many rely on unrealistic assumptions of similarity across workers' data distributions. Second, methods that relax this assumption still fail to achieve theoretically optimal performance under heterogeneous computation times. We introduce Ringleader ASGD, the first asynchronous SGD algorithm that attains the theoretical lower bounds for parallel first-order stochastic methods in the smooth nonconvex regime, thereby achieving optimal time complexity under data heterogeneity and without restrictive similarity assumptions. Our analysis further establishes that Ringleader ASGD remains optimal under arbitrary and even time-varying worker computation speeds, closing a fundamental gap in the theory of asynchronous optimization.}, 
 }
 
 @article{maranjyan2025ringmaster,
@@ -109,6 +97,17 @@
   abstract={We investigate the problem of minimizing the expectation of smooth nonconvex functions in a distributed setting with multiple parallel workers that are able to compute stochastic gradients. A significant challenge in this context is the presence of arbitrarily heterogeneous and stochastic compute times among workers, which can severely degrade the performance of existing parallel stochastic gradient descent (SGD) methods. While some parallel SGD algorithms achieve optimal performance under deterministic but heterogeneous delays, their effectiveness diminishes when compute times are random—a scenario not explicitly addressed in their design. To bridge this gap, we introduce MindFlayer SGD, a novel parallel SGD method specifically designed to handle stochastic and heterogeneous compute times. Through theoretical analysis and empirical evaluation, we demonstrate that MindFlayer SGD consistently outperforms existing baselines, particularly in environments with heavy-tailed noise. Our results highlight its robustness and scalability, making it a compelling choice for large-scale distributed learning tasks.}
 }
 
+@article{condat2024locodl,
+  title={{LoCoDL}: Communication-Efficient Distributed Learning with Local Training and Compression},
+  author={Condat, Laurent and Maranjyan, Artavazd and Richt{\'a}rik, Peter},
+  journal={ICLR 2025: The Thirteenth International Conference on Learning Representations},
+  year={2025},
+  html={https://openreview.net/forum?id=PpYy0dR3Qw},
+  url={https://openreview.net/forum?id=PpYy0dR3Qw},
+  poster={Locodl_poster.pdf},
+  abstract={In Distributed optimization and Learning, and even more in the modern framework of federated learning, communication, which is slow and costly, is critical. We introduce LoCoDL, a communication-efficient algorithm that leverages the two popular and effective techniques of Local training, which reduces the communication frequency, and Compression, in which short bitstreams are sent instead of full-dimensional vectors of floats. LoCoDL works with a large class of unbiased compressors that includes widely-used sparsification and quantization methods. LoCoDL provably benefits from local training and compression and enjoys a doubly-accelerated communication complexity, with respect to the condition number of the functions and the model dimension, in the general heterogenous regime with strongly convex functions. This is confirmed in practice, with LoCoDL outperforming existing algorithms.}
+}
+
 @article{maranjyan2025gradskip,
   selected={true},
   title={{GradSkip}: Communication-Accelerated Local Gradient Methods with Better Computational Complexity},
@@ -123,15 +122,17 @@
   video={https://www.youtube.com/watch?v=WWhY5tO-FiM},
   abstract={We study a class of distributed optimization algorithms that aim to alleviate high communication costs by allowing clients to perform multiple local gradient-type training steps before communication. In a recent breakthrough, Mishchenko et al. (2022) proved that local training, when properly executed, leads to provable communication acceleration, and this holds in the strongly convex regime without relying on any data similarity assumptions. However, their ProxSkip method requires all clients to take the same number of local training steps in each communication round. We propose a redesign of the ProxSkip method, allowing clients with ``less important'' data to get away with fewer local training steps without impacting the overall communication complexity of the method. In particular, we prove that our modified method, GradSkip, converges linearly under the same assumptions and has the same accelerated communication complexity, while the number of local gradient steps can be reduced relative to a local condition number. We further generalize our method by extending the randomness of probabilistic alternations to arbitrary unbiased compression operators and by considering a generic proximable regularizer. This generalization, which we call GradSkip+, recovers several related methods in the literature as special cases. Finally, we present an empirical study on carefully designed toy problems that confirm our theoretical claims.}
 }
-@article{condat2024locodl,
-  title={{LoCoDL}: Communication-Efficient Distributed Learning with Local Training and Compression},
-  author={Condat, Laurent and Maranjyan, Artavazd and Richt{\'a}rik, Peter},
-  journal={ICLR 2025: The Thirteenth International Conference on Learning Representations},
-  year={2025},
-  html={https://openreview.net/forum?id=PpYy0dR3Qw},
-  url={https://openreview.net/forum?id=PpYy0dR3Qw},
-  poster={Locodl_poster.pdf},
-  abstract={In Distributed optimization and Learning, and even more in the modern framework of federated learning, communication, which is slow and costly, is critical. We introduce LoCoDL, a communication-efficient algorithm that leverages the two popular and effective techniques of Local training, which reduces the communication frequency, and Compression, in which short bitstreams are sent instead of full-dimensional vectors of floats. LoCoDL works with a large class of unbiased compressors that includes widely-used sparsification and quantization methods. LoCoDL provably benefits from local training and compression and enjoys a doubly-accelerated communication complexity, with respect to the condition number of the functions and the model dimension, in the general heterogenous regime with strongly convex functions. This is confirmed in practice, with LoCoDL outperforming existing algorithms.}
+
+@article{maranjyan2025thesis,
+  selected={true},
+  title = {First Provably Optimal Asynchronous {SGD} for Homogeneous and Heterogeneous Data},
+  author = {Artavazd Maranjyan},
+  year = {2025},
+  journal = {KAUST Research Repository},
+  url = {https://arxiv.org/abs/2601.02523},
+  html = {https://arxiv.org/abs/2601.02523},
+  doi = {10.25781/KAUST-WH234},
+  abstract={Artificial intelligence has advanced rapidly through large neural networks trained on massive datasets using thousands of GPUs or TPUs. Such training can occupy entire data centers for weeks and requires enormous computational and energy resources. Yet the optimization algorithms behind these runs have not kept pace. Most large scale training still relies on synchronous methods, where workers must wait for the slowest device, wasting compute and amplifying the effects of hardware and network variability. Removing synchronization seems like a simple fix, but asynchrony introduces staleness, meaning updates computed on outdated models. This makes analysis difficult, especially when delays arise from system level randomness rather than algorithmic choices. As a result, the time complexity of asynchronous methods remains poorly understood. This dissertation develops a rigorous framework for asynchronous first order stochastic optimization, focusing on the core challenge of heterogeneous worker speeds. Within this framework, we show that with proper design, asynchronous SGD can achieve optimal time complexity, matching guarantees previously known only for synchronous methods. Our first contribution, Ringmaster ASGD, attains optimal time complexity in the homogeneous data setting by selectively discarding stale updates. The second, Ringleader ASGD, extends optimality to heterogeneous data, common in federated learning, using a structured gradient table mechanism. Finally, ATA improves resource efficiency by learning worker compute time distributions and allocating tasks adaptively, achieving near optimal wall clock time with less computation. Together, these results establish asynchronous optimization as a theoretically sound and practically efficient foundation for distributed learning, showing that coordination without synchronization can be both feasible and optimal.}
 }
 
 @article{maranjyan2024differentially,
@@ -178,4 +179,3 @@
   year={2021},
   url={https://journals.ysu.am/index.php/proceedings-phys-math/article/view/vol55_no1_2021_pp012-019}
 }
-
