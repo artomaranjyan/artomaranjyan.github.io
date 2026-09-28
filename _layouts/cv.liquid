@@ -11,7 +11,8 @@ layout: default
             class="cv-download"
             href="{{ page.cv_pdf | prepend: 'assets/pdf/cv/' | relative_url}}"
             download="Arto_Maranjyan_CV.pdf"
-            ><i class="fa-solid fa-file-pdf" aria-hidden="true"></i>Download CV (PDF)</a>
+            ><i class="fa-solid fa-file-pdf" aria-hidden="true"></i>Download CV (PDF)</a
+          >
         {% endif %}
       </h1>
       {% if page.description %}
@@ -20,11 +21,11 @@ layout: default
     </header>
 
     <article>
-      <div class="cv">
+      <div class="cv cv-compact">
         {% for entry in site.data.cv %}
           <a class="anchor" id="{{ entry.title }}"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+          <section class="cv-section" aria-labelledby="cv-section-{{ entry.title | slugify }}">
+            <h2 class="cv-section-title" id="cv-section-{{ entry.title | slugify }}">{{ entry.title }}</h2>
             <div>
               {% if entry.type == 'list' %}
                 {% include cv/list.liquid %}
@@ -40,7 +41,7 @@ layout: default
                 {{ entry.contents }}
               {% endif %}
             </div>
-          </div>
+          </section>
         {% endfor %}
       </div>
     </article>

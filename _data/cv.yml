@@ -12,7 +12,7 @@
     - title: Ph.D. in Computer Science
       institution: King Abdullah University of Science and Technology (KAUST)
       location: Thuwal, Saudi Arabia
-      year: 2023 - 2025
+      year: 2023–2025
       description:
         - <b> Thesis:</b> <a href="https://arxiv.org/abs/2601.02523"><i>First Provably Optimal Asynchronous SGD for Homogeneous and Heterogeneous Data</i></a>
         - <b> Advisor:</b> Prof. Peter Richtárik
@@ -20,7 +20,7 @@
     - title: M.Sc. in Applied Statistics and Data Science
       institution: Yerevan State University
       location: Yerevan, Armenia
-      year: 2021 - 2023
+      year: 2021–2023
       description:
         - <b> Thesis:</b> <a href="/assets/pdf/Master_thesis.pdf"><i>On local training methods</i></a>
         - <b> Co-supervisors:</b> Prof. Peter Richtárik, Mher Safaryan
@@ -28,7 +28,7 @@
     - title: B.Sc. in Informatics and Applied Mathematics
       institution: Yerevan State University
       location: Yerevan, Armenia
-      year: 2017 - 2021
+      year: 2017–2021
       description:
         - <b> Thesis:</b> <a href="/assets/pdf/Bachelor_thesis.pdf"><i>On the Convergence of Series in Classical Systems</i></a>
         - <b> Supervisor:</b> Prof. Martin Grigoryan
@@ -39,7 +39,7 @@
     - title: Research visit to Yi-Shuai Niu
       institution: Beijing Institute of Mathematical Sciences and Applications (BIMSA)
       location: Beijing, China
-      year: 9-22 March 2025
+      year: 9–22 Mar 2025
       description:
         - Gave talks at three institutions (PKU, BUAA, BIMSA)
         - Worked with Professor Yi-Shuai Niu on a project on Server-Assisted Federated Learning
@@ -47,21 +47,21 @@
     - title: Researcher in the group of Prof. Martin Grigoryan
       institution: Yerevan State University
       location: Yerevan, Armenia
-      year: April 2023 - Aug 2023
+      year: Apr–Aug 2023
       description:
         - Studied the existence and properties of universal functions with respect to the Vilenkin and Haar systems across various functional spaces
 
     - title: Internship in the group of Prof. Peter Richtárik
       institution: King Abdullah University of Science and Technology (KAUST)
       location: Thuwal, Saudi Arabia
-      year: June 2022 - Jan 2023
+      year: Jun 2022–Jan 2023
       description:
         - "Worked on the <i>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</i> paper"
 
     - title: Machine Learning Researcher
       institution: YerevaNN
       location: Yerevan, Armenia
-      year: Jan 2022 - Aug 2023
+      year: Jan 2022–Aug 2023
       description:
         - Worked at the intersection of Federated Learning and Optimization
 
@@ -71,7 +71,7 @@
     - title: Co-Founder
       institution: OnePick
       location: Yerevan, Armenia
-      year: July 2021 - June 2022
+      year: Jul 2021–Jun 2022
       description:
         - Built an MVP that helped content creators and marketers select photos matching their text descriptions
         - Participated in the InVent 2.0 (FAST) venture building program, advancing through team formation, idea generation, product development, and pitching
@@ -80,14 +80,14 @@
     - title: Backend Developer
       institution: EXALT Technologies Ltd.
       location: Remote (Yerevan, Armenia)
-      year: July 2021 - Sep 2021
+      year: Jul–Sep 2021
       description:
         - Worked for Nutanix
 
     - title: Machine Learning Research Engineer
       institution: Foundation for Armenian Science and Technology (FAST)
       location: Yerevan, Armenia
-      year: June 2021 - July 2021
+      year: Jun–Jul 2021
       description:
         - Worked on fraud detection
         - Made data-driven forecasts using machine learning algorithms and statistical models
@@ -95,7 +95,7 @@
     - title: Software Engineer in Test
       institution: Picsart
       location: Yerevan, Armenia
-      year: Sep 2019 - Jan 2021
+      year: Sep 2019–Jan 2021
       description:
         - Worked with automation team to design and develop automated solutions across several mobile/web applications
         - Worked directly with software developers, test engineers, product owners, business analysts to find and resolve issues
@@ -106,7 +106,7 @@
   contents:
     - title: EPFL AI Center and Swiss AI Initiative Postdoctoral Fellowship
       institution: École Polytechnique Fédérale de Lausanne (EPFL)
-      year: June 2026
+      year: Jun 2026
       description: Competitive fellowship supporting independent postdoctoral research, with additional travel funding
 
     - title: CEMSE Dean's List Award
