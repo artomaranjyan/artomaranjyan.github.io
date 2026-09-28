@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle:
+subtitle: "In papers: Artavazd Maranjyan"
 
 profile:
   align: right

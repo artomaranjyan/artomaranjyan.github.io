@@ -15,14 +15,12 @@
           {% assign news_limit = news_size %}
         {% endif %}
         {% for item in news limit: news_limit %}
-          <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+          <tr id="{{ item.url | slugify }}">
+            <th scope="row" style="width: 20%">
+              <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %d, %Y' }}</time>
+            </th>
             <td>
-              {% if item.inline %}
-                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-              {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-              {% endif %}
+              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
             </td>
           </tr>
         {% endfor %}

@@ -187,7 +187,7 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false # announcements appear in the news lists, without separate pages
     permalink: /:collection/:title/
   projects:
     output: false
