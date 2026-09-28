@@ -57,8 +57,8 @@
     {% if site.particle_js %}
       {% if site.particle_js == true %}
         <script src="{{ '/assets/js/particles.js' | relative_url }}"></script>
-        <script src="{{ '/assets/js/particle-call-function.js' | relative_url }}"></script>
-        <div id="particles-js" aria-hidden="true" data-config="{{ '/assets/json/particles.json' | relative_url }}"></div>
+        <script src="{{ '/assets/js/particle-call-function.js' | relative_url | bust_file_cache }}"></script>
+        <div id="particles-js" aria-hidden="true" data-config="{{ '/assets/json/particles.json' | relative_url | bust_file_cache }}"></div>
       {% endif %}
     {% endif %}
 

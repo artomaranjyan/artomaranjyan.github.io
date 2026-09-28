@@ -2,10 +2,20 @@
  * Content
  ******************************************************************************/
 
+html {
+  background-color: var(--global-bg-color);
+}
+
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  // Keep the ember layer above the background and below all page content.
+  isolation: isolate;
+  background-image: radial-gradient(ellipse 58vw 75vh at -12vw 16vh, var(--global-edge-glow-left) 0%, transparent 76%),
+    radial-gradient(ellipse 56vw 78vh at 112vw 82vh, var(--global-edge-glow-right) 0%, transparent 76%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
   h1,
   h2,
@@ -55,8 +65,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  z-index: -10;
-  opacity: 0.22;
+  z-index: -1;
+  opacity: 0.65;
   pointer-events: none;
 }
 
