@@ -1537,6 +1537,12 @@ html.portrait-viewer-open,
   cursor: zoom-out;
 }
 
+// Keep the cutout unchanged and paint the Ember background behind it.
+.portrait-zoom img,
+.portrait-viewer-image {
+  background: radial-gradient(ellipse at 55% 35%, #4a3d48 0%, #3a2934 48%, #252129 100%);
+}
+
 .portrait-viewer-close {
   position: absolute;
   top: max(0.75rem, env(safe-area-inset-top));

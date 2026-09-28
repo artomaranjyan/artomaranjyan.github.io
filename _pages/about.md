@@ -6,7 +6,7 @@ subtitle: "In papers: Artavazd Maranjyan"
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_cutout.png
   image_circular: false # crops the image to make it circular
   more_info:
 

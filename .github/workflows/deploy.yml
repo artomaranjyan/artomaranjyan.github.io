@@ -96,7 +96,9 @@ jobs:
       - name: Verify responsive portrait images
         run: |
           for width in 480 800 1400; do
-            test -s "_site/assets/img/prof_pic-${width}.webp"
+            portrait="_site/assets/img/prof_pic_cutout-${width}.webp"
+            test -s "$portrait"
+            test "$(identify -format '%[opaque]' "$portrait" | tr '[:upper:]' '[:lower:]')" = "false"
           done
       - name: Purge unused CSS 🧹
         run: |
