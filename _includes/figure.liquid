@@ -5,6 +5,14 @@
     slot="{{ include.slot }}"
   {% endif %}
 >
+  {% if include.portrait_zoom %}
+    <a
+      class="portrait-zoom"
+      data-portrait-zoom
+      href="{{ include.path | relative_url | bust_file_cache }}"
+      aria-label="View larger portrait of Arto Maranjyan"
+    >
+  {% endif %}
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
@@ -72,6 +80,9 @@
       onerror="this.onerror=null; this.parentElement.querySelectorAll('source').forEach((source) => source.remove());"
     >
   </picture>
+  {% if include.portrait_zoom %}
+    </a>
+  {% endif %}
 
   {% if include.caption %}
     <figcaption class="caption">{{ include.caption }}</figcaption>

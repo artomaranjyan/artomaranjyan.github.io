@@ -26,7 +26,7 @@ layout: default
         {% endif %}
         {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 88px{% endcapture %}
-        {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt="Arto Maranjyan" cache_bust=true zoomable=true width="2489" height="2160" %}
+        {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt="Arto Maranjyan" cache_bust=true portrait_zoom=true width="2489" height="2160" %}
       {% endif %}
       <div class="profile-caption">
         {% if page.profile.more_info %}
@@ -106,3 +106,12 @@ layout: default
     {% endif %}
   </article>
 </div>
+{% if page.profile.image and site.enable_medium_zoom %}
+  <dialog class="portrait-viewer" id="portrait-viewer" aria-label="Portrait of Arto Maranjyan">
+    <button class="portrait-viewer-close" type="button" aria-label="Close portrait" autofocus>&times;</button>
+    <img class="portrait-viewer-image" alt="Arto Maranjyan" width="2489" height="2160" decoding="async">
+    <p class="portrait-viewer-error" hidden>
+      The photo could not load. <a href="{{ profile_image_path | relative_url | bust_file_cache }}">Open the original photo</a>.
+    </p>
+  </dialog>
+{% endif %}
