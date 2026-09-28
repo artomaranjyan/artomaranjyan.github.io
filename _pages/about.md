@@ -7,6 +7,7 @@ subtitle: "In papers: Artavazd Maranjyan"
 profile:
   align: right
   image: prof_pic_cutout.png
+  zoom_image: prof_pic_cutout-full.webp
   image_circular: false # crops the image to make it circular
   more_info:
 

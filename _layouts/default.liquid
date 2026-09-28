@@ -53,10 +53,11 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% if site.footer_enabled == false %}no-footer{% elsif site.footer_fixed == false %}sticky-bottom-footer{% endif %}">
+    <a class="skip-to-content" href="#main-content">Skip to content</a>
     <!-- Particle JS -->
     {% if site.particle_js %}
       {% if site.particle_js == true %}
-        <script src="{{ '/assets/js/particles.js' | relative_url }}"></script>
+        <script src="{{ '/assets/js/particles.js' | relative_url | bust_file_cache }}"></script>
         <script src="{{ '/assets/js/particle-call-function.js' | relative_url | bust_file_cache }}"></script>
         <div id="particles-js" aria-hidden="true" data-config="{{ '/assets/json/particles.json' | relative_url | bust_file_cache }}"></div>
       {% endif %}
@@ -66,7 +67,7 @@
     {% include header.liquid %}
 
     <!-- Content -->
-    <div class="container mt-5" role="main">
+    <div class="container mt-5" role="main" id="main-content" tabindex="-1">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
           <div class="row">

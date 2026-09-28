@@ -1,10 +1,13 @@
 - title: Current Position
   type: time_table
   contents:
-    - title: Postdoctoral Researcher, working with Volkan Cevher and Martin Jaggi
+    - title: Postdoctoral Researcher and EPFL AI Center and Swiss AI Initiative Postdoctoral Fellow
       institution: École Polytechnique Fédérale de Lausanne (EPFL)
       location: Lausanne, Switzerland
       year: 2026–present
+      description:
+        - Jointly hosted by Volkan Cevher's LIONS group and Martin Jaggi's MLO group.
+        - Developing theoretically grounded methods to make large-scale AI training faster and more resource-efficient, with emphasis on distributed and asynchronous optimization, communication efficiency, and model parallelism.
 
 - title: Education
   type: time_table
@@ -36,34 +39,34 @@
 - title: Research Experience
   type: time_table
   contents:
-    - title: Research visit to Yi-Shuai Niu
+    - title: Visiting Researcher, hosted by Yi-Shuai Niu
       institution: Beijing Institute of Mathematical Sciences and Applications (BIMSA)
       location: Beijing, China
       year: 9–22 Mar 2025
       description:
-        - Gave talks at three institutions (PKU, BUAA, BIMSA)
-        - Worked with Professor Yi-Shuai Niu on a project on Server-Assisted Federated Learning
+        - Collaborated on server-assisted federated learning.
+        - Delivered invited seminars at Peking University (PKU), Beihang University (BUAA), and BIMSA.
 
-    - title: Researcher in the group of Prof. Martin Grigoryan
+    - title: Researcher, Martin Grigoryan's group
       institution: Yerevan State University
       location: Yerevan, Armenia
       year: Apr–Aug 2023
       description:
-        - Studied the existence and properties of universal functions with respect to the Vilenkin and Haar systems across various functional spaces
+        - Investigated universal functions for the Vilenkin and Haar systems across different function spaces.
 
-    - title: Internship in the group of Prof. Peter Richtárik
+    - title: Research Intern, Peter Richtárik's group
       institution: King Abdullah University of Science and Technology (KAUST)
       location: Thuwal, Saudi Arabia
       year: Jun 2022–Jan 2023
       description:
-        - "Worked on the <i>GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity</i> paper"
+        - Contributed to GradSkip (TMLR), a communication-efficient local optimization method with improved complexity.
 
     - title: Machine Learning Researcher
       institution: YerevaNN
       location: Yerevan, Armenia
       year: Jan 2022–Aug 2023
       description:
-        - Worked at the intersection of Federated Learning and Optimization
+        - Researched optimization methods for federated learning.
 
 - title: Industry Experience
   type: time_table
@@ -73,33 +76,33 @@
       location: Yerevan, Armenia
       year: Jul 2021–Jun 2022
       description:
-        - Built an MVP that helped content creators and marketers select photos matching their text descriptions
-        - Participated in the InVent 2.0 (FAST) venture building program, advancing through team formation, idea generation, product development, and pitching
-        - Secured initial funding and continued development beyond the program
+        - Built an MVP that helped content creators and marketers select photos matching their text descriptions.
+        - "Advanced through FAST's InVent 2.0: team formation, ideation, product development, and pitching."
+        - Secured initial funding and continued development beyond the program.
 
     - title: Backend Developer
       institution: EXALT Technologies Ltd.
       location: Remote (Yerevan, Armenia)
       year: Jul–Sep 2021
       description:
-        - Worked for Nutanix
+        - Contributed to backend development for a Nutanix project.
 
     - title: Machine Learning Research Engineer
       institution: Foundation for Armenian Science and Technology (FAST)
       location: Yerevan, Armenia
       year: Jun–Jul 2021
       description:
-        - Worked on fraud detection
-        - Made data-driven forecasts using machine learning algorithms and statistical models
+        - Developed machine-learning models for fraud detection.
+        - Built machine-learning and statistical models for data-driven forecasting.
 
     - title: Software Engineer in Test
       institution: Picsart
       location: Yerevan, Armenia
       year: Sep 2019–Jan 2021
       description:
-        - Worked with automation team to design and develop automated solutions across several mobile/web applications
-        - Worked directly with software developers, test engineers, product owners, business analysts to find and resolve issues
-        - Worked closely with DevOps to suggest improvements in processes and in Jenkins Continuous Integration cycle
+        - Developed test-automation solutions across several mobile and web applications.
+        - Collaborated across engineering, QA, product, and business teams to diagnose and resolve product issues.
+        - Proposed improvements to DevOps processes and Jenkins CI pipelines.
 
 - title: Awards
   type: time_table
@@ -107,22 +110,27 @@
     - title: EPFL AI Center and Swiss AI Initiative Postdoctoral Fellowship
       institution: École Polytechnique Fédérale de Lausanne (EPFL)
       year: Jun 2026
-      description: Competitive fellowship supporting independent postdoctoral research, with additional travel funding
+      description: Competitive fellowship supporting independent research, with an additional travel fund (CHF 5,000 annually)
 
     - title: CEMSE Dean's List Award
       institution: King Abdullah University of Science and Technology (KAUST)
       year: May 2025
-      description: Awarded for excellent academic and research performance ($2,500 prize)
+      description: Awarded for excellent academic and research performance (USD 2,500)
 
     - title: Dean's Award
       institution: King Abdullah University of Science and Technology (KAUST)
       year: Sep 2023
-      description: Awarded to a few top students accepted to KAUST ($6,000 annually for 3 years)
+      description: Merit-based award for selected incoming KAUST students (USD 18,000 over three years)
 
     - title: Outstanding Final Project Award
       institution: Yerevan State University
       year: May 2021
-      description: Recognized for the Bachelor's thesis (awarded to 6 students among 250+ students)
+      description: Recognized for an outstanding bachelor's thesis (one of 6 recipients among 250+ students)
+
+- title: Reviewing
+  type: time_table
+  contents:
+    - maindescription: TMLR (2024–present); ICLR (2025, 2027); NeurIPS, ICML, and OPTML (2026); SIMODS and JMLR (2024).
 # - title: Papers
 #   type: time_table
 #   contents:

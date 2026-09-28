@@ -181,49 +181,27 @@ var pJS = function (tag_id, params) {
     pJS.canvas.ctx = pJS.canvas.el.getContext("2d");
   };
 
-  let timeoutId;
-  let prevWidth = window.innerWidth;
-  let prevHeight = window.innerHeight;
+  let resizeTimeout;
+  let resizeListener;
 
   pJS.fn.canvasSize = function () {
     pJS.canvas.el.width = pJS.canvas.w;
     pJS.canvas.el.height = pJS.canvas.h;
 
-    if (pJS && pJS.interactivity.events.resize) {
-      window.addEventListener("resize", function () {
-        clearTimeout(timeoutId);
-        timeoutId = setTimeout(() => {
-          let currentWidth = window.innerWidth;
-          let currentHeight = window.innerHeight;
-          if (currentWidth !== prevWidth && currentHeight !== prevHeight) {
+    // Refresh calls canvasSize again, so bind only one listener per instance.
+    if (pJS.interactivity.events.resize && !resizeListener) {
+      resizeListener = function () {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+          const pixelRatio = pJS.retina_detect && window.devicePixelRatio > 1 ? window.devicePixelRatio : 1;
+          const width = pJS.canvas.el.offsetWidth * pixelRatio;
+          const height = pJS.canvas.el.offsetHeight * pixelRatio;
+          if (width !== pJS.canvas.w || height !== pJS.canvas.h || pixelRatio !== pJS.canvas.pxratio) {
             pJS.fn.particlesRefresh();
           }
-          prevWidth = currentWidth;
-          prevHeight = currentHeight;
         }, 100);
-        //   pJS.canvas.w = pJS.canvas.el.offsetWidth;
-        //   pJS.canvas.h = pJS.canvas.el.offsetHeight;
-
-        //   /* resize canvas */
-        //   if(pJS.tmp.retina){
-        //     pJS.canvas.w *= pJS.canvas.pxratio;
-        //     pJS.canvas.h *= pJS.canvas.pxratio;
-        //   }
-
-        //   pJS.canvas.el.width = pJS.canvas.w;
-        //   pJS.canvas.el.height = pJS.canvas.h;
-
-        //   /* repaint canvas on anim disabled */
-        //   if(!pJS.particles.move.enable){
-        //     pJS.fn.particlesEmpty();
-        //     pJS.fn.particlesCreate();
-        //     pJS.fn.particlesDraw();
-        //     pJS.fn.vendors.densityAutoParticles();
-        //   }
-
-        // /* density particles enabled */
-        // pJS.fn.vendors.densityAutoParticles();
-      });
+      };
+      window.addEventListener("resize", resizeListener);
     }
   };
 
@@ -1095,6 +1073,11 @@ var pJS = function (tag_id, params) {
   };
 
   pJS.fn.vendors.destroypJS = function () {
+    clearTimeout(resizeTimeout);
+    if (resizeListener) {
+      window.removeEventListener("resize", resizeListener);
+      resizeListener = undefined;
+    }
     cancelAnimationFrame(pJS.fn.drawAnimFrame);
     canvas_el.remove();
     pJSDom = null;

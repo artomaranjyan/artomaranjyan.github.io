@@ -9,7 +9,7 @@
     <a
       class="portrait-zoom"
       data-portrait-zoom
-      href="{{ include.path | relative_url | bust_file_cache }}"
+      href="{{ include.zoom_path | default: include.path | relative_url | bust_file_cache }}"
       aria-label="View larger portrait of Arto Maranjyan"
     >
   {% endif %}
