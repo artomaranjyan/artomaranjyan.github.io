@@ -51,6 +51,7 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
+footer_enabled: false
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
@@ -326,10 +327,9 @@ scholar:
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
+  # Decode accents and text styling while preserving equations for MathJax.
+  # The custom filter is defined in _plugins/latex-math.rb.
+  bibtex_filters: [latexmath]
 
   replace_strings: true
   join_strings: true

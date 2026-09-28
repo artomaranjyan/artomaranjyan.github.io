@@ -29,11 +29,21 @@ jobs:
               "giscus.repo": "${{ github.repository }}",
               "baseurl": ""
             }
+      - name: Install ImageMagick
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+          convert -version
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build
+      - name: Verify responsive portrait images
+        run: |
+          for width in 480 800 1400; do
+            test -s "_site/assets/img/prof_pic-${width}.webp"
+          done
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss

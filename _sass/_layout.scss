@@ -102,6 +102,10 @@ body.sticky-bottom-footer {
   padding-bottom: 0;
 }
 
+body.no-footer {
+  padding-bottom: 2rem;
+}
+
 .container {
   max-width: $max-content-width;
 }
@@ -128,5 +132,7 @@ body.sticky-bottom-footer {
 // TODO: redefine projects layout.
 
 @media (prefers-reduced-motion: reduce) {
-  #particles-js { visibility: hidden; }
+  #particles-js {
+    visibility: hidden;
+  }
 }

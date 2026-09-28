@@ -62,13 +62,14 @@
       {% endif %}
       {% if include.zoomable %}
         data-zoomable
+        data-zoom-src="{{ include.path | relative_url }}"
       {% endif %}
       {% if include.loading %}
         loading="{{ include.loading }}"
       {% elsif site.lazy_loading_images %}
         loading="lazy"
       {% endif %}
-      onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
+      onerror="this.onerror=null; this.parentElement.querySelectorAll('source').forEach((source) => source.remove());"
     >
   </picture>
 

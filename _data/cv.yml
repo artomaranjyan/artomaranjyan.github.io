@@ -31,9 +31,9 @@
       year: 2017 - 2021
       description:
         - <b> Thesis:</b> <a href="/assets/pdf/Bachelor_thesis.pdf"><i>On the Convergence of Series in Classical Systems</i></a>
-        - <b> Supervisors:</b> Prof. Martin Grigoryan
+        - <b> Supervisor:</b> Prof. Martin Grigoryan
 
-- title: Academic Experiences
+- title: Research Experience
   type: time_table
   contents:
     - title: Research visit to Yi-Shuai Niu
@@ -41,7 +41,7 @@
       location: Beijing, China
       year: 9-22 March 2025
       description:
-        - Gave talks at three universities (PKU, BUAA, BIMSA)
+        - Gave talks at three institutions (PKU, BUAA, BIMSA)
         - Worked with Professor Yi-Shuai Niu on a project on Server-Assisted Federated Learning
 
     - title: Researcher in the group of Prof. Martin Grigoryan
@@ -63,9 +63,9 @@
       location: Yerevan, Armenia
       year: Jan 2022 - Aug 2023
       description:
-        - Worked on the intersection of Federated Learning and Optimization
+        - Worked at the intersection of Federated Learning and Optimization
 
-- title: Industry Experiences
+- title: Industry Experience
   type: time_table
   contents:
     - title: Co-Founder
@@ -89,7 +89,7 @@
       location: Yerevan, Armenia
       year: June 2021 - July 2021
       description:
-        - Worked on Fraud detection
+        - Worked on fraud detection
         - Made data-driven forecasts using machine learning algorithms and statistical models
 
     - title: Software Engineer in Test
@@ -104,7 +104,7 @@
 - title: Awards
   type: time_table
   contents:
-    - title: EPFL AI Center and Swiss AI Initiative Postdoctoral Fellowships
+    - title: EPFL AI Center and Swiss AI Initiative Postdoctoral Fellowship
       institution: École Polytechnique Fédérale de Lausanne (EPFL)
       year: June 2026
       description: Competitive fellowship supporting independent postdoctoral research, with additional travel funding
@@ -123,7 +123,6 @@
       institution: Yerevan State University
       year: May 2021
       description: Recognized for the Bachelor's thesis (awarded to 6 students among 250+ students)
-
 # - title: Papers
 #   type: time_table
 #   contents:
