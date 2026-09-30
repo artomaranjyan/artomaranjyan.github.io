@@ -9,7 +9,6 @@ profile:
   image: prof_pic_cutout.png
   zoom_image: prof_pic_cutout-full.webp
   image_circular: false # crops the image to make it circular
-  more_info:
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
@@ -26,4 +25,4 @@ I received my MSc and BSc degrees from Yerevan State University.
 My research focuses on optimization for machine learning, especially distributed, federated, and asynchronous optimization methods.
 I develop algorithms with provable convergence guarantees to make large-scale AI training faster and more resource-efficient.
 
-Outside of academics, I enjoy dancing bachata, playing [board games](https://boardgamearena.com/player?id=96502891), ultimate frisbee, and foosball.
+Outside academia, I enjoy dancing bachata, playing [board games](https://boardgamearena.com/player?id=96502891), ultimate frisbee, and foosball.

@@ -29,41 +29,6 @@ layout: default
       30vw, 88px{% endcapture %}
         {% include figure.liquid loading="eager" path=profile_image_path zoom_path=profile_zoom_path class=profile_image_class sizes=sizes alt="Arto Maranjyan" cache_bust=true portrait_zoom=true width="3718" height="3226" %}
       {% endif %}
-      <div class="profile-caption">
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% else %}
-          <div class="typed-info"></div>
-          <script>
-            var options = {
-              strings: ['Born in Armenia 🍖', 'Lived in Saudi Arabia 🐪', 'Enjoy Dancing Bachata 💃🕺', 'Catan Master 🎲', 'Night Owl 🦉'],
-              typeSpeed: 30,
-              backSpeed: 20,
-              loop: true,
-              shuffle: false,
-              showCursor: true,
-              cursorChar: '|',
-              // fadeOut: true,
-            };
-
-            const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-            let typed;
-            const updateCaptionMotion = () => {
-              if (typed) {
-                typed.destroy();
-                typed = null;
-              }
-              if (reducedMotion.matches) {
-                document.querySelector('.typed-info').textContent = options.strings[0];
-              } else {
-                typed = new Typed('.typed-info', options);
-              }
-            };
-            updateCaptionMotion();
-            reducedMotion.addEventListener('change', updateCaptionMotion);
-          </script>
-        {% endif %}
-      </div>
     </div>
   {% endif %}
   <article>

@@ -221,15 +221,6 @@ ul.task-list input[type="checkbox"] {
       margin: 0;
     }
   }
-
-  .typed-info {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    // min-height: 30px;
-    font-family: monospace;
-    display: inline-block;
-    margin: 0;
-  }
 }
 
 .profile.float-right {
@@ -724,17 +715,10 @@ a:focus {
       }
     }
 
-    .profile-caption {
-      grid-column: 1 / -1;
-      grid-row: 2;
-      margin: 0.75rem 0 1.5rem;
-      min-height: 1.5rem;
-      font-size: 0.875rem;
-    }
-
     > article {
       grid-column: 1 / -1;
-      grid-row: 3;
+      grid-row: 2;
+      margin-top: 1.5rem;
       min-width: 0;
     }
   }
