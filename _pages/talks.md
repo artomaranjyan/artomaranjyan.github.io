@@ -48,7 +48,7 @@ nav_order: 5
         ><strong>
           <a href="https://iclr.cc/Conferences/2026">(ICLR 2026) The Fourteenth International Conference on Learning Representations</a>
         </strong></span
-      ><span class="event-date">April 23-27, 2026</span>
+      ><span class="event-date">April 23–27, 2026</span>
     </div>
     <div class="event-place">Riocentro Convention and Event Center · Rio de Janeiro, Brazil</div>
     <div class="event-content">
@@ -180,7 +180,7 @@ nav_order: 5
     <div class="event-line">
       <span
         ><strong> <a href="https://www.auai.org/uai2025/">41st Conference on Uncertainty in Artificial Intelligence</a> </strong></span
-      ><span class="event-date">July 21-25, 2025</span>
+      ><span class="event-date">July 21–25, 2025</span>
     </div>
     <div class="event-place">Rio Othon Palace · Rio de Janeiro, Brazil</div>
     <div class="event-content">
@@ -194,7 +194,7 @@ nav_order: 5
     <div class="event-line">
       <span
         ><strong> <a href="https://icml.cc/Conferences/2025">Forty-Second International Conference on Machine Learning</a> </strong></span
-      ><span class="event-date">July 13-19, 2025</span>
+      ><span class="event-date">July 13–19, 2025</span>
     </div>
     <div class="event-place">Vancouver Convention Center · Vancouver, Canada</div>
     <div class="event-content">
@@ -239,12 +239,12 @@ nav_order: 5
         ><strong>
           <a href="https://iclr.cc/virtual/2025/poster/29728">The Thirteenth International Conference on Learning Representations</a>
         </strong></span
-      ><span class="event-date">April 24-28, 2025</span>
+      ><span class="event-date">April 24–28, 2025</span>
     </div>
     <div class="event-place">Singapore EXPO · Singapore</div>
     <div class="event-content">
       Poster: <strong>LoCoDL: Communication-Efficient Distributed Learning with Local Training and Compression</strong>
-      <strong><span class="text-distinction"> Spotlight presentation (top 5.1% of the submitted papers) </span></strong> [<a
+      <strong><span class="text-distinction">(ICLR 2025 Spotlight, top 5.1%)</span></strong> [<a
         href="{{ '/assets/pdf/Locodl_poster.pdf' | relative_url }}"
         >poster</a
       >]
@@ -274,7 +274,7 @@ nav_order: 5
         ><strong>
           <a href="https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025">KAUST Rising Stars in AI Symposium 2025</a>
         </strong></span
-      ><span class="event-date">April 7-10, 2025</span>
+      ><span class="event-date">April 7–10, 2025</span>
     </div>
     <div class="event-place">KAUST, Saudi Arabia</div>
     <div class="event-content">
