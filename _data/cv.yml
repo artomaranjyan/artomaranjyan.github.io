@@ -107,6 +107,9 @@
 - title: Awards
   type: time_table
   contents:
+    - title: Top Reviewer, NeurIPS 2026
+      year: 10/2026
+
     - title: EPFL AI Center and Swiss AI Initiative Postdoctoral Fellowship
       institution: École Polytechnique Fédérale de Lausanne (EPFL)
       year: Jun 2026
