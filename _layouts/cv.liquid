@@ -10,8 +10,10 @@ layout: default
           <a
             class="cv-download"
             href="{{ page.cv_pdf | prepend: 'assets/pdf/cv/' | relative_url}}"
-            download="Arto_Maranjyan_CV.pdf"
-            ><i class="fa-solid fa-file-pdf" aria-hidden="true"></i>Download CV (PDF)</a
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View CV PDF (opens in a new tab)"
+            ><i class="fa-solid fa-file-pdf" aria-hidden="true"></i>View PDF</a
           >
         {% endif %}
       </h1>
