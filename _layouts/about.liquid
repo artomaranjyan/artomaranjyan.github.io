@@ -13,6 +13,11 @@ layout: default
       {% endif %}
     </h1>
     <p class="desc publication-name">{{ page.subtitle }}</p>
+    {% if site.email %}
+      <p class="about-email">
+        <a href="mailto:{{ site.email | escape }}">{{ site.email }}</a>
+      </p>
+    {% endif %}
   </header>
 
   {% if page.profile %}

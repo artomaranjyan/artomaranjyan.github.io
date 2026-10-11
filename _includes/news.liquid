@@ -20,7 +20,11 @@
               <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %-d, %Y' }}</time>
             </th>
             <td>
-              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {% if include.limit and item.summary %}
+                {{ item.summary | markdownify | emojify }}
+              {% else %}
+                {{ item.content | emojify }}
+              {% endif %}
             </td>
           </tr>
         {% endfor %}

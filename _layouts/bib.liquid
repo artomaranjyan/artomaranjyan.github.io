@@ -47,7 +47,33 @@
   <!-- Entry bib key -->
   <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    {% assign title_url = null %}
+    {% if entry.html %}
+      {% if entry.html contains '://' %}
+        {% assign title_url = entry.html %}
+      {% else %}
+        {% assign title_url = entry.html | prepend: '/assets/html/' | relative_url %}
+      {% endif %}
+    {% elsif entry.url %}
+      {% assign title_url = entry.url %}
+    {% elsif entry.pdf %}
+      {% if entry.pdf contains '://' %}
+        {% assign title_url = entry.pdf %}
+      {% else %}
+        {% assign title_url = entry.pdf | prepend: '/assets/pdf/' | relative_url %}
+      {% endif %}
+    {% elsif entry.arxiv %}
+      {% assign title_url = entry.arxiv | prepend: 'https://arxiv.org/abs/' %}
+    {% elsif entry.doi %}
+      {% assign title_url = entry.doi | prepend: 'https://doi.org/' %}
+    {% endif %}
+    <div class="title">
+      {% if title_url %}
+        <a href="{{ title_url | escape }}">{{ entry.title }}</a>
+      {% else %}
+        {{ entry.title }}
+      {% endif %}
+    </div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -157,11 +183,17 @@
     {% assign venue_label = '' %}
     {% assign entryyear = '' %}
     {% assign entrymonth = '' %}
+    {% assign conference_abbreviations = 'NeurIPS,ICLR,ICML,UAI' | split: ',' %}
     {% if entry.type == 'article' %}
       {% if entry.journal contains ': ' %}
         {% assign venue_label = entry.journal | split: ': ' | first %}
         {% assign venue_name = entry.journal | remove_first: venue_label | remove_first: ': ' %}
-        {% capture entrytype %}<em><strong>{{ venue_label }}</strong>: {{ venue_name }}</em>{% endcapture %}
+        {% assign venue_abbreviation = venue_label | split: ' ' | first %}
+        {% if conference_abbreviations contains venue_abbreviation %}
+          {% capture entrytype %}<em><strong>{{ venue_label }}</strong></em>{% endcapture %}
+        {% else %}
+          {% capture entrytype %}<em><strong>{{ venue_label }}</strong>: {{ venue_name }}</em>{% endcapture %}
+        {% endif %}
       {% else %}
         {% capture entrytype %}<em>{{entry.journal}}</em>{% endcapture %}
       {% endif %}
@@ -220,22 +252,6 @@
       {% endif %}
       {% if entry.bibtex_show %}
         <button type="button" class="bibtex btn btn-sm z-depth-0" aria-expanded="false" aria-controls="{{ entry.key }}-bibtex">Bib</button>
-      {% endif %}
-      {% if entry.html %}
-        {% if entry.html contains '://' %}
-          <a href="{{ entry.html }}" class="btn btn-sm z-depth-0">Paper</a>
-        {% else %}
-          <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0">Paper</a>
-        {% endif %}
-      {% elsif entry.url %}
-        <a href="{{ entry.url }}" class="btn btn-sm z-depth-0">Paper</a>
-      {% endif %}
-      {% if entry.pdf %}
-        {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0">PDF</a>
-        {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0">PDF</a>
-        {% endif %}
       {% endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}

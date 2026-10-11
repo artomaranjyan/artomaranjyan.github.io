@@ -198,7 +198,7 @@ collections:
 announcements:
   enabled: true
   scrollable: false # let recent news flow with the page
-  limit: 7 # leave blank to include all the news in the `_news` folder
+  limit: 4 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false

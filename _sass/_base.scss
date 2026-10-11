@@ -673,6 +673,17 @@ a:focus {
   color: var(--global-text-color-light);
 }
 
+.about-page .publication-name {
+  margin-bottom: 0;
+}
+
+.about-email {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  margin: 0.35rem 0 1rem;
+  overflow-wrap: anywhere;
+}
+
 @media (max-width: 575.98px) {
   .about-page {
     display: grid;
@@ -696,6 +707,10 @@ a:focus {
       font-size: 0.875rem;
       line-height: 1.45;
       margin: 0;
+    }
+
+    .about-email {
+      margin-bottom: 0;
     }
 
     > .profile {
@@ -730,6 +745,10 @@ a:focus {
 
 .news tr {
   scroll-margin-top: 5rem;
+}
+
+.news td > :last-child {
+  margin-bottom: 0;
 }
 
 // Let news text use the full width on phones.
@@ -1045,7 +1064,15 @@ a:focus {
       }
 
       .title {
+        font-size: 1.05rem;
         font-weight: bolder;
+        line-height: 1.4;
+        margin-bottom: 0.15rem;
+
+        a:focus-visible {
+          outline: 2px solid var(--global-theme-color);
+          outline-offset: 3px;
+        }
       }
 
       .author {

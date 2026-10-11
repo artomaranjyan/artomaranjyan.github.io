@@ -1,3 +1,14 @@
+@article{maziane2026loscar,
+  selected={true},
+  title={{LOSCAR-SGD}: Local {SGD} with Communication-Computation Overlap and Delay-Corrected Sparse Model Averaging},
+  author={Yassine Maziane and Ammar Mahran and Artavazd Maranjyan and Peter Richt\'{a}rik},
+  journal={NeurIPS 2026: Conference on Neural Information Processing Systems},
+  year={2026},
+  html={https://arxiv.org/abs/2605.20866},
+  url={https://arxiv.org/abs/2605.20866},
+  abstract={Communication is a major bottleneck in distributed learning, especially in large-scale settings and in federated learning environments with slow links. Three standard ways to reduce this cost are communication compression, local training, and communication-computation overlap. Methods that combine these ingredients are used in practice and have been found to be effective for large-scale training, but there is little theory for methods that combine all three. We study a heterogeneous-compute setting in which different workers may take different numbers of local steps, and we propose LOSCAR-SGD, a Local SGD method that communicates only a sparse subset of model coordinates and continues optimizing while communication is in flight. A key ingredient is a delay-corrected merge rule that incorporates delayed synchronized information without discarding the progress made during the overlap phase. We give convergence guarantees for smooth non-convex objectives and show how sparsity, overlap, and worker heterogeneity affect the rate. To the best of our knowledge, this is the first theory for this combination of ingredients. Experiments further show that communication-computation overlap reduces training time and that the delay-corrected merge outperforms naive overwriting.}
+}
+
 @article{mahran2026rescaled,
   selected={true},
   title={Rescaled Asynchronous {SGD}: Optimal Distributed Optimization under Data and System Heterogeneity},
@@ -10,25 +21,14 @@
   abstract={Asynchronous stochastic gradient descent (ASGD) is a standard way to exploit heterogeneous compute resources in distributed learning: instead of forcing fast workers to wait for slow ones, the server updates the model whenever a gradient arrives. Vanilla ASGD applies each arriving gradient with the same weight. When local data distributions are heterogeneous, this becomes problematic: faster workers contribute more updates, and we show theoretically that the method is biased toward a frequency-weighted average of the local objectives rather than the desired global objective. Existing remedies typically move away from the simple ASGD template by introducing gathering phases, buffering, or extra memory. We show that this is unnecessary. Keeping the standard ASGD mechanism, we recover the correct objective by rescaling worker-specific stepsizes in proportion to their computation times, so that each worker contributes the same aggregate learning rate over a cycle. In the non-convex setting, under smoothness and bounded heterogeneity assumptions, we prove that the resulting method, Rescaled ASGD, converges to stationary points of the correct global objective in the fixed-computation model. Its time complexity matches the known lower bound in the leading term, while the effects of staleness and data heterogeneity appear only in lower-order terms. Experiments confirm that the method converges to the correct objective and is competitive with state-of-the-art baselines.}
 }
 
-@article{maziane2026loscar,
-  selected={true},
-  title={{LOSCAR-SGD}: Local {SGD} with Communication-Computation Overlap and Delay-Corrected Sparse Model Averaging},
-  author={Yassine Maziane and Ammar Mahran and Artavazd Maranjyan and Peter Richt\'{a}rik},
-  journal={NeurIPS 2026: Conference on Neural Information Processing Systems},
-  year={2026},
-  html={https://arxiv.org/abs/2605.20866},
-  url={https://arxiv.org/abs/2605.20866},
-  abstract={Communication is a major bottleneck in distributed learning, especially in large-scale settings and in federated learning environments with slow links. Three standard ways to reduce this cost are communication compression, local training, and communication-computation overlap. Methods that combine these ingredients are used in practice and have been found to be effective for large-scale training, but there is little theory for methods that combine all three. We study a heterogeneous-compute setting in which different workers may take different numbers of local steps, and we propose LOSCAR-SGD, a Local SGD method that communicates only a sparse subset of model coordinates and continues optimizing while communication is in flight. A key ingredient is a delay-corrected merge rule that incorporates delayed synchronized information without discarding the progress made during the overlap phase. We give convergence guarantees for smooth non-convex objectives and show how sparsity, overlap, and worker heterogeneity affect the rate. To the best of our knowledge, this is the first theory for this combination of ingredients. Experiments further show that communication-computation overlap reduces training time and that the delay-corrected merge outperforms naive overwriting.}
-}
-
 @article{maranjyan2026ringleader,
   selected={true},
   title={Ringleader {ASGD}: The First Asynchronous {SGD} with Optimal Time Complexity under Data Heterogeneity},
   author={Artavazd Maranjyan and Peter Richtárik},
   journal={ICLR 2026: International Conference on Learning Representations},
   year={2026},
-  html={https://openreview.net/forum?id=5wqTal0EuC},
-  url={https://openreview.net/forum?id=5wqTal0EuC},
+  html={https://proceedings.iclr.cc/paper_files/paper/2026/hash/08d70284b013c03ba89cd2b642bc864b-Abstract-Conference.html},
+  url={https://proceedings.iclr.cc/paper_files/paper/2026/hash/08d70284b013c03ba89cd2b642bc864b-Abstract-Conference.html},
   slides={slides/Ringleader_Colloquium.pdf},
   poster={posters/Ringleader_ICLR.pdf},
   abstract={Asynchronous stochastic gradient methods are central to scalable distributed optimization, particularly when devices differ in computational capabilities. Such settings arise naturally in federated learning, where training takes place on smartphones and other heterogeneous edge devices. In addition to varying computation speeds, these devices often hold data from different distributions. However, existing asynchronous SGD methods struggle in such heterogeneous settings and face two key limitations. First, many rely on unrealistic assumptions of similarity across workers' data distributions. Second, methods that relax this assumption still fail to achieve theoretically optimal performance under heterogeneous computation times. We introduce Ringleader ASGD, the first asynchronous SGD algorithm that attains the theoretical lower bounds for parallel first-order stochastic methods in the smooth nonconvex regime, thereby achieving optimal time complexity under data heterogeneity and without restrictive similarity assumptions. Our analysis further establishes that Ringleader ASGD remains optimal under arbitrary and even time-varying worker computation speeds, closing a fundamental gap in the theory of asynchronous optimization.},
