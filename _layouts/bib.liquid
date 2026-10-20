@@ -228,9 +228,28 @@
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
-      {{ periodical | strip }}
+      {% if entry.venue_url %}
+        <a href="{{ entry.venue_url }}">{{ periodical | strip }}</a>
+      {% else %}
+        {{ periodical | strip }}
+      {% endif %}
       {% if entry.distinction %}
         <span class="publication-distinction text-distinction">({{ entry.distinction }})</span>
+      {% endif %}
+      {%- if entry.secondary_venue -%}
+        ;
+        <em
+          ><strong>
+            {% if entry.secondary_venue_url %}
+              <a href="{{ entry.secondary_venue_url }}">{{ entry.secondary_venue }}</a>
+            {% else %}
+              {{ entry.secondary_venue }}
+            {% endif %}
+          </strong></em
+        >
+        {% if entry.secondary_venue_distinction %}
+          <span class="publication-distinction text-distinction">({{ entry.secondary_venue_distinction }})</span>
+        {% endif %}
       {% endif %}
     </div>
     <div class="periodical">

@@ -368,10 +368,14 @@ filtered_bibtex_keywords:
     poster,
     preview,
     selected,
+    secondary_venue,
+    secondary_venue_url,
+    secondary_venue_distinction,
     distinction,
     slides,
     supp,
     video,
+    venue_url,
     website,
   ]
 
