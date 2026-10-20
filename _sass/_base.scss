@@ -1028,6 +1028,34 @@ a:focus {
     text-align: right;
   }
 
+  &.publications-numbered {
+    .publication-entry {
+      position: relative;
+      padding-left: 2rem;
+    }
+
+    .publication-entry-paper {
+      counter-increment: publication -1;
+
+      &::before {
+        content: counter(publication) ".";
+        position: absolute;
+        top: 0.05rem;
+        left: 0.3rem;
+        width: 1.5rem;
+        color: var(--global-text-color-light);
+        font-variant-numeric: tabular-nums;
+        text-align: right;
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    #tovmasyan2026rennala_mvr .title {
+      letter-spacing: -0.02em;
+    }
+  }
+
   ol.bibliography {
     list-style: none;
     padding: 0;
@@ -1099,6 +1127,13 @@ a:focus {
             color: var(--global-text-color);
             border-bottom: 1px dashed var(--global-text-color);
           }
+        }
+      }
+
+      .periodical a {
+        em,
+        strong {
+          color: inherit;
         }
       }
 

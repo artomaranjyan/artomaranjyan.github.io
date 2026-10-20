@@ -1,8 +1,8 @@
 ---
 layout: page
-title: All News
+title: News
 permalink: /news/
-description: 
+description:
 nav: true
 nav_order: 2
 ---
