@@ -182,8 +182,21 @@
 
 \newcommand{\artavazdunderline}{\underline{Artavazd Maranjyan}}
 \newcommand{\artavazdinitial}{\underline{A.~Maranjyan}}
-\newcommand{\publicationentry}[2]{%
-  \cvitem[0.15em]{#1}{\parbox[t]{\linewidth}{\raggedright #2}}}
+\newcommand{\pubtitle}[1]{\textbf{#1}}
+\newcommand{\pubvenue}[3]{\mbox{\href{#1}{\textbf{#2~#3}}}}
+\newcommand{\pubvenuewithnote}[4]{\mbox{\href{#1}{\textbf{#2~#3~\textcolor{cherry}{(#4)}}}}}
+\newcommand{\pubpreprint}[3]{\mbox{\href{#1}{#2~#3}}}
+\newcommand{\pubjournal}[3]{{\fontsize{8.5}{10}\selectfont\href{#1}{\textit{#2}}, #3}}
+\newcommand{\publicationentry}[3]{%
+  \begingroup
+  \setlength{\hintscolumnwidth}{3cm}% room for one-line venue labels and paper numbers
+  \setlength{\maincolumnwidth}{\dimexpr\textwidth-\hintscolumnwidth-\separatorcolumnwidth\relax}%
+  \cvitem[-0.08em]{%
+    \makebox[\hintscolumnwidth][r]{%
+      \smash{\parbox[t]{3.35cm}{\raggedleft\fontsize{9}{10}\selectfont #2}}%
+      \hspace{0.2cm}\makebox[0.45cm][r]{#1}}%
+  }{\parbox[t]{\linewidth}{\raggedright #3}}%
+  \endgroup}
 \newcommand{\pubresource}[2]{\href{#1}{[#2]}}
 \newcommand{\pubvideo}[1]{\textcolor{orange}{\href{#1}{[video]}}}
 % \newcommand{\peter}{\href{https://richtarik.org/i_bio.html}{\peter}}
@@ -206,6 +219,8 @@
 \newcommand{\highlight}[1]{{\red #1}}
 % \newcommand{\href}[2]{{\textcolor{accent}{\href{#1}{#2}}}}
 
+% Keep page numbers visible across moderncv versions.
+\fancyfoot[r]{\textcolor{color2}{\pagenumberstyle{\thepage/\csname @abspage@last\endcsname}}}
 
 \begin{document}
 
@@ -419,98 +434,92 @@ with emphasis on distributed and asynchronous optimization, communication effici
 \newpage
 \section{Publications}
 
-\publicationentry{15.}{%
-  ``Rescaled Asynchronous SGD: Optimal Distributed Optimization under Data and System Heterogeneity.''\\
+\publicationentry{16.}{\pubvenue{https://neurips.cc/virtual/2026/poster/153283}{NeurIPS}{2026}}{%
+  \pubtitle{Rescaled Asynchronous SGD: Optimal Distributed Optimization under Data and System Heterogeneity.}
   A.~Mahran, \artavazdinitial, P.~Richt\'{a}rik.
-  \textit{\textbf{NeurIPS 2026}}, \href{https://arxiv.org/abs/2605.13434}{\textit{arXiv:2605.13434}};
   \pubresource{https://artomaranjyan.github.io/assets/pdf/posters/Rescaled_SOS.pdf}{poster}.}
 
-\publicationentry{14.}{%
-  ``LOSCAR-SGD: Local SGD with Communication-Computation Overlap and Delay-Corrected
-  Sparse Model Averaging.''
-  Y.~Maziane, A.~Mahran, \artavazdinitial, P.~Richt\'{a}rik.
-  \textit{\textbf{NeurIPS 2026}}, \href{https://arxiv.org/abs/2605.20866}{\textit{arXiv:2605.20866}}.}
+\publicationentry{15.}{\pubvenue{https://neurips.cc/virtual/2026/poster/149908}{NeurIPS}{2026}}{%
+  \pubtitle{LOSCAR-SGD: Local SGD with Communication-Computation Overlap and Delay-Corrected
+  Sparse Model Averaging.}
+  Y.~Maziane, A.~Mahran, \artavazdinitial, P.~Richt\'{a}rik.}
 
-\publicationentry{13.}{%
-  ``Ringleader ASGD: The First Asynchronous SGD with Optimal Time Complexity\\
-  under Data Heterogeneity.''
+\publicationentry{14.}{\pubvenue{https://proceedings.iclr.cc/paper_files/paper/2026/hash/08d70284b013c03ba89cd2b642bc864b-Abstract-Conference.html}{ICLR}{2026}}{%
+  \pubtitle{Ringleader ASGD: The First Asynchronous SGD with Optimal Time Complexity
+  under Data Heterogeneity.}
   \artavazdinitial, P.~Richt\'{a}rik.
-  \textit{\textbf{ICLR 2026}}, \href{https://arxiv.org/abs/2509.22860}{\textit{arXiv:2509.22860}};
   \pubresource{https://artomaranjyan.github.io/assets/pdf/posters/Ringleader_ICLR.pdf}{poster}
   \pubresource{https://artomaranjyan.github.io/assets/pdf/slides/Ringleader_Colloquium.pdf}{slides}.}
 
-\publicationentry{12.}{%
-  ``Ringmaster LMO: Asynchronous Linear Minimization Oracle Momentum Method.''\\
-  A.~Sadiev, \artavazdinitial, I.~Ilin, P.~Richt\'{a}rik.
-  \href{https://arxiv.org/abs/2605.18174}{\textit{arXiv:2605.18174}}, 2026.}
-
-\publicationentry{11.}{%
-  ``Rennala MVR: Improved Time Complexity for Parallel Stochastic Optimization via Momentum-Based Variance Reduction.''
-  Z.~Tovmasyan, \artavazdinitial, P.~Richt\'{a}rik.
-  \href{https://arxiv.org/abs/2605.08871}{\textit{arXiv:2605.08871}}, 2026.}
-
-\publicationentry{10.}{%
-  ``BiCoLoR: Communication-Efficient Optimization with Bidirectional Compression and Local Training.''\\
-  L.~Condat, \artavazdinitial, P.~Richt\'{a}rik.
-  \href{https://arxiv.org/abs/2601.12400}{\textit{arXiv:2601.12400}}, 2026.}
-
-\publicationentry{9.}{%
-  ``Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity.''\\
+\publicationentry{13.}{\pubvenue{https://proceedings.mlr.press/v267/maranjyan25b.html}{ICML}{2025}}{%
+  \pubtitle{Ringmaster ASGD: The First Asynchronous SGD with Optimal Time Complexity.}\\
   \artavazdinitial, A.~Tyurin, P.~Richt\'{a}rik.
-  \textit{\textbf{ICML 2025}}, \href{https://arxiv.org/abs/2501.16168}{\textit{arXiv:2501.16168}};
   \pubresource{https://artomaranjyan.github.io/assets/pdf/posters/Ringmaster_ICML.pdf}{poster}
   \pubresource{https://artomaranjyan.github.io/assets/pdf/Ringmaster_FLOW.pdf}{slides}
   \pubvideo{https://youtu.be/DJI1SWfG6ME?si=VJGtD1G840gO5d-w}.}
 
-\publicationentry{8.}{%
-  ``ATA: Adaptive Task Allocation for Efficient Resource Management in Distributed Machine Learning.''\\
+\publicationentry{12.}{\pubvenue{https://proceedings.mlr.press/v267/maranjyan25a.html}{ICML}{2025}}{%
+  \pubtitle{ATA: Adaptive Task Allocation for Efficient Resource Management in Distributed Machine Learning.}
   \artavazdinitial, E.~M.~Saad, P.~Richt\'{a}rik, F.~Orabona.
-  \textit{\textbf{ICML 2025}}, \href{https://arxiv.org/abs/2502.00775}{\textit{arXiv:2502.00775}};
   \pubresource{https://artomaranjyan.github.io/assets/pdf/posters/ATA_ICML.pdf}{poster}.}
 
-\publicationentry{7.}{%
-  ``MindFlayer SGD: Efficient Parallel SGD in the Presence of Heterogeneous and Random Worker\\
-  Compute Times.''
+\publicationentry{11.}{\pubvenue{https://proceedings.mlr.press/v286/maranjyan25a.html}{UAI}{2025}\\\pubvenuewithnote{https://opt-ml.org/papers/2024/paper126.pdf}{OPT}{2024}{Oral}}{%
+  \pubtitle{MindFlayer SGD: Efficient Parallel SGD in the Presence of Heterogeneous and Random Worker
+  Compute Times.}\\
   \artavazdinitial, O.~S.~Omar, P.~Richt\'{a}rik.
-  \textit{\textbf{UAI 2025}}; \textit{OPT 2024}, \highlight{Oral (top 5\%)}, \href{https://arxiv.org/abs/2410.04285}{\textit{arXiv:2410.04285}};
   \pubresource{https://artomaranjyan.github.io/assets/pdf/posters/MindFlayer_UAI.pdf}{poster}
   \pubresource{https://artomaranjyan.github.io/assets/pdf/MindFlayer_AppleMLR.pdf}{slides}
   \pubvideo{https://neurips.cc/virtual/2024/100410}.}
 
-\publicationentry{6.}{%
-  ``LoCoDL: Communication-Efficient Distributed Learning with Local Training and Compression.''\\
+\publicationentry{10.}{\pubvenuewithnote{https://openreview.net/forum?id=PpYy0dR3Qw}{ICLR}{2025}{Spotlight}}{%
+  \pubtitle{LoCoDL: Communication-Efficient Distributed Learning with Local Training and Compression.}
   L.~Condat, \artavazdinitial, P.~Richt\'{a}rik.
-  \textit{\textbf{ICLR 2025}}, \highlight{Spotlight (top 5.1\%)}, \href{https://arxiv.org/abs/2403.04348}{\textit{arXiv:2403.04348}};
   \mbox{\pubresource{https://artomaranjyan.github.io/assets/pdf/Locodl_poster.pdf}{poster}.}}
 
-\publicationentry{5.}{%
-  ``GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity.''\\
+\publicationentry{9.}{\pubvenue{https://openreview.net/forum?id=6R3fRqFfhn}{TMLR}{2025}}{%
+  \pubtitle{GradSkip: Communication-Accelerated Local Gradient Methods with Better Computational Complexity.}
   \artavazdinitial, M.~Safaryan, P.~Richt\'{a}rik.
-  \textit{TMLR 2025}, \href{https://arxiv.org/abs/2210.16402}{\textit{arXiv:2210.16402}};
   \pubresource{https://artomaranjyan.github.io/assets/pdf/GradSkip_Rising_Stars.pdf}{poster}
   \pubresource{https://artomaranjyan.github.io/assets/pdf/GradSkip_Warwick.pdf}{slides}
   \pubvideo{https://www.youtube.com/watch?v=WWhY5tO-FiM}.}
 
-\publicationentry{4.}{%
-  ``Differentially Private Random Block Coordinate Descent.''
-  \artavazdinitial, A.~Sadiev, P.~Richt\'{a}rik.\\
-  \textit{OPT 2024}, \href{https://arxiv.org/abs/2412.17054}{\textit{arXiv:2412.17054}};
+\publicationentry{8.}{\pubvenue{https://opt-ml.org/papers/2024/paper100.pdf}{OPT}{2024}}{%
+  \pubtitle{Differentially Private Random Block Coordinate Descent.}\\
+  \artavazdinitial, A.~Sadiev, P.~Richt\'{a}rik.
   \pubresource{https://artomaranjyan.github.io/assets/pdf/DP-CD_Neurips2024.pdf}{poster}.}
 
-\publicationentry{3.}{%
-  ``Menshov-type theorem for divergence sets of sequences of localized operators.''
+\publicationentry{7.}{}{%
+  \pubtitle{Menshov-type theorem for divergence sets of sequences of localized operators.}
   M.~Grigoryan, A.~Kamont, \artavazdinitial.
-  \textit{Journal of Contemporary Mathematical Analysis}, vol.~58, no.~2, pp.~81--92, 2023.}
+  \pubjournal{https://link.springer.com/article/10.3103/S106836232302005X}{Journal of Contemporary Mathematical Analysis}{vol.~58, no.~2, pp.~81--92, 2023}.}
 
-\publicationentry{2.}{%
-  ``On the divergence of Fourier series in the general Haar system.''
-  M.~Grigoryan, \artavazdinitial.\\
-  \textit{Armenian Journal of Mathematics}, vol.~13, pp.~1--10, 2021.}
+\publicationentry{6.}{}{%
+  \pubtitle{On the divergence of Fourier series in the general Haar system.}\\
+  M.~Grigoryan, \artavazdinitial.
+  \pubjournal{https://armjmath.sci.am/index.php/ajm/article/view/533}{Armenian Journal of Mathematics}{vol.~13, pp.~1--10, 2021}.}
 
-\publicationentry{1.}{%
-  ``On the unconditional convergence of Faber-Schauder series in $L^1$.''
-  T.~Grigoryan, \artavazdinitial.\\
-  \textit{Proceedings of the YSU A: Physical and Mathematical Sciences}, vol.~55, no.~1 (254), pp.~12--19, 2021.}
+\publicationentry{5.}{}{%
+  \pubtitle{On the unconditional convergence of Faber-Schauder series in $L^1$.}
+  T.~Grigoryan, \artavazdinitial.
+  \pubjournal{https://journals.ysu.am/index.php/proceedings-phys-math/article/view/vol55_no1_2021_pp012-019}{Proceedings of the YSU A: Physical and Mathematical Sciences}{vol.~55, no.~1 (254), pp.~12--19, 2021}.}
+
+\section{Preprints}
+
+\publicationentry{4.}{\pubpreprint{https://arxiv.org/abs/2610.25646}{arXiv}{2026}}{%
+  \pubtitle{Spherical Fixed-Point Reasoners: Adaptive Loop Halting on the Hypersphere.}\\
+  A.~Zela, \artavazdinitial, P.~Puigdemont, D.~Berghaus, V.~Boreiko, V.~Cevher.}
+
+\publicationentry{3.}{\pubpreprint{https://arxiv.org/abs/2605.18174}{arXiv}{2026}}{%
+  \pubtitle{Ringmaster LMO: Asynchronous Linear Minimization Oracle Momentum Method.}\\
+  A.~Sadiev, \artavazdinitial, I.~Ilin, P.~Richt\'{a}rik.}
+
+\publicationentry{2.}{\pubpreprint{https://arxiv.org/abs/2605.08871}{arXiv}{2026}}{%
+  \pubtitle{Rennala MVR: Improved Time Complexity for Parallel Stochastic Optimization via Momentum-Based Variance Reduction.}
+  Z.~Tovmasyan, \artavazdinitial, P.~Richt\'{a}rik.}
+
+\publicationentry{1.}{\pubpreprint{https://arxiv.org/abs/2601.12400}{arXiv}{2026}}{%
+  \pubtitle{BiCoLoR: Communication-Efficient Optimization with Bidirectional Compression and Local Training.}
+  L.~Condat, \artavazdinitial, P.~Richt\'{a}rik.}
 
 \section{Reviewing}
 
@@ -665,7 +674,7 @@ with emphasis on distributed and asynchronous optimization, communication effici
 %   \preslink{https://artomaranjyan.github.io/assets/pdf/Ringmaster_GraduateSeminar.pdf}{slides}}
 
 \presentationentry{12/2024}{%
-  \textbf{Talk (oral, top 5\%)}
+  \textbf{Talk (oral)}
   \presevent{https://opt-ml.org/oldopt/opt24/}{Optimization for Machine Learning (NeurIPS 2024 Workshop)},
   Vancouver, Canada
   \presvideo{https://neurips.cc/virtual/2024/100410}}
