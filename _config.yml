@@ -8,7 +8,7 @@ middle_name:
 last_name: Maranjyan
 email: arto.maranjyan@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Arto Maranjyan, postdoctoral researcher at EPFL, working on optimization for machine learning, distributed learning, and asynchronous algorithms.
+  Arto Maranjyan, EPFL AI Center and Swiss AI Initiative Postdoctoral Fellow, working on optimization for machine learning, distributed learning, and asynchronous algorithms.
 footer_text:
 keywords: Arto Maranjyan, Artavazd Maranjyan, EPFL, optimization, machine learning, distributed learning, asynchronous algorithms
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)

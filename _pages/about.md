@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a postdoctoral researcher at **EPFL** and an **EPFL AI Center and Swiss AI Initiative Postdoctoral Fellow**.
+I am an **EPFL AI Center and Swiss AI Initiative Postdoctoral Fellow**.
 I am hosted by [Volkan Cevher](https://scholar.google.com/citations?user=hlWhzU8AAAAJ&hl=en) at the LIONS lab, with [Martin Jaggi](https://scholar.google.com/citations?user=r1TJBr8AAAAJ&hl=en) as co-host at the MLO lab.
 
 My research focuses on optimization for machine learning, especially distributed, federated, and asynchronous methods.

@@ -323,7 +323,7 @@ nav_order: 5
     <div class="event-line">
       <span
         ><strong>
-          <a href="https://math.buaa.edu.cn/info/1296/6437.htm">Academic Report of the School of Mathematical Sciences</a>
+          <a href="https://math.buaa.edu.cn/info/1027/4582.htm">Academic Report of the School of Mathematical Sciences</a>
         </strong></span
       ><span class="event-date">March 17, 2025</span>
     </div>
